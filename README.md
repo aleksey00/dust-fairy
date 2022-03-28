@@ -52,3 +52,19 @@ flowchart TD
     SL-. 4 inch .-SH[Shaper]
     MD1 -- 8 inch ---- HB[Hinge Borer]
 ```
+
+System is composed of the main unit that controls gates and main contactor relay for the dust collection system. 
+Main unit has an Arduino with relays and sesor board for hall sensors + possibility to add negative air pressure sensors for dust collection duct work testing. As well as sensor for airpressure sytem if no air pressure detected contactrot will not engage preveting ductwork damage.
+Blast gates type auto:
+- air controlled. Relay controls solenoids for open and close gates eith pneumatic piston connected to air.
+- e-motor controlled. Relay controls stepmotor to open the gate or close appropriate gates.
+Blast gates type manal:
+- blast gate that has a sensor for open or closed position. Once open manually it will start the dust collection system, with one safety gate always open in order to prevent system collapse one quickly closed.
+
+Safety measures programmed:
+- [ ] System should have a 1-2 seconds delay of main collector start in order for it to first open the blast gate and then work.
+- [x] System should have always open gates once off. 
+- [x] System should have one designated safety gate always open when manual gate is in use, once one manual and one auto gate is in use it can close safety gate. However once manual is closed and auto coincidently gets trigger to close should have a delay of 1 sec to close. However regular shit down procedure is more than enough.
+- [x] System should have negative air pressure sonsors build it for safety to open all gates once clogged and cycle trhough to clear the clog. 
+- [ ] System should have high air pressure sensor build in to prevent system turn on if no air pressure present. 
+- [ ] System should have sensors on blast gate for open close confirmation. (sensors could be sonic to meaure distance between flap and mount position. 
