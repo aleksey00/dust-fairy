@@ -70,3 +70,8 @@ Safety measures programmed:
 - [x] System should have negative air pressure sonsors build it for safety to open all gates once clogged and cycle trhough to clear the clog. 
 - [ ] System should have high air pressure sensor build in to prevent system turn on if no air pressure present. 
 - [ ] System should have sensors on blast gate for open close confirmation. (sensors could be sonic to meaure distance between flap and mount position. 
+
+
+## Installation
+
+Should be easy to install for a novice. Box should come prewired and with code. 
