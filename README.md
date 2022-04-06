@@ -89,3 +89,7 @@ Arduino Based cotroller must have
 - manual power on
 - display time and temp
 - display V of the battery
+
+IDEA
+
+install pressure sensors at the end of the vacuum lines to measure negative pressure and confirm gates are locked or open and if the system is running
