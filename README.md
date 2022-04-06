@@ -75,3 +75,17 @@ Safety measures programmed:
 ## Installation
 
 Should be easy to install for a novice. Box should come prewired and with code. 
+
+
+Arduino Based cotroller must have
+- battery UPS
+- inputs to open/close air valve
+- inputs to open/close blast gates
+- display air pressure (at all times)
+- display status of blast gates (at all times)
+- display status of equipment (at all times)
+- display time vacuum running 
+- display countdown when all off
+- manual power on
+- display time and temp
+- display V of the battery
