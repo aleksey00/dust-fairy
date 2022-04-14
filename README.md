@@ -101,3 +101,14 @@ List of things to acquire:
 - volt to current converter 
 - current to volt conerter
 - security camera wire
+
+
+
+
+App design
+
+- on small screens start counter when gate is open and dust collection running.
+- one main screen to display statistic for the whole day (reset at midnight) total dust collection runtime.
+- and on the bottom displat total runtime (record it in file to access data after reset)
+- record psi and runtime time of start and time off
+- display should have green button to manual override
