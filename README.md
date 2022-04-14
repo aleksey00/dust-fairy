@@ -93,3 +93,11 @@ Arduino Based cotroller must have
 IDEA
 
 install pressure sensors at the end of the vacuum lines to measure negative pressure and confirm gates are locked or open and if the system is running
+
+List of things to acquire:
+
+- oled screens x4 or more
+- oled multipier
+- volt to current converter 
+- current to volt conerter
+- security camera wire
