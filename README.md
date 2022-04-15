@@ -112,3 +112,25 @@ App design
 - and on the bottom displat total runtime (record it in file to access data after reset)
 - record psi and runtime time of start and time off
 - display should have green button to manual override
+
+
+```mermaid
+flowchart TD
+    DC((120V AC)) == + === MD1[120V AC > 48V DC]
+    DC((120V AC)) -- - --- MD1
+    DC((120V AC)) == + === MD2[120V AC > 24V DC]
+    DC((120V AC)) -- - --- MD2
+    DC((120V AC)) == + === MD3[120V AC > 12V DC]
+    DC((120V AC)) -- - --- MD3
+    MD1 -- 48+ ---- HB[Motors]
+    MD1-. 48- .-CC[Common Ground]
+    MD2 -- 24+ ---- BB[Motors/Solenoids]
+    MD2-. 24- .-CC
+    MD3 -- 12+ --- TS[12V DC > 9V DC]
+    MD3-. 12- .-CC
+    TS -- 9+ --- AD[Arduino]
+    TS-. 9- .-CC[Common Ground]
+    AD-. 5- .-CC
+    AD -- 5+ --- SS[Sensors/Relays]
+    AD-. 5- .-SS
+```
