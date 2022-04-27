@@ -134,3 +134,4 @@ flowchart TD
     AD -- 5+ --- SS[Sensors/Relays]
     AD-. 5- .-SS
 ```
+blast gates should open/close in sequence not at the same time to save power supply and electornics.
