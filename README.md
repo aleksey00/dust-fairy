@@ -1,7 +1,7 @@
 # dust-fairy
 Arduino based Dust Collection system automation. Blast gate coordination and auto on/off control
 
-![image](Dust-Fairy.png)
+![image](Dust-Fairy-min.png)
 
 ## ABSTRACT
 
