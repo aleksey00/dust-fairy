@@ -8,4 +8,3 @@ const int baudRate = 9600; //constant integer to set the baud rate for serial mo
 // const int sensorreadDelay = 250; //constant integer to set the sensor read delay in milliseconds
 const int sensorreadDelay = 100; //constant integer to set the sensor read delay in milliseconds
 float pressureValue = 0; //variable to store the value coming from the pressure transducer
-
