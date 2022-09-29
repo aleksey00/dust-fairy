@@ -32,7 +32,9 @@ void testRun()                               // print to LCD and activate all op
   
 }
 
-void firstRunFunc(int n, int sensOpen, int sensClose, int vacTest) {      // sequential solenoid test
+/* Not used in the main program */
+
+void firstRunFunc(int n, int sensOpen, int sensClose, int vacTest) {    // sequential solenoid test uses testRunEven() and testRunNotEven
 
   lcd[n].clear();
 
@@ -54,7 +56,7 @@ void firstRunFunc(int n, int sensOpen, int sensClose, int vacTest) {      // seq
 
 }
 
-void testRunEven(int n, char value, int time){                            // test run of even relays (lcd, HIGH or LOW, delay)
+void testRunEven(int n, char value, int time){                          // test run of even relays (lcd, HIGH or LOW, delay)
   for (byte pin = 41; pin <= 53; pin++)
   {
     if (pin % 2 == 0) 
@@ -73,7 +75,7 @@ void testRunEven(int n, char value, int time){                            // tes
   lcd[n].clear();
 }
 
-void testRunNotEven(int n, char value, int time){                       // test run of non-even relays (lcd, HIGH or LOW, delay)
+void testRunNotEven(int n, char value, int time){                     // test run of non-even relays (lcd, HIGH or LOW, delay)
   for (byte pin = 41; pin <= 53; pin++)
   {
     if (pin % 2 != 0) 
