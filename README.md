@@ -143,4 +143,24 @@ blast gates should open/close in sequence not at the same time to save power sup
 | :------: | :--- | :---: |
 | 1| Arduino MEGA v3| $45|
 |2|12v Relay Board|$12|
-|TOTAL || $100
+||TOTAL | $100
+
+|Description|Item|Qty|Price|Link|
+|---	|---	|:-:	|:-:	|---	|
+|Junction Box|QILIPSU Hinged Cover Stainless Steel Latch 410x310x180mm Junction Box with Mounting Plate, Universal IP67 Project Box Waterproof DIY Electrical Enclosure, ABS Plastic Grey (16.1"x12.2"x7.1")|1|$81.99|[Amazon](https://a.co/d/4FpkCln)|
+|LCD Displays|SunFounder 2004 20x4 LCD Module IIC I2C Interface Adapter Blue Backlight Compatible with MEGA2560 Arduino R3 Raspberry (2 Pack)|1|$19.99|[Amazon](https://a.co/d/2E2vY0M)|
+|5v PSU|MEAN WELL MDR-60-5 AC to DC DIN-Rail Power Supply 5V 10 Amp 50W|1|$28.99|[Amazon](https://a.co/d/33TmTh2)|
+|12v PSU|MEAN WELL MDR-60-12 AC to DC DIN-Rail Power Supply 12V 5 Amp 60W|2|$24.00|[Amazon](https://a.co/d/5dQdMeC)|
+|24v PSU|MEAN WELL MDR-60-24 DIN-Rail Power Supply 24V 2.5 Amp 60W|1|$22.49|[Amazon](https://a.co/d/6mkE9pu)|
+|Buttons|Baomain 16mm Push Button Switch Latching Rectangular Cap LED Lamp Red Yellow Orange Blue Green Light DC 12V SPDT 5 Pin 5 Pack|1|$10.99|[Amazon](https://a.co/d/1EZg6n6)|
+|12v Relays|HiLetgo 12V 8 Channel Relay Module with OPTO-Isolated High and Low Level Trigger 8 Ways Relay Switch Module for Arduino|2|$21.78|[Amazon](https://a.co/d/biqa6bW)|
+|Temp Sensor|Adafruit (PID 3251) Si7021 Temperature & Humidity Sensor Breakout Board|1|$11.91|[Amazon](https://a.co/d/1SLCksJ)|
+|   	|   	|   	|   	|[Amazon]()|
+|   	|   	|   	|   	|[Amazon]()|
+|   	|   	|   	|   	|[Amazon]()|
+|   	|   	|   	|   	|[Amazon]()|
+|   	|   	|   	|   	|[Amazon]()|
+|   	|   	|   	|   	|[Amazon]()|
+|   	|   	|   	|   	|[Amazon]()|
+|   	|   	|   	|   	|[Amazon]()|
+|   	|   	|   	|   	|[Amazon]()|
