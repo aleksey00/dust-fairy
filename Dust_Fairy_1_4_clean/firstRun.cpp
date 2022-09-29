@@ -1,5 +1,6 @@
 #include "firstRun.h"
 
+// see pin layout in solenoids.h
 
 void testRun()                               // print to LCD and activate all open gate solenoids
 {

@@ -4,7 +4,6 @@
 #include <Arduino.h>
 #include "startLCD.h"
 #include "solenoids.h"
-#include "startLCD.h"
 
 /* firstRunFunc uses testRunEven and testRunNotEven methods */
 extern void firstRunFunc(int n, int sensOpen, int sensClose, int vacTest);  // sequential solenoid test uses testRunEven() and testRunNotEven
