@@ -30,43 +30,28 @@ const int disabled3 = 51;                           // not used
 const int disabled4 = 52;                           // OK/STOP lights NO/NC
 const int vacuum = 53;                              // Dust-collector contactor ON/OFF solenoid
 
+extern void analogPinsSetup();                      // Analog pins initialization INPUT 5, 11
+extern void digitalPinsSetup(int first, int last);  // Digital pins initialization OUTPUT 41 -53
+extern void digitalPinsInputSetup(bool serial);     // Digital pins initializaion INPUT (serial feedback on/off)
+extern void gateTest(int n, int val);               // Method used to activate gates with visual feedback to LCD
+
 extern void gates(int n, int inByte);               // E. 8 port  O[O ]
 extern void manualOverrride(int n, int inByte);     // 
 
-extern void digitalPinsSetup(int first, int last);  // Digital pins initialization OUTPUT 41 -53
-extern void analogPinsSetup();                      // Analog pins initialization INPUT 5, 11
-extern void digitalPinsInputSetup(bool serial);     // Digital pins initializaion INPUT (serial feedback on/off)
 
-extern void gateTest(int n, int val);  // test function for actual connections
 
 #endif
 
-// 12345678901234567890
-// E. 8"port O[O ]X 
-// E.trimmer
-// E. 4"port
-// Table Saw
+// LCD1
+// LCD2
 
-// 12345678901234567890
-// E. 8/4 O[X ]C O[X ]C
-// E. Trimmer O[X ]C
-// Table Saw O[X ]C
-// Vacuum ONF  00:00:00
+// Time ON: 00:00:00.00
+// Solenoids:  00.0 psi
+// Main pipe: 000.0 psi
+// 00.0'C 00.0F 00.0% #
 
-// 12345678901234567890
-// E.8port 4port trimmr
-// O[X ]C O[X ]C O[X ]C
-// Table Saw O[X ]C
-// Vacuum
-
-// 12345678901234567890
-// E. 8" XOOX E.4" XOOX
-// E.trm XOOX TSaw XOOX
-// Vacuum XOOX
-// VACUUM T: 00:00:00.00
-
-// 12345678901234567890
 // 01234567890123456789
+
 // E. 8"OOX 4"OOX PMOOX
 // T.SawOOX Manual ONFF
 // Dust Collector ONOFF
