@@ -1,5 +1,5 @@
-# Dust Fairy (work in progress)
-Arduino based Dust Collection system automation. Blast gate coordination and auto on/off control
+# Dust Fairy
+Arduino based Dust Collection system automation with Blast Gates coordination and auto on/off control.
 
 ![image](Dust-Fairy-min.png)
 
@@ -19,18 +19,34 @@ The goal of this project is to completely automate machinery and/or outlets for 
 <details><summary>Components</summary>
 <p>
   
-- arduino
-- relays
-- contactors 120v and 240v
-- step down converters 120 > 48v
-- step down converter 48v > 12v
-- step down converter 48v > 5v
-- air solenoid valve 
-- air pistor for blast gate
-- hall sensors
-- cat5e cable
-- thermostat cable
-- vacuum tubes
+- Electronics
+  - Arduino
+  - Power Supply Units
+  - Relays
+  - Solenoid valves
+  - OPTO-Isolators
+  - Push-in Buttons
+  - LEDs
+  - LCD Displays
+  - 12v Fan
+- Sensors
+  - Pressure Sensors
+  - Temperature Sensor
+- Electrical High Voltage (120v)
+  - contactors 120v and 240v
+  - WAGO connectors
+- Pneumatics
+  - air solenoid valve 
+  - air piston for blast gate
+  - pneumatic tubes
+- Wiring
+  - sprinkler 8/0 cable
+  - waterproof 2/1 cable
+- Housing
+  - Junction box
+  - DIN Rail
+  - DIN Rail adapters for electronic components
+
 
 </p>
 </details>
