@@ -4,14 +4,14 @@
 
 void testRun()                               // print to LCD and activate all open gate solenoids
 {
-  digitalWrite(52, HIGH);                    // Red STOP light
+  digitalWrite(52, HIGH);                    // Red STOP light activated
   solenoidTest(1, 0, 0, 50, "E. 8\"", 0);    // LCD, row, line, solenoid, text, isopen
   solenoidTest(1, 9, 0, 48, "4\"", 0);       // LCD, row, line, solenoid, text, isopen
   solenoidTest(1, 15, 0, 46, "5\"", 0);      // LCD, row, line, solenoid, text, isopen
   solenoidTest(1, 0, 1, 44, "T.Saw", 0);     // LCD, row, line, solenoid, text, isopen
   digitalWrite(42, HIGH);
   delay(300);
-  for (int pin = 41; pin <= 51; pin++)       // deactivate pins
+  for (int pin = 41; pin <= 51; pin++)       // deactivate pins except 52(OK/STOP)
   {
     digitalWrite(pin, LOW);
   }
