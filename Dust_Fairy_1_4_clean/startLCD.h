@@ -34,3 +34,18 @@ extern void systemOK(int pressureInput, int pressureInputMain, int value1, int v
  *   hd44780_I2Cexp lcd1(0x27, 20, 4);     
  *   thermistor address (0x40)
  */
+ 
+// LCD1
+// LCD2
+
+// Time ON: 00:00:00.00
+// Solenoids:  00.0 psi
+// Main pipe: 000.0 psi
+// 00.0'C 00.0F 00.0% #
+
+// 01234567890123456789
+
+// E. 8"OOX 4"OOX PMOOX
+// T.SawOOX Manual ONFF
+// Dust Collector ONOFF
+// RUN:Y:   00:00:00.00
