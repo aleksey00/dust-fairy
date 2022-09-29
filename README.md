@@ -6,14 +6,14 @@ Arduino based Dust Collection system automation. Blast gate coordination and aut
 ## ABSTRACT (work in progress)
 
 This automation with few easy steps will help achieve set-it-and-forget-it automation.
-Few commonly found sensors and contactors that make up dust-fairy easily swappable and able to fit from large industrial shop to home hobbyist dust collection system wihtout breaking a buck. 
+With a few commonly found sensors, relays and contactors and other easeaily swappable components that make up dust-fairy the system fits from large industrial shop to home hobbyist dust collection system wihtout breaking a buck.
 
-Idea is to use arduino as a brain of the operation with ability to detect current flow to a certain duct intake and turn on main dust collector while closing other blast valves for better dust collection performance. Keeping in mind safety features especially for over 5hp industrial collectors, protecting ductwork with one gate always open. With timer delay and blast gate open cycle to clear ductowk. With future expansion of sensors for statistical analisys of negative pressure generated in the ductowork for better maintenance of the system. 
-Eventually upgrading to sensors for a static discharge and fire prevention and detection system.
+Idea is to use arduino as a brain of the operation with ability to detect activationsignal of certain equipment and keep open corresponding blast gate while closing other blast gates and activating dust collection cyclone system for better performance. Keeping in mind safety features especially for large industrial dust collector system, protecting ductwork with gates always open by default and never all clost at any time. With timer delay and blast gate open cycle to clear ductowk this system will keep ductwork free of dust. With future expansion of sensors for statistical analisys of negative pressure generated in the ductowork for better maintenance of the system. 
+Eventually upgrading to sensors for a static discharge and fire prevention/detection system.
 
-This project is for anyone who wishes to have complate system automation without breaking a pennybank and have customization. Modular design helps streamline process. 
+This project is for anyone who wishes to have smart and compact system automation without breaking a pennybank and have infinite customization. 
 
-The goal pf this project is to completely automate machinery and/or outlets for machinery for dust collection system to kick in and have system flush the ducts to keep it in proper shape. Just turn on your table saw or edgebander and system automatically detect which blast gate to open and which to close for better performance, once the cut or edgebanding is done system will automatically maintain sucktion to at first clear ductway of remaining dust then open all valves to clear whole system and keep them open for safety reasons until other quupment is turned on. This delay also prevets rapid on and off of duct collector ro save the motor.
+The goal of this project is to completely automate machinery and/or outlets for machinery for dust collection system to kick in and have system flush the ducts to keep it in proper shape. To operate simply turn on your table saw or edgebander and system automatically detect which blast gate to open and which to close for better performance, once machine turned off system will automatically keep dust collector on to clear ductway of remaining dust with all open blast gates and it will keep them open for safety reasons until next signal. This delay also prevets rapid on and off of duct collector ro save the motor.
 
 
 <details><summary>Components</summary>
