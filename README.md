@@ -135,3 +135,12 @@ flowchart TD
     AD-. 5- .-SS
 ```
 blast gates should open/close in sequence not at the same time to save power supply and electornics.
+
+# List of items used in this project.
+
+
+| Quantity | Item | Price |
+| :------: | :--- | :---: |
+| 1| Arduino MEGA v3| $45|
+|2|12v Relay Board|$12|
+|TOTAL || $100
