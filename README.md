@@ -198,4 +198,4 @@ blast gates should open/close in sequence not at the same time to save power sup
 |   	|   	|   	|   	|[Amazon]()|
 |   	|   	|   	|   	|[Amazon]()|
 |   	|   	|   	|   	|[Amazon]()|
-|   	|   	|   	|   	|[Amazon]()|
+|16/3 wire|By-the-Foot 16/3 600-Volt CU Black Flexible Portable Power SOOW Cord|13|$1.07|[Home Depot](https://www.homedepot.com/p/Southwire-By-the-Foot-16-3-600-Volt-CU-Black-Flexible-Portable-Power-SOOW-Cord-55810099/204725139)|
