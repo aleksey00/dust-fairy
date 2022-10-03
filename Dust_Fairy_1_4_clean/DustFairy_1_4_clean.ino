@@ -82,7 +82,7 @@ void loop() {
   highTempCheck(tempsensor.readTemperature(), 60);                // temp value, >= value // warning message when temp is over 60 _startLCD.
   lowTempCheck(tempsensor.readTemperature(), 15);                 // temp value, <= value // warning message when temp below 15 _startLCD.
 
-  fanOn(51, 35, 40);                                              // (solenoid, off temp, on temp) turn on fan if temp is over 50 and off when drops below 30 _tempSensor.
+  fanOn(51, 27, 29);                                              // (solenoid, off temp, on temp) turn on fan if temp is over 50 and off when drops below 30 _tempSensor.
   systemOK(pressureValue, pressureValueMain, 28, 80);             // int pressureInput, int pressureInputMain, int value1, int value2 // keep green light on _startLCD
 
   // LCD 0

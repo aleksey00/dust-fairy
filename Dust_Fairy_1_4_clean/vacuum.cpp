@@ -57,8 +57,14 @@ void vacuumFunction(int n)
       lcd[n].setCursor(9,1);
       lcd[n].print("Manual ");
       lcd[n].print("YES ");
-
-      passFlagBB = 0; // not sure if this needed //
+      /* 
+        Safety feature. If none of the equipment is energized then vac manual button will open TS blast  gate, otherwise it will just display "Manual ON" and will keep dust collector running. 
+      */
+      if ( passFlagBB == 0 && passFlagTS == 0 && passFlagEB == 0 )
+      {
+        gateTest(1, 4);     // only opens Table Sae blast gate
+        passFlagBB++;       // to break the loop
+      }
     }
 
     if( digitalRead(tableSawAuto) == LOW )      // table saw active
@@ -124,7 +130,8 @@ void vacuumFunction(int n)
       passFlagEBTS = 0;
 
       gateTest(1,3);                  // all open
-      passFlagBB++;
+      // passFlagBB++;
+      passFlagBB = 0;                 // blue button pass flag
 
       // if(passFlagBB == 0) /// very quetionable but needed for gate to open after both machines turned on and off. 
       // {

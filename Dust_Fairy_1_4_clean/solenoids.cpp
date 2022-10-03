@@ -88,6 +88,11 @@ void gateTest(int n, int val)                   // method to activate gates with
       delay(100);
       gateTest(1, 0);
       break;
+    case 4:
+      solenoidTest(n, 0, 1, 47, "T.Saw", 1);    // LCD, row, line, solenoid, text, isopen // open
+      deay(100);
+      gateTest(1, 0);
+      break;
     default:
       for (int thisPin = 41; thisPin <= 51; thisPin++) // turn all solenoids off except 52(OK/STOP)
       {
