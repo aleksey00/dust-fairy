@@ -15,20 +15,27 @@ This project is for anyone who wishes to have smart and compact system automatio
 
 The goal of this project is to completely automate machinery and/or outlets for machinery for dust collection system to kick in and have system flush the ducts to keep it in proper shape. To operate simply turn on your table saw or edgebander and system automatically detect which blast gate to open and which to close for better performance, once machine turned off system will automatically keep dust collector on to clear ductway of remaining dust with all open blast gates and it will keep them open for safety reasons until next signal. This delay also prevets rapid on and off of duct collector ro save the motor.
 
+## INTRODUCTION
+Industrial systems of such size are extremely cotsly and complicated. Small shop system are costly, very limiting in customization and work on other principal and not reliable.
+Arduino can help in cenralization and infinite customization of the project with easily available inexpensive components. This system is in the sweet spot for anyone wishing to have an automation of dust collection system with multiple stations in the shop. 
 
-<details><summary>Components</summary>
+## IDEA
+Arduino based system controlling relays and solenoids to open and close pneumatic blast gates and turn on and off dust collection system via contactor. Sensory feedback of the pressurized air system in the shop might be used in logic. System should be housed neatly in one spot for ease of acces and troubleshouting.
+
+## BUILD COMPONENTS
+
+<details><summary>Short List</summary>
 <p>
   
 - Electronics
-  - Arduino
+  - Arduino Mega
   - Power Supply Units
   - Relays
   - Solenoid valves
   - OPTO-Isolators
-  - Push-in Buttons
-  - LEDs
+  - Push-in Buttons with LED's
   - LCD Displays
-  - 12v Fan
+  
 - Sensors
   - Pressure Sensors
   - Temperature Sensor
@@ -41,16 +48,22 @@ The goal of this project is to completely automate machinery and/or outlets for 
   - pneumatic tubes
 - Wiring
   - sprinkler 8/0 cable
-  - waterproof 2/1 cable
+  - waterproof 16/3 cable
 - Housing
   - Junction box
   - DIN Rail
   - DIN Rail adapters for electronic components
-
-
+  - 12v Fan
 </p>
 </details>
 <br>
+
+## BUILD PROCESS
+## RESULTS
+## FUTURE IMPROVEMENTS
+
+
+
 
 Here is an schematic of duct collection system of average shop that has dust collector (DC), table saw (TS), edgebander (EB), hingeborer (HB) and drillpress (DP).
 
@@ -107,7 +120,7 @@ Arduino Based cotroller must have
 - display time and temp
 - display V of the battery
 
-IDEA
+## THINGS TO IMPROVE
 
 install pressure sensors at the end of the vacuum lines to measure negative pressure and confirm gates are locked or open and if the system is running
 
@@ -115,52 +128,20 @@ List of things to acquire:
 
 - oled screens x4 or more
 - oled multipier
-- volt to current converter 
-- current to volt conerter
-- security camera wire
+- fire sensors
+- dust bin sensor
+- negative pressure sensor
+<br><br>
 
 
 
 
-App design
 
-- on small screens start counter when gate is open and dust collection running.
-- one main screen to display statistic for the whole day (reset at midnight) total dust collection runtime.
-- and on the bottom displat total runtime (record it in file to access data after reset)
-- record psi and runtime time of start and time off
-- display should have green button to manual override
-
-
-```mermaid
-flowchart TD
-    DC((120V AC)) == + === MD1[120V AC > 48V DC]
-    DC((120V AC)) -- - --- MD1
-    DC((120V AC)) == + === MD2[120V AC > 24V DC]
-    DC((120V AC)) -- - --- MD2
-    DC((120V AC)) == + === MD3[120V AC > 12V DC]
-    DC((120V AC)) -- - --- MD3
-    MD1 -- 48+ ---- HB[Motors]
-    MD1-. 48- .-CC[Common Ground]
-    MD2 -- 24+ ---- BB[Motors/Solenoids]
-    MD2-. 24- .-CC
-    MD3 -- 12+ --- TS[12V DC > 9V DC]
-    MD3-. 12- .-CC
-    TS -- 9+ --- AD[Arduino]
-    TS-. 9- .-CC[Common Ground]
-    AD-. 5- .-CC
-    AD -- 5+ --- SS[Sensors/Relays]
-    AD-. 5- .-SS
-```
-blast gates should open/close in sequence not at the same time to save power supply and electornics.
 
 # List of items used in this project.
 
 
-| Quantity | Item | Price |
-| :------: | :--- | :---: |
-| 1| Arduino MEGA v3| $45|
-|2|12v Relay Board|$12|
-||TOTAL | $100
+
 
 |Description|Item|Qty|Price|Link|
 |---	|---	|:-:	|:-:	|---	|
@@ -197,5 +178,49 @@ blast gates should open/close in sequence not at the same time to save power sup
 |   	|   	|   	|   	|[Amazon]()|
 |   	|   	|   	|   	|[Amazon]()|
 |   	|   	|   	|   	|[Amazon]()|
-|   	|   	|   	|   	|[Amazon]()|
+|18/8 wire|18/8 Brown Solid CU CL2 Thermostat Wire|10|$0.98|[Home Depot](https://www.homedepot.com/p/Southwire-250-ft-18-8-Brown-Solid-CU-CL2-Thermostat-Wire-65676944/202316421)|
 |16/3 wire|By-the-Foot 16/3 600-Volt CU Black Flexible Portable Power SOOW Cord|13|$1.07|[Home Depot](https://www.homedepot.com/p/Southwire-By-the-Foot-16-3-600-Volt-CU-Black-Flexible-Portable-Power-SOOW-Cord-55810099/204725139)|
+
+
+
+
+
+## EDITING
+
+App design
+
+- on small screens start counter when gate is open and dust collection running.
+- one main screen to display statistic for the whole day (reset at midnight) total dust collection runtime.
+- and on the bottom displat total runtime (record it in file to access data after reset)
+- record psi and runtime time of start and time off
+- display should have green button to manual override
+
+
+```mermaid
+flowchart TD
+    DC((120V AC)) == + === MD1[120V AC > 48V DC]
+    DC((120V AC)) -- - --- MD1
+    DC((120V AC)) == + === MD2[120V AC > 24V DC]
+    DC((120V AC)) -- - --- MD2
+    DC((120V AC)) == + === MD3[120V AC > 12V DC]
+    DC((120V AC)) -- - --- MD3
+    MD1 -- 48+ ---- HB[Motors]
+    MD1-. 48- .-CC[Common Ground]
+    MD2 -- 24+ ---- BB[Motors/Solenoids]
+    MD2-. 24- .-CC
+    MD3 -- 12+ --- TS[12V DC > 9V DC]
+    MD3-. 12- .-CC
+    TS -- 9+ --- AD[Arduino]
+    TS-. 9- .-CC[Common Ground]
+    AD-. 5- .-CC
+    AD -- 5+ --- SS[Sensors/Relays]
+    AD-. 5- .-SS
+```
+blast gates should open/close in sequence not at the same time to save power supply and electornics.
+
+| Quantity | Item | Price |
+| :------: | :--- | :---: |
+| 1| Arduino MEGA v3| $45|
+|2|12v Relay Board|$12|
+||TOTAL | $100
+
