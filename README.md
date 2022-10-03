@@ -101,6 +101,8 @@ Arduino based system controlling relays and solenoids to open and close pneumati
 <br>
 </details>
 
+For a full list of items [link](#list-of-items-used-in-this-project) 
+
 ## BUILD PROCESS
 ## RESULTS
 ## FUTURE IMPROVEMENTS
