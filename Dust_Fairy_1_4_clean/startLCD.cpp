@@ -50,7 +50,7 @@ void lcdSetup() {
     lcd[n].createChar(0, fire);              // custom character fire
     lcd[n].createChar(1, thermometer);       // custom character thermometer
     lcd[n].createChar(2, checkers);          // custom character checkers
-    lcd[n].createChar(3, checkersIn);        // custom character checkers
+    lcd[n].createChar(3, checkersIn);        // custom character checkers Inverse
     lcd[n].createChar(4, leftC);             // custom character leftC
     lcd[n].createChar(5, rightC);            // custom character rightC
     lcd[n].createChar(6, open);              // custom character open
