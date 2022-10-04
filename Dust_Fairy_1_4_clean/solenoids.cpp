@@ -48,7 +48,6 @@ void digitalPinsSetup(int first, int last)   // Digital pins initiated 41-53 Dig
   }  
 }
 
-
 void digitalPinsInputSetup(bool serial)      // Digital pin initiated INPUT array digitalInput 36,37,12
 {       
   for (int thisPin = 0; thisPin < digitalInputpinCount; thisPin++) 
@@ -97,153 +96,9 @@ void gateTest(int n, int val)                   // method to activate gates with
       gateTest(1, 0);
       break;
     default:
-      for (int thisPin = 41; thisPin <= 51; thisPin++) // turn all solenoids off except 52(OK/STOP)
+      for (int thisPin = 41; thisPin <= 50; thisPin++) // turn all solenoids off except 52(OK/STOP) and 51(cooling fan)
       {
         digitalWrite(thisPin, LOW);
       }        
   }
 }
-
-
-/* serial input via USB to test gates */
-
-void gates(int n, int inByte) {
-
-    if (Serial.available() > 0) {
-
-    int inByte = Serial.read();      
-    int time = 100;
-    
-    // do something different depending on the character received.
-    // The switch statement expects single number values for each case; in this
-    // example, though, you're using single quotes to tell the controller to get
-    // the ASCII value for the character. For example 'a' = 97, 'b' = 98,
-    // and so forth:
-
-    switch (inByte) {
-      case 'a':
-        solenoidTest(n, 0, 0, 41, "E. 8\"", 1);  // LCD, row, line, solenoid, text, isopen
-        delay(time);
-        gates(1, 0);
-        break;
-      case 'b':
-        solenoidTest(n, 0, 0, 50, "E. 8\"", 0);  // LCD, row, line, solenoid, text, isopen
-        delay(time);
-        gates(1, 0);
-        break;
-      case 'c':
-        solenoidTest(n, 9, 0, 43, "4\"", 1);    // LCD, row, line, solenoid, text, isopen
-        delay(time);
-        gates(1, 0);
-        break;
-      case 'd':
-        solenoidTest(n, 9, 0, 48, "4\"", 0);    // LCD, row, line, solenoid, text, isopen
-        delay(time);
-        gates(1, 0);
-        break;
-      case 'e':
-        solenoidTest(n, 15, 0, 45, "5\"", 1);   // LCD, row, line, solenoid, text, isopen
-        delay(time);
-        gates(1, 0);
-        break;
-      case 'f':
-        solenoidTest(n, 15, 0, 46, "5\"", 0);   // LCD, row, line, solenoid, text, isopen
-        delay(time);
-        break;
-      case 'g':                                 // open Edgebander
-        solenoidTest(n, 0, 0, 41, "E. 8\"", 1); // LCD, row, line, solenoid, text, isopen // open
-        solenoidTest(n, 9, 0, 43, "4\"", 1);    // LCD, row, line, solenoid, text, isopen // open
-        solenoidTest(n, 15, 0, 45, "5\"", 1);   // LCD, row, line, solenoid, text, isopen // open
-        delay(time);
-        gates(1, 0);
-        break;
-      case 'h':                                 // close Edgebander
-        solenoidTest(n, 0, 0, 50, "E. 8\"", 0); // LCD, row, line, solenoid, text, isopen // close
-        solenoidTest(n, 9, 0, 48, "4\"", 0);    // LCD, row, line, solenoid, text, isopen // close
-        solenoidTest(n, 15, 0, 46, "5\"", 0);   // LCD, row, line, solenoid, text, isopen // close
-        delay(time);
-        gates(1, 0);
-        break;
-      case 'i':
-        solenoidTest(n, 0, 1, 47, "T.Saw", 1); // LCD, row, line, solenoid, text, isopen
-        lcd[n].setCursor(9,1);
-        lcd[n].print("Manual: ");
-        lcd[n].print(" NO");
-        delay(time);
-        gates(1, 0);
-        break;
-      case 'j':
-        solenoidTest(n, 0, 1, 44, "T.Saw", 0); // LCD, row, line, solenoid, text, isopen
-        lcd[n].setCursor(9,1);
-        lcd[n].print("Manual: ");
-        lcd[n].print(" NO");      
-        delay(time);
-        gates(1,0);
-        break;
-      case 'k':
-        lcd[n].setCursor(0,2);
-        lcd[n].print("Dust Collector:");
-        lcd[n].setCursor(15, 2);
-        lcd[n].print(" ON  ");
-        digitalWrite(53, HIGH);
-        delay(time);
-        gates(1, 0);
-        break;
-      case 'l':
-        lcd[n].setCursor(0,2);
-        lcd[n].print("Dust Collector:");
-        lcd[n].setCursor(15, 2);
-        lcd[n].print("  OFF");
-        digitalWrite(53, LOW);
-        delay(time);
-        break;
-      case 'm':                                 // open Edgebander, close Table-Saw
-        solenoidTest(n, 0, 0, 41, "E. 8\"", 1); // LCD, row, line, solenoid, text, isopen // open
-        solenoidTest(n, 9, 0, 43, "4\"", 1);    // LCD, row, line, solenoid, text, isopen // open
-        solenoidTest(n, 15, 0, 45, "5\"", 1);   // LCD, row, line, solenoid, text, isopen // open
-        solenoidTest(n, 0, 1, 44, "T.Saw", 0);  // LCD, row, line, solenoid, text, isopen // close
-        delay(time);
-        gates(1, 0);
-        break;
-      case 'n':                                 // close Edgebander, open Table-Saw
-        solenoidTest(n, 0, 0, 50, "E. 8\"", 0); // LCD, row, line, solenoid, text, isopen // close
-        solenoidTest(n, 9, 0, 48, "4\"", 0);    // LCD, row, line, solenoid, text, isopen // close
-        solenoidTest(n, 15, 0, 46, "5\"", 0);   // LCD, row, line, solenoid, text, isopen // close
-        solenoidTest(n, 0, 1, 47, "T.Saw", 1);  // LCD, row, line, solenoid, text, isopen // open
-        delay(time);
-        gates(1, 0);
-        break;
-      case 'o':                                 // open ALL
-        solenoidTest(n, 0, 0, 41, "E. 8\"", 1); // LCD, row, line, solenoid, text, isopen // open
-        solenoidTest(n, 9, 0, 43, "4\"", 1);    // LCD, row, line, solenoid, text, isopen // open
-        solenoidTest(n, 15, 0, 45, "5\"", 1);   // LCD, row, line, solenoid, text, isopen // open
-        solenoidTest(n, 0, 1, 47, "T.Saw", 1);  // LCD, row, line, solenoid, text, isopen // open
-        digitalWrite(49, HIGH);
-        delay(time);
-        gates(1, 0);
-        break;
-      case 'p':
-        lcd[n].setCursor(0,2);
-        lcd[n].print("Dust Collector");
-        lcd[n].setCursor(15, 2);
-        lcd[n].print("  OFF");
-        digitalWrite(53, LOW);
-        delay(time);
-        break;
-      case 'x':
-        for (int thisPin = 41; thisPin <= 52; thisPin++) 
-        {
-          digitalWrite(thisPin, LOW);
-        }
-        break;
-      default:
-        // turn all realys off:
-        for (int thisPin = 41; thisPin <= 52; thisPin++) 
-        {
-          digitalWrite(thisPin, LOW);
-        }        
-    }
-  }
-}
-
-
