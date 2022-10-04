@@ -32,7 +32,6 @@ extern void gateTest(int n, int val);               // Method used to activate g
 
 /* for serial input USB control gates with laptop */
 extern void gates(int n, int inByte);               // E. 8 port  O[O ]
-extern void manualOverrride(int n, int inByte);     // 
 
 #endif
 

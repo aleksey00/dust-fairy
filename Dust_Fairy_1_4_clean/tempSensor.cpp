@@ -17,8 +17,6 @@ void tempSetup()                                                   // setup temp
   
   if (!tempsensor.begin())                                        // check temp sens functionality
   {          
-    // Serial.println("Did not find Si7021 tempsensor!");
-    // while (true);
     lcd[0].setCursor(0, 3);
     lcd[0].print(F("Check Temp Sensor"));
   }
@@ -60,7 +58,7 @@ void tempReading(int n, int line)
   lcd[n].print(tempsensor.readHumidity(), 1);
   lcd[n].print("%");
     
-  if (tempsensor.readHumidity() >= 60 && ++loopCnt == 30)         // if humidity is over 60 and loop count is 30 then Heater is on
+  if (tempsensor.readHumidity() >= 70 && ++loopCnt == 30)         // if humidity is over 70 and loop count is 30 then Heater is on
   {
     enableHeater = !enableHeater;
     tempsensor.heater(enableHeater);
@@ -78,7 +76,7 @@ void tempReading(int n, int line)
     loopCnt = 0;
   }
 
-  if (tempsensor.readHumidity() < 60)                             // if humidity is less than 60 then heater is off
+  if (tempsensor.readHumidity() < 70)                             // if humidity is less than 70 then heater is off
   {
     enableHeater = false;
     tempsensor.heater(enableHeater);
@@ -98,9 +96,7 @@ void tempReading(int n, int line)
 }
 
 
-
-
-void fanOn (int solenoid, int offTemp, int onTemp)
+void fanOn (int solenoid, int offTemp, int onTemp)                // fan (relay 52) for temp control in main box
 {
   if (tempsensor.readTemperature() < offTemp) 
   {

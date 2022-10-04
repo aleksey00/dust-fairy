@@ -57,7 +57,7 @@ void firstRunFunc(int n, int sensOpen, int sensClose, int vacTest) {    // seque
 
 }
 
-void testRunEven(int n, char value, int time){                          // test run of even relays (lcd, HIGH or LOW, delay)
+void testRunEven(int n, char value, int time) {                          // test run of even relays (lcd, HIGH or LOW, delay)
   for (byte pin = 41; pin <= 53; pin++)
   {
     if (pin % 2 == 0) 
@@ -76,7 +76,7 @@ void testRunEven(int n, char value, int time){                          // test 
   lcd[n].clear();
 }
 
-void testRunNotEven(int n, char value, int time){                     // test run of non-even relays (lcd, HIGH or LOW, delay)
+void testRunNotEven(int n, char value, int time) {                     // test run of non-even relays (lcd, HIGH or LOW, delay)
   for (byte pin = 41; pin <= 53; pin++)
   {
     if (pin % 2 != 0) 
@@ -94,3 +94,15 @@ void testRunNotEven(int n, char value, int time){                     // test ru
   lcd[n].clear();
 }
 
+void printAllAnalog()        // function designed to test real time value in Analog inputs
+{
+  for (byte i = 0; i < NUM_ANALOG_INPUTS; i++) 
+  {
+    Serial.print('A');
+    Serial.print(i);
+    Serial.print('=');
+    Serial.print(analogRead(A0+i));
+    Serial.print(' ');
+  }
+  Serial.println();
+}

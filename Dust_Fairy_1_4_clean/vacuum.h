@@ -7,12 +7,9 @@
 #include "solenoids.h"
 #include "humanTime.h"
 
-// const unsigned long eventDelay = 10000; // 10 sec
-
 
 extern void vacOperate(int n, bool activate);                 // vac on function 1=vacuum on with lcd messade, 0=vacuum off with lcd message
 extern void vacuumFunction(int n);                            // Dust Collector and gate automation for TS and EB
-
 
 #endif
 
