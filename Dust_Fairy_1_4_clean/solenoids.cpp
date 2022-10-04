@@ -92,7 +92,7 @@ void gateTest(int n, int val)                   // method to activate gates with
       break;
     case 4:                                     // open only TableSaw
       solenoidTest(n, 0, 1, 47, "T.Saw", 1);    // LCD, row, line, solenoid, text, isopen // open
-      deay(100);
+      delay(100);
       gateTest(1, 0);
       break;
     default:
