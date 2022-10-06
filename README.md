@@ -52,6 +52,7 @@
   <a href="#introduction">Introduction</a> •
   <a href="#idea">Idea</a> •
   <a href="#build-components">Build Components</a> •
+  <a href="#how-it-works">How It Works</a> •
   <a href="#build-process">Build Process</a> •
   <a href="#results">Results</a> •
   <a href="#future-improvements">Future Improvements</a> •
@@ -161,7 +162,7 @@ DIY inexpensive Arduino based system controlling relays and solenoids to open an
 For a full list of items [link](#list-of-items-used-in-this-project) 
 
 ## HOW IT WORKS
-System is composed of the main unit that controls gates and main contactor relay for the dust collection system. 
+System is composed of the Arduino MEGA that controls gates and main contactor via relays.
 Main unit has an Arduino with relays and sesor board for hall sensors + possibility to add negative air pressure sensors for dust collection duct work testing. As well as sensor for airpressure sytem if no air pressure detected contactrot will not engage preveting ductwork damage.
 Blast gates type auto:
 - air controlled. Relay controls solenoids for open and close gates eith pneumatic piston connected to air.
