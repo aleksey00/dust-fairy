@@ -70,15 +70,15 @@ Integrated safety features, especially for large industrial dust collector syste
 Future expansion may include sensors for statistical analysis of negative pressure generated in the ductwork for preventative system maintenance and logging static pressure difference in the system.
 
 ## INTRODUCTION
-Industrial systems of larger size extremely cotsly and complicated. Small shop system are costly, very limiting in customization and work on other principal and not reliable.
-Arduino can help in cenralization and infinite customization of the project with easily available inexpensive components. This system is in the sweet spot for anyone wishing to have an automation of dust collection system with multiple stations in the shop.
+Industrial systems of larger sizes are incredibly costly and complicated. Small shop systems are also expensive, very limiting in customization, and are not reliable. Arduino can help in the centralization and infinite customization of the project with readily available inexpensive components. This system is in the sweet spot for anyone wishing to have automation of a dust collection system with multiple workstations in the shop.
 
-This project is for anyone who wishes to have smart and compact system automation without breaking a penny bank and have infinite customization.
+This project is for anyone who wishes to have smart and compact system automation without breaking a penny bank and have infinite customization with option of future expansion.
 
-The goal of this project is to completely automate machinery and/or outlets for machinery for the dust collection system to kick in . To operate, simply turn on your shop equipment, and the system automatically detects which blast gate to open and which to close for better performance. Once the shop equipment is turned off system will automatically keep the dust collector on to clear the ductway of remaining dust with all open blast gates, and it will keep them open for safety reasons by default. The dust collector off delay also prevents rapid on and off of the duct collector to save the motor.
+This project aims to completely automate machinery and/or outlets for machinery for the dust collection system to kick in. To operate, turn on your shop equipment, and the system automatically detects which blast gate to open and which to close for better performance. Once the shop equipment is turned off system will automatically keep the dust collector on to clear the ductway of remaining dust with all open blast gates, and it will keep them open for safety reasons by default. The dust collector off delay also prevents rapid on and off of the duct collector to prevent premature motor failure.
 
 ## IDEA
-DIY inexpensive Arduino based system controlling relays and solenoids to open and close pneumatic blast gates and turn on and off dust collection system via contactor. Sensory feedback of the pressurized air system in the shop might be used in logic. System should be housed neatly in one spot for ease of acces and troubleshouting.
+DIY inexpensive Arduino-based system controlling relays and solenoids to open and close pneumatic blast gates and turn on and off dust collection system via a contactor. Sensory feedback of the pressurized air system in the shop might be used in logic. The system should be housed neatly in one spot for easy access and troubleshooting.
+Pneumatic pistons have higher reliability and with pressure limiting attachements adjust speed of motion, pneumatic pistons are very powerful, easier to mount and virtually any shop have air compressor. Pneumatic pistons are able to operate at pressure as low as 14psi. Compared to servo motors pneumatic pistons have more advantages in this application. 
 
 ## BUILD COMPONENTS
 
