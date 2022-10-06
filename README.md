@@ -1,7 +1,10 @@
+<img src="/Dust-Fairy-min.png" align="right" alt="Dust Fairy logo by Aleksey Khoroshilov" width="333" title="Dust Fairy Logo by Aleksey Khoroshilov">
+
 # Dust Fairy
 
-<img src="/Dust-Fairy-min.png" align="left" alt="Dust Fairy logo by Aleksey Khoroshilov" width="333" title="Dust Fairy Logo by Aleksey Khoroshilov">
 Dust Fairy is an Arduino based Dust Collection system automation with Blast Gates coordination and auto on/off control.
+
+
 
 ## ABSTRACT
 
