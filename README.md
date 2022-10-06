@@ -77,8 +77,8 @@ This project is for anyone who wishes to have smart and compact system automatio
 This project aims to completely automate machinery and/or outlets for machinery for the dust collection system to kick in. To operate, turn on your shop equipment, and the system automatically detects which blast gate to open and which to close for better performance. Once the shop equipment is turned off system will automatically keep the dust collector on to clear the ductway of remaining dust with all open blast gates, and it will keep them open for safety reasons by default. The dust collector off delay also prevents rapid on and off of the duct collector to prevent premature motor failure.
 
 ## IDEA
-DIY inexpensive Arduino-based system controlling relays and solenoids to open and close pneumatic blast gates and turn on and off dust collection system via a contactor. Sensory feedback of the pressurized air system in the shop might be used in logic. The system should be housed neatly in one spot for easy access and troubleshooting.
-Pneumatic pistons have higher reliability and with pressure limiting attachements adjust speed of motion, pneumatic pistons are very powerful, easier to mount and virtually any shop have air compressor. Pneumatic pistons are able to operate at pressure as low as 14psi. Compared to servo motors pneumatic pistons have more advantages in this application. 
+DIY inexpensive Arduino-based system controlling relays and solenoids to open and close pneumatic blast gates and turn on and off dust collection system via a contactor. The system should be housed neatly in one spot for easy access and troubleshooting. 
+Pneumatic pistons have higher reliability and, with pressure-limiting attachments, adjust the speed of motion. Pneumatic pistons are very powerful and easier to mount, and virtually any shop has an air compressor. Pneumatic pistons can operate at pressure as low as 14psi. Compared to servo motors, pneumatic pistons have more advantages in this application.
 
 ## BUILD COMPONENTS
 
@@ -183,7 +183,20 @@ Pictures
 ## RESULTS
 Working video and gifs
 ## FUTURE IMPROVEMENTS
-Maybe some improvements
+
+
+|System Advantages|System Limitations|
+|---|---|
+|Pneumatuic Cylinder|Air supply line limitation|
+|Arduino MEGA|No Wifi or bluetooth module|
+|||
+
+* System Advantages
+  * Pneumatic Cylinders
+  * Arduino Mega is very robust and customizeable
+* System Limitations
+  * Air supply line extension
+  * No WiFi or Bluetooth connectivity, require additional module
 
 ## LICENSE
 
