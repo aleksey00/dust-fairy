@@ -1,8 +1,8 @@
 <h1 align="center" style="display: block; font-size: 2.5em; font-weight: bold; margin-block-start: 1em; margin-block-end: 1em;">
   <br>
-  <a href="#"><img src="/Dust-Fairy-min.png" alt="Dust Fairy logo by Aleksey Khoroshilov" width="444" title="Dust Fairy Logo by Aleksey Khoroshilov""></a>
+  <a href="#"><img src="./Dust-Fairy-min.png" alt="Dust Fairy logo by Aleksey Khoroshilov" width="444" title="Dust Fairy Logo by Aleksey Khoroshilov"></a>
   <br>
-    <br>
+    <!-- <br> -->
   <strong>Dust Fairy</strong>
   <br>
 </h1>
@@ -11,23 +11,29 @@
 
 <div align="center">
   <h4>
+  <!-- stars -->
     <a href="https://github.com/aleksey00/dust-fairy">
-      <img alt="stars" src="https://img.shields.io/github/stars/aleksey00/dust-fairy-AssistantConfig.svg"/>
+      <img alt="Stars" src="https://img.shields.io/github/stars/aleksey00/dust-fairy-AssistantConfig.svg"/>
     </a>
+    <!-- last commit -->
     <a href="https://github.com/aleksey00/dust-fairy/commits/master">
       <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/aleksey00/dust-fairy">
     </a>
+    <!-- commit activity -->
     <a href="https://github.com/aleksey00/dust-fairy/commits/master">
       <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/y/aleksey00/dust-fairy">
     </a>
+    <!-- license -->
     <a href="#">
       <img alt="GitHub" src="https://img.shields.io/github/license/aleksey00/dust-fairy">
     </a>
+    <!-- PayPal donate -->
     <a href="https://www.paypal.me/user">
     <img src="https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&amp;style=flat">
     </a>
   </h4>
 </div>
+
 
 <!-- <p align="center">
   <a href="https://saythanks.io/to/bullredeyes@gmail.com">
@@ -37,9 +43,9 @@
     <img src="https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&amp;style=flat">
   </a>
     
-</p> -->
+</p>  -->
 
-<!--[![forthebadge](https://forthebadge.com/images/badges/powered-by-electricity.svg)](https://forthebadge.com)-->
+<!-- [![forthebadge](https://forthebadge.com/images/badges/powered-by-electricity.svg)](https://forthebadge.com) -->
     
 <p align="center">
   <a href="#abstract">Abstract</a> •
@@ -53,8 +59,7 @@
 </p>
 
 
-## ABSTRACT
-
+## ABSTRACT 
 This system, with a few easy steps, will help achieve set-it-and-forget-it automation. Using just a few commonly found sensors, relays, and contactors with other easily swappable components that make up dust-fairy, the system will accommodate any size setup, from the smallest home-hobbyist garage setup to a large industrial system without breaking a buck.
 
 The idea is to use Arduino as the brain of the operation to detect the activation signal of particular equipment and keep open the corresponding blast gate while closing other blast gates and activating the dust collection system for better performance. 
@@ -62,17 +67,17 @@ The idea is to use Arduino as the brain of the operation to detect the activatio
 Integrated safety features, especially for large industrial dust collector systems, protect ductwork with gates by defaulting to always open state and never close all blast gates at any time. With dust collection timer delay and blast gate open cycle to clear ductwork, system will keep ductwork free of leftover dust.
     
 Future expansion may include sensors for statistical analysis of negative pressure generated in the ductwork for preventative system maintenance and logging static pressure difference in the system.
-    
+
+## INTRODUCTION
+Industrial systems of larger size extremely cotsly and complicated. Small shop system are costly, very limiting in customization and work on other principal and not reliable.
+Arduino can help in cenralization and infinite customization of the project with easily available inexpensive components. This system is in the sweet spot for anyone wishing to have an automation of dust collection system with multiple stations in the shop.
+
 This project is for anyone who wishes to have smart and compact system automation without breaking a penny bank and have infinite customization.
 
 The goal of this project is to completely automate machinery and/or outlets for machinery for the dust collection system to kick in . To operate, simply turn on your shop equipment, and the system automatically detects which blast gate to open and which to close for better performance. Once the shop equipment is turned off system will automatically keep the dust collector on to clear the ductway of remaining dust with all open blast gates, and it will keep them open for safety reasons by default. The dust collector off delay also prevents rapid on and off of the duct collector to save the motor.
 
-## INTRODUCTION
-Industrial systems of such size are extremely cotsly and complicated. Small shop system are costly, very limiting in customization and work on other principal and not reliable.
-Arduino can help in cenralization and infinite customization of the project with easily available inexpensive components. This system is in the sweet spot for anyone wishing to have an automation of dust collection system with multiple stations in the shop. 
-
 ## IDEA
-Arduino based system controlling relays and solenoids to open and close pneumatic blast gates and turn on and off dust collection system via contactor. Sensory feedback of the pressurized air system in the shop might be used in logic. System should be housed neatly in one spot for ease of acces and troubleshouting.
+DIY inexpensive Arduino based system controlling relays and solenoids to open and close pneumatic blast gates and turn on and off dust collection system via contactor. Sensory feedback of the pressurized air system in the shop might be used in logic. System should be housed neatly in one spot for ease of acces and troubleshouting.
 
 ## BUILD COMPONENTS
 
@@ -99,7 +104,7 @@ Arduino based system controlling relays and solenoids to open and close pneumati
   - air piston for blast gate
   - pneumatic tubes
 - Wiring
-  - sprinkler 8/0 cable
+  - sprinkler 18/10 cable
   - waterproof 16/3 cable
 - Housing
   - Junction box
@@ -148,19 +153,92 @@ Arduino based system controlling relays and solenoids to open and close pneumati
 |   	|   	|   	|   	|[Amazon]()|
 |   	|   	|   	|   	|[Amazon]()|
 |   	|   	|   	|   	|[Amazon]()|
-|18/8 wire|18/8 Brown Solid CU CL2 Thermostat Wire|10|$0.98|[Home Depot](https://www.homedepot.com/p/Southwire-250-ft-18-8-Brown-Solid-CU-CL2-Thermostat-Wire-65676944/202316421)|
+|18/10 wire|By-the-Foot 18/10 Black Solid UL Sprinkler System Wire|10|$1.28|[Home Depot](https://www.homedepot.com/p/Southwire-By-the-Foot-18-10-Black-Solid-UL-Sprinkler-System-Wire-49270299/204724972)|
 |16/3 wire|By-the-Foot 16/3 600-Volt CU Black Flexible Portable Power SOOW Cord|13|$1.07|[Home Depot](https://www.homedepot.com/p/Southwire-By-the-Foot-16-3-600-Volt-CU-Black-Flexible-Portable-Power-SOOW-Cord-55810099/204725139)|
 <br>
 </details>
 
 For a full list of items [link](#list-of-items-used-in-this-project) 
 
+## HOW IT WORKS
+System is composed of the main unit that controls gates and main contactor relay for the dust collection system. 
+Main unit has an Arduino with relays and sesor board for hall sensors + possibility to add negative air pressure sensors for dust collection duct work testing. As well as sensor for airpressure sytem if no air pressure detected contactrot will not engage preveting ductwork damage.
+Blast gates type auto:
+- air controlled. Relay controls solenoids for open and close gates eith pneumatic piston connected to air.
+- e-motor controlled. Relay controls stepmotor to open the gate or close appropriate gates.
+Blast gates type manal:
+- blast gate that has a sensor for open or closed position. Once open manually it will start the dust collection system, with one safety gate always open in order to prevent system collapse one quickly closed.
+
+Safety measures programmed:
+- [ ] System should have a 1-2 seconds delay of main collector start in order for it to first open the blast gate and then work.
+- [x] System should have always open gates once off. 
+- [x] System should have one designated safety gate always open when manual gate is in use, once one manual and one auto gate is in use it can close safety gate. However once manual is closed and auto coincidently gets trigger to close should have a delay of 1 sec to close. However regular shit down procedure is more than enough.
+- [ ] System should have negative air pressure sonsors build it for safety to open all gates once clogged and cycle trhough to clear the clog. 
+- [ ] System should have high air pressure sensor build in to prevent system turn on if no air pressure present. 
+- [ ] System should have sensors on blast gate for open close confirmation. (sensors could be sonic to meaure distance between flap and mount position. 
+
 ## BUILD PROCESS
+Pictures
 ## RESULTS
+Working video and gifs
 ## FUTURE IMPROVEMENTS
+Maybe some improvements
+
+## LICENSE
+
+MIT
+
+    
+[![forthebadge](https://forthebadge.com/images/badges/made-with-c-plus-plus.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/powered-by-electricity.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/certified-yourboyserge.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/contains-17-coffee-cups.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/designed-in-ms-paint.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/reading-6th-grade-level.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/works-on-my-machine.svg)](https://forthebadge.com)
 
 
+JUNK
 
+## EDITING
+
+App design
+
+- on small screens start counter when gate is open and dust collection running.
+- one main screen to display statistic for the whole day (reset at midnight) total dust collection runtime.
+- and on the bottom displat total runtime (record it in file to access data after reset)
+- record psi and runtime time of start and time off
+- display should have green button to manual override
+
+
+```mermaid
+flowchart TD
+    DC((120V AC)) == + === MD1[120V AC > 48V DC]
+    DC((120V AC)) -- - --- MD1
+    DC((120V AC)) == + === MD2[120V AC > 24V DC]
+    DC((120V AC)) -- - --- MD2
+    DC((120V AC)) == + === MD3[120V AC > 12V DC]
+    DC((120V AC)) -- - --- MD3
+    MD1 -- 48+ ---- HB[Motors]
+    MD1-. 48- .-CC[Common Ground]
+    MD2 -- 24+ ---- BB[Motors/Solenoids]
+    MD2-. 24- .-CC
+    MD3 -- 12+ --- TS[12V DC > 9V DC]
+    MD3-. 12- .-CC
+    TS -- 9+ --- AD[Arduino]
+    TS-. 9- .-CC[Common Ground]
+    AD-. 5- .-CC
+    AD -- 5+ --- SS[Sensors/Relays]
+    AD-. 5- .-SS
+```
+blast gates should open/close in sequence not at the same time to save power supply and electornics.
+
+| Quantity | Item | Price |
+| :------: | :--- | :---: |
+| 1| Arduino MEGA v3| $45|
+|2|12v Relay Board|$12|
+||TOTAL | $100
 
 Here is an schematic of duct collection system of average shop that has dust collector (DC), table saw (TS), edgebander (EB), hingeborer (HB) and drillpress (DP).
 
@@ -182,21 +260,7 @@ flowchart TD
     MD1 -- 8 inch ---- HB[Hinge Borer]
 ```
 
-System is composed of the main unit that controls gates and main contactor relay for the dust collection system. 
-Main unit has an Arduino with relays and sesor board for hall sensors + possibility to add negative air pressure sensors for dust collection duct work testing. As well as sensor for airpressure sytem if no air pressure detected contactrot will not engage preveting ductwork damage.
-Blast gates type auto:
-- air controlled. Relay controls solenoids for open and close gates eith pneumatic piston connected to air.
-- e-motor controlled. Relay controls stepmotor to open the gate or close appropriate gates.
-Blast gates type manal:
-- blast gate that has a sensor for open or closed position. Once open manually it will start the dust collection system, with one safety gate always open in order to prevent system collapse one quickly closed.
 
-Safety measures programmed:
-- [ ] System should have a 1-2 seconds delay of main collector start in order for it to first open the blast gate and then work.
-- [x] System should have always open gates once off. 
-- [x] System should have one designated safety gate always open when manual gate is in use, once one manual and one auto gate is in use it can close safety gate. However once manual is closed and auto coincidently gets trigger to close should have a delay of 1 sec to close. However regular shit down procedure is more than enough.
-- [ ] System should have negative air pressure sonsors build it for safety to open all gates once clogged and cycle trhough to clear the clog. 
-- [ ] System should have high air pressure sensor build in to prevent system turn on if no air pressure present. 
-- [ ] System should have sensors on blast gate for open close confirmation. (sensors could be sonic to meaure distance between flap and mount position. 
 
 
 ## Installation
@@ -277,58 +341,3 @@ List of things to acquire:
 |   	|   	|   	|   	|[Amazon]()|
 |18/8 wire|18/8 Brown Solid CU CL2 Thermostat Wire|10|$0.98|[Home Depot](https://www.homedepot.com/p/Southwire-250-ft-18-8-Brown-Solid-CU-CL2-Thermostat-Wire-65676944/202316421)|
 |16/3 wire|By-the-Foot 16/3 600-Volt CU Black Flexible Portable Power SOOW Cord|13|$1.07|[Home Depot](https://www.homedepot.com/p/Southwire-By-the-Foot-16-3-600-Volt-CU-Black-Flexible-Portable-Power-SOOW-Cord-55810099/204725139)|
-
-## LICENSE
-
-MIT
-
-
-
-## EDITING
-
-App design
-
-- on small screens start counter when gate is open and dust collection running.
-- one main screen to display statistic for the whole day (reset at midnight) total dust collection runtime.
-- and on the bottom displat total runtime (record it in file to access data after reset)
-- record psi and runtime time of start and time off
-- display should have green button to manual override
-
-
-```mermaid
-flowchart TD
-    DC((120V AC)) == + === MD1[120V AC > 48V DC]
-    DC((120V AC)) -- - --- MD1
-    DC((120V AC)) == + === MD2[120V AC > 24V DC]
-    DC((120V AC)) -- - --- MD2
-    DC((120V AC)) == + === MD3[120V AC > 12V DC]
-    DC((120V AC)) -- - --- MD3
-    MD1 -- 48+ ---- HB[Motors]
-    MD1-. 48- .-CC[Common Ground]
-    MD2 -- 24+ ---- BB[Motors/Solenoids]
-    MD2-. 24- .-CC
-    MD3 -- 12+ --- TS[12V DC > 9V DC]
-    MD3-. 12- .-CC
-    TS -- 9+ --- AD[Arduino]
-    TS-. 9- .-CC[Common Ground]
-    AD-. 5- .-CC
-    AD -- 5+ --- SS[Sensors/Relays]
-    AD-. 5- .-SS
-```
-blast gates should open/close in sequence not at the same time to save power supply and electornics.
-
-| Quantity | Item | Price |
-| :------: | :--- | :---: |
-| 1| Arduino MEGA v3| $45|
-|2|12v Relay Board|$12|
-||TOTAL | $100
-
-    
-[![forthebadge](https://forthebadge.com/images/badges/made-with-c-plus-plus.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/powered-by-electricity.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/certified-yourboyserge.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/contains-17-coffee-cups.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/designed-in-ms-paint.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/reading-6th-grade-level.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/works-on-my-machine.svg)](https://forthebadge.com)
