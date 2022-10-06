@@ -2,23 +2,34 @@
   <br>
   <a href="#"><img src="/Dust-Fairy-min.png" alt="Dust Fairy logo by Aleksey Khoroshilov" width="444" title="Dust Fairy Logo by Aleksey Khoroshilov""></a>
   <br>
+    <br>
   <strong>Dust Fairy</strong>
   <br>
 </h1>
 
-<h4 align="center">Dust Fairy is an Arduino based Dust Collection system automation with Blast Gates coordination and auto on/off control.</h4>
+<h4 align="center">Dust Fairy is an Arduino based Dust Collection system automation with blast gates coordination and auto on/off control.</h4>
 
 <div align="center">
   <h4>
-    <a href="https://github.com/aleksey00/dust-fairy"><img alt="stars" src="https://img.shields.io/github/stars/aleksey00/dust-fairy-AssistantConfig.svg?style=plasticr"/></a>
-    <a href="https://github.com/aleksey00/dust-fairy/commits/master"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/aleksey00/dust-fairy?style=plasticr"></a>
-        <a href="https://github.com/aleksey00/dust-fairy/commits/master"><img src="https://img.shields.io/github/commit-activity/y/CCOSTAN/Home-AssistantConfig.svg?style=plasticr"/></a>
-    <a href="#"><img alt="GitHub" src="https://img.shields.io/github/license/aleksey00/dust-fairy"></a>
-
+    <a href="https://github.com/aleksey00/dust-fairy">
+      <img alt="stars" src="https://img.shields.io/github/stars/aleksey00/dust-fairy-AssistantConfig.svg"/>
+    </a>
+    <a href="https://github.com/aleksey00/dust-fairy/commits/master">
+      <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/aleksey00/dust-fairy">
+    </a>
+    <a href="https://github.com/aleksey00/dust-fairy/commits/master">
+      <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/y/aleksey00/dust-fairy">
+    </a>
+    <a href="#">
+      <img alt="GitHub" src="https://img.shields.io/github/license/aleksey00/dust-fairy">
+    </a>
+    <a href="https://www.paypal.me/user">
+    <img src="https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&amp;style=flat">
+    </a>
   </h4>
 </div>
 
-<p align="center">
+<!-- <p align="center">
   <a href="https://saythanks.io/to/bullredeyes@gmail.com">
       <img src="https://img.shields.io/badge/SayThanks.io-%E2%98%BC-1EAEDB.svg">
   </a>
@@ -26,7 +37,7 @@
     <img src="https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&amp;style=flat">
   </a>
     
-</p>
+</p> -->
 
 <!--[![forthebadge](https://forthebadge.com/images/badges/powered-by-electricity.svg)](https://forthebadge.com)-->
     
