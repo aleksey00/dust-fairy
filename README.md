@@ -1,12 +1,21 @@
-<h1 align="center">
+<h1 align="center" style="display: block; font-size: 2.5em; font-weight: bold; margin-block-start: 1em; margin-block-end: 1em;">
   <br>
   <a href="#"><img src="/Dust-Fairy-min.png" alt="Dust Fairy logo by Aleksey Khoroshilov" width="444" title="Dust Fairy Logo by Aleksey Khoroshilov""></a>
   <br>
-  Dust Fairy
+  <strong>Dust Fairy</strong>
   <br>
 </h1>
 
 <h4 align="center">Dust Fairy is an Arduino based Dust Collection system automation with Blast Gates coordination and auto on/off control.</h4>
+
+<div align="center">
+  <h4>
+    <a href="https://github.com/aleksey00/dust-fairy"><img src="https://img.shields.io/github/stars/aleksey00/dust-fairy-AssistantConfig.svg?style=plasticr"/></a>
+    <a href="https://github.com/aleksey00/dust-fairy/commits/master"><img src="https://img.shields.io/github/last-commit/CCOSTAN/Home-AssistantConfig.svg?style=plasticr"/></a>
+        <a href="https://github.com/CCOSTAN/Home-AssistantConfig/commits/master"><img src="https://img.shields.io/github/commit-activity/y/CCOSTAN/Home-AssistantConfig.svg?style=plasticr"/></a>
+
+  </h4>
+</div>
 
 <p align="center">
   <a href="https://saythanks.io/to/bullredeyes@gmail.com">
@@ -15,8 +24,11 @@
   <a href="https://www.paypal.me/AmitMerchant">
     <img src="https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&amp;style=flat">
   </a>
+    
 </p>
 
+<!--[![forthebadge](https://forthebadge.com/images/badges/powered-by-electricity.svg)](https://forthebadge.com)-->
+    
 <p align="center">
   <a href="#abstract">Abstract</a> •
   <a href="#introduction">Introduction</a> •
@@ -297,3 +309,12 @@ blast gates should open/close in sequence not at the same time to save power sup
 |2|12v Relay Board|$12|
 ||TOTAL | $100
 
+    
+[![forthebadge](https://forthebadge.com/images/badges/made-with-c-plus-plus.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/powered-by-electricity.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/certified-yourboyserge.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/contains-17-coffee-cups.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/designed-in-ms-paint.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/reading-6th-grade-level.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/works-on-my-machine.svg)](https://forthebadge.com)
