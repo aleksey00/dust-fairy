@@ -44,13 +44,17 @@
 
 ## ABSTRACT
 
-This system, with a few easy steps, will help achieve set-it-and-forget-it automation. Using just a few commonly found sensors, relays, and contactors with other easily swappable components that make up dust-fairy, the system will accommodate any size setup from smallest home-hobbyist garage setup to a large industrial system without breaking a buck.
+This system, with a few easy steps, will help achieve set-it-and-forget-it automation. Using just a few commonly found sensors, relays, and contactors with other easily swappable components that make up dust-fairy, the system will accommodate any size setup, from the smallest home-hobbyist garage setup to a large industrial system without breaking a buck.
 
-The idea is to use Arduino as the brain of the operation to detect the activation signal of particular equipment and keep open the corresponding blast gate while closing other blast gates and activating the dust collection cyclone system for better performance. We keep in mind safety features, especially for large industrial dust collector systems, protecting ductwork with gates always open by default and never all close at any time. With timer delay and blast gate open cycle to clear ductwork, this system will keep ductwork free of dust, with future expansion of sensors for statistical analysis of negative pressure generated in the ductwork for better system maintenance. Eventually, upgrading to sensors for a static discharge and fire prevention/detection system.
-
+The idea is to use Arduino as the brain of the operation to detect the activation signal of particular equipment and keep open the corresponding blast gate while closing other blast gates and activating the dust collection system for better performance. 
+    
+Integrated safety features, especially for large industrial dust collector systems, protect ductwork with gates by defaulting to always open state and never close all blast gates at any time. With dust collection timer delay and blast gate open cycle to clear ductwork, system will keep ductwork free of leftover dust.
+    
+Future expansion may include sensors for statistical analysis of negative pressure generated in the ductwork for preventative system maintenance and logging static pressure difference in the system.
+    
 This project is for anyone who wishes to have smart and compact system automation without breaking a penny bank and have infinite customization.
 
-The goal of this project is to completely automate machinery and/or outlets for machinery for the dust collection system to kick in and have the system flush the ducts to keep it in proper shape. To operate, simply turn on your table saw or edgebander, and the system automatically detects which blast gate to open and which to close for better performance. Once the machine is turned off system will automatically keep the dust collector on to clear the ductway of remaining dust with all open blast gates, and it will keep them open for safety reasons until the next signal. This delay also prevents rapid on and off of the duct collector to save the motor.
+The goal of this project is to completely automate machinery and/or outlets for machinery for the dust collection system to kick in . To operate, simply turn on your shop equipment, and the system automatically detects which blast gate to open and which to close for better performance. Once the shop equipment is turned off system will automatically keep the dust collector on to clear the ductway of remaining dust with all open blast gates, and it will keep them open for safety reasons by default. The dust collector off delay also prevents rapid on and off of the duct collector to save the motor.
 
 ## INTRODUCTION
 Industrial systems of such size are extremely cotsly and complicated. Small shop system are costly, very limiting in customization and work on other principal and not reliable.
