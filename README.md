@@ -1,7 +1,32 @@
-# Dust Fairy
+<h1 align="center">
+  <br>
+  <a href="#"><img src="/Dust-Fairy-min.png" alt="Dust Fairy logo by Aleksey Khoroshilov" width="444" title="Dust Fairy Logo by Aleksey Khoroshilov""></a>
+  <br>
+  Dust Fairy
+  <br>
+</h1>
 
-<p>Dust Fairy is an Arduino based Dust Collection system automation with Blast Gates coordination and auto on/off control.</p>
-<img src="/Dust-Fairy-min.png" align="right" alt="Dust Fairy logo by Aleksey Khoroshilov" width="500" title="Dust Fairy Logo by Aleksey Khoroshilov">
+<h4 align="center">Dust Fairy is an Arduino based Dust Collection system automation with Blast Gates coordination and auto on/off control.</h4>
+
+<p align="center">
+  <a href="https://saythanks.io/to/bullredeyes@gmail.com">
+      <img src="https://img.shields.io/badge/SayThanks.io-%E2%98%BC-1EAEDB.svg">
+  </a>
+  <a href="https://www.paypal.me/AmitMerchant">
+    <img src="https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&amp;style=flat">
+  </a>
+</p>
+
+<p align="center">
+  <a href="#abstract">Abstract</a> •
+  <a href="#introduction">Introduction</a> •
+  <a href="#idea">Idea</a> •
+  <a href="#build-components">Build Components</a> •
+  <a href="#build-process">Build Process</a> •
+  <a href="#results">Results</a> •
+  <a href="#future-improvements">Future Improvements</a> •
+  <a href="#license">License</a>
+</p>
 
 
 ## ABSTRACT
@@ -227,7 +252,9 @@ List of things to acquire:
 |18/8 wire|18/8 Brown Solid CU CL2 Thermostat Wire|10|$0.98|[Home Depot](https://www.homedepot.com/p/Southwire-250-ft-18-8-Brown-Solid-CU-CL2-Thermostat-Wire-65676944/202316421)|
 |16/3 wire|By-the-Foot 16/3 600-Volt CU Black Flexible Portable Power SOOW Cord|13|$1.07|[Home Depot](https://www.homedepot.com/p/Southwire-By-the-Foot-16-3-600-Volt-CU-Black-Flexible-Portable-Power-SOOW-Cord-55810099/204725139)|
 
+## LICENSE
 
+MIT
 
 
 
