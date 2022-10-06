@@ -10,9 +10,10 @@
 
 <div align="center">
   <h4>
-    <a href="https://github.com/aleksey00/dust-fairy"><img src="https://img.shields.io/github/stars/aleksey00/dust-fairy-AssistantConfig.svg?style=plasticr"/></a>
-    <a href="https://github.com/aleksey00/dust-fairy/commits/master"><img src="https://img.shields.io/github/last-commit/CCOSTAN/Home-AssistantConfig.svg?style=plasticr"/></a>
-        <a href="https://github.com/CCOSTAN/Home-AssistantConfig/commits/master"><img src="https://img.shields.io/github/commit-activity/y/CCOSTAN/Home-AssistantConfig.svg?style=plasticr"/></a>
+    <a href="https://github.com/aleksey00/dust-fairy"><img alt="stars" src="https://img.shields.io/github/stars/aleksey00/dust-fairy-AssistantConfig.svg?style=plasticr"/></a>
+    <a href="https://github.com/aleksey00/dust-fairy/commits/master"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/aleksey00/dust-fairy?style=plasticr"></a>
+        <a href="https://github.com/aleksey00/dust-fairy/commits/master"><img src="https://img.shields.io/github/commit-activity/y/CCOSTAN/Home-AssistantConfig.svg?style=plasticr"/></a>
+    <a href="#"><img alt="GitHub" src="https://img.shields.io/github/license/aleksey00/dust-fairy"></a>
 
   </h4>
 </div>
