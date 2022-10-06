@@ -162,21 +162,26 @@ Pneumatic pistons have higher reliability and, with pressure-limiting attachment
 For a full list of items [link](#list-of-items-used-in-this-project) 
 
 ## HOW IT WORKS
-System is composed of the Arduino MEGA that controls gates and main contactor via relays.
-Main unit has an Arduino with relays and sesor board for hall sensors + possibility to add negative air pressure sensors for dust collection duct work testing. As well as sensor for airpressure sytem if no air pressure detected contactrot will not engage preveting ductwork damage.
+System is composed of the Arduino MEGA that controls gates and main contactor via relays. Arduino collects information from pressure sensors of the main pipeworks and solenoid plate, temperature and humidity from main box temp sensor. High and low from OPTO-ISOLATORS connected to a 12v buttons and 24v solenoid in the Edgebander electronics. 
+Arduino controls set of OPTO-ISOLATED relays which in turn control air solenoids and 120v contactor, LED lights and 12v cooling fan for the electronics housing.
+
+Signal 
+
 Blast gates type auto:
 - air controlled. Relay controls solenoids for open and close gates eith pneumatic piston connected to air.
 - e-motor controlled. Relay controls stepmotor to open the gate or close appropriate gates.
-Blast gates type manal:
+Blast gates type manual:
 - blast gate that has a sensor for open or closed position. Once open manually it will start the dust collection system, with one safety gate always open in order to prevent system collapse one quickly closed.
 
 Safety measures programmed:
-- [ ] System should have a 1-2 seconds delay of main collector start in order for it to first open the blast gate and then work.
-- [x] System should have always open gates once off. 
-- [x] System should have one designated safety gate always open when manual gate is in use, once one manual and one auto gate is in use it can close safety gate. However once manual is closed and auto coincidently gets trigger to close should have a delay of 1 sec to close. However regular shit down procedure is more than enough.
+- [x] System has 10 seconds off delay of the dust collection system with all gates open.
+- [x] System has always open gates once off. 
+- [x] System has one designated safety gate always trigger open when manual button is activated without other equipment running.
+- [x] System will not open any additional gates if manual button is pressed while other equipments is running. 
+- [x] System has high air pressure sensor build in to monitor and display warning message with air pressure below programmed value. 
+
 - [ ] System should have negative air pressure sonsors build it for safety to open all gates once clogged and cycle trhough to clear the clog. 
-- [ ] System should have high air pressure sensor build in to prevent system turn on if no air pressure present. 
-- [ ] System should have sensors on blast gate for open close confirmation. (sensors could be sonic to meaure distance between flap and mount position. 
+- [ ] System should have sensors on blast gate for open close confirmation. (sensors could be sonic or metal detect). 
 
 ## BUILD PROCESS
 Pictures
