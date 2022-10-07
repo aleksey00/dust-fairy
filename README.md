@@ -24,11 +24,11 @@
       <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/y/aleksey00/dust-fairy?style=plasticr">
     </a>
     <!-- license -->
-    <a href="https://github.com/aleksey00/dust-fairy">
+    <a href="https://github.com/aleksey00/dust-fairy/blob/main/LICENSE">
       <img alt="license" src="https://img.shields.io/github/license/aleksey00/dust-fairy?style=plasticr">
     </a>
     <!-- PayPal donate -->
-    <a href="https://www.paypal.me/user">
+    <a href="https://www.paypal.me/mksenia">
     <img src="https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&amp;style=plasticr">
     </a>
   </h4>
