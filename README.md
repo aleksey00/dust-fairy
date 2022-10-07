@@ -20,7 +20,7 @@
       <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/aleksey00/dust-fairy?style=plasticr">
     </a>
     <!-- commit activity -->
-    <a href="https://github.com/aleksey00/dust-fairy/commits/master">
+    <a href="https://github.com/aleksey00/dust-fairy/graphs/commit-activity">
       <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/y/aleksey00/dust-fairy?style=plasticr">
     </a>
     <!-- license -->
