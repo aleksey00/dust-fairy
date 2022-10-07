@@ -19,9 +19,9 @@ const int gateE5Open = 45;                          // Endgebander 5" Gate Open 
 const int gateE5Close = 46;                         // Endgebander 5" Gate Close Solenoid
 const int gateTableSawOpen = 47;                    // Table Saw   5" Gate Open Solenoid
 const int gateTableSawClose = 44;                   // Table Saw   5" Gate Close Solenoid
-const int disabled = 42;                            // not used
-const int disabled2 = 49;                           // not used
-const int disabled3 = 51;                           // not used
+const int solenoid1 = 42;                           // solenoids with disconnected air
+const int solenoid2 = 49;                           // solenoids with disconnected air
+const int coolingFan = 51;                          // cooling fan for electonics box
 const int okStop = 52;                              // OK/STOP lights NO/NC
 const int vacuum = 53;                              // Dust-collector contactor ON/OFF solenoid
 
@@ -29,10 +29,6 @@ extern void analogPinsSetup();                      // Analog pins initializatio
 extern void digitalPinsSetup(int first, int last);  // Digital pins initialization OUTPUT 41 -53
 extern void digitalPinsInputSetup(bool serial);     // Digital pins initializaion INPUT (serial feedback on/off)
 extern void gateTest(int n, int val);               // Method used to activate gates with visual feedback to LCD
-
-/* for serial input USB control gates with laptop */
-extern void gates(int n, int inByte);               // E. 8 port  O[O ]
-extern void manualOverrride(int n, int inByte);     // 
 
 #endif
 

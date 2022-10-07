@@ -1,18 +1,18 @@
 #include "vacuum.h"
 
 // VacuumFunction
+const byte tableSawAuto = 35;                         // table saw opti pin
 const byte blueButton = 37;                           // blue button pin
-// int blueButtonState = 0;
+const byte edgebanderAuto = 39;                       // edgebander opti pin
+
 unsigned long preMillis = millis();
 unsigned long curMillis = 0;
-int buttonFlag = 0;
 
-const byte edgebanderAuto = 39;                       // edgebander opti pin
-const byte tableSawAuto = 35;                         // table saw opti pin
+int buttonFlag = 0;
 int passFlagTS, passFlagBB, passFlagEB, passFlagEBTS = 0;
 
 
-void vacOperate(int n, bool activate)         // activate dust collectot with info on LCD 1=on, 0=off
+void vacOperate(int n, bool activate)                 // activate dust collectot with info on LCD 1=on, 0=off
 {
   if (activate == 1) {
     lcd[n].setCursor(0,2);
@@ -48,10 +48,10 @@ void vacuumFunction(int n)
     unsigned long pressed = curMillis - preMillis;  // timer value
 
     vacOperate(1, 1);                               // Turn On Vacuum
-    humanTime(1, pressed, 3, "Runtime: ", 1);          // Display timer on
+    humanTime(1, pressed, 3, "Runtime: ", 1);       // Display timer on
 
 
-    if( digitalRead(blueButton) == LOW )       // blue button active only display info
+    if( digitalRead(blueButton) == LOW )            // blue button active only display info
     {    
       /* Manual override info LCD */
       lcd[n].setCursor(9,1);
@@ -62,53 +62,50 @@ void vacuumFunction(int n)
       */
       if ( passFlagBB == 0 && passFlagTS == 0 && passFlagEB == 0 )
       {
-        gateTest(1, 4);     // only opens Table Sae blast gate
-        passFlagBB++;       // to break the loop
+        gateTest(1, 4);                        // only opens Table Sae blast gate
+        passFlagBB++;                          // to break the loop
       }
     }
 
-    if( digitalRead(tableSawAuto) == LOW )      // table saw active
+    if( digitalRead(tableSawAuto) == LOW )     // table saw active
     {    
       if( passFlagTS == 0 )
       { 
-        gateTest(1, 2); // table saw
+        gateTest(1, 2);                        // table saw
         passFlagTS++;
       }
     }
 
-    if( digitalRead(edgebanderAuto) == LOW )    // edgebander active
+    if( digitalRead(edgebanderAuto) == LOW )   // edgebander active
     {    
       if( passFlagEB == 0 )
       { 
-        gateTest(1, 1); // edgebander
+        gateTest(1, 1);                        // edgebander
         passFlagEB++;
-        // passFlagTS = 0;
       }
     }
     
-    if( digitalRead(edgebanderAuto) == LOW && digitalRead(tableSawAuto) == LOW ) // table saw + edgebander active
+    /* table saw + edgebander active */
+    if( digitalRead(edgebanderAuto) == LOW && digitalRead(tableSawAuto) == LOW ) 
     {
       if( passFlagEBTS == 0 )
       { 
-        gateTest(1, 3);         // all open
+        gateTest(1, 3);                        // all open
         passFlagEBTS = 1;
       }
     }
-
-    // passFlagBB = 0;             // for blue button unsure if needed //
-
   }
 
-  if (passFlagEBTS == 1)
+  if ( passFlagEBTS == 1 )
   { 
-    if( digitalRead(edgebanderAuto) == HIGH)
+    if( digitalRead(edgebanderAuto) == HIGH )
     {
       passFlagEB = 0;
       passFlagEBTS = 0;
       passFlagTS = 0;
     }
 
-    if( digitalRead(tableSawAuto) == HIGH)
+    if( digitalRead(tableSawAuto) == HIGH )
     {
       passFlagTS = 0;
       passFlagEBTS = 0;
@@ -118,9 +115,9 @@ void vacuumFunction(int n)
 
   if ( (digitalRead(blueButton) == HIGH && digitalRead(edgebanderAuto) == HIGH && digitalRead(tableSawAuto) == HIGH) )
   {
-    if(buttonFlag == 1)
+    if( buttonFlag == 1 )
     {
-      vacOperate(1, 0);               // turn off dust collector
+      vacOperate(1, 0);                       // turn off dust collector
       buttonFlag = 0;
       lcd[n].setCursor(0,3);
       lcd[n].print("Last Run");
@@ -129,15 +126,8 @@ void vacuumFunction(int n)
       passFlagEB = 0;
       passFlagEBTS = 0;
 
-      gateTest(1,3);                  // all open
-      // passFlagBB++;
-      passFlagBB = 0;                 // blue button pass flag
-
-      // if(passFlagBB == 0) /// very quetionable but needed for gate to open after both machines turned on and off. 
-      // {
-      //   gateTest(1,3);                // all open
-      //   passFlagBB++;
-      // }
+      gateTest(1,3);                          // all open
+      passFlagBB = 0;                         // blue button pass flag
     }
   }
 
@@ -148,5 +138,4 @@ void vacuumFunction(int n)
       lcd[n].print("Manual ");
       lcd[n].print("  NO");
   }
-
 }

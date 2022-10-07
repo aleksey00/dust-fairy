@@ -61,7 +61,7 @@ void lcdSetup() {
 
 }
 
-void lcdClear(int n, int line) // needs work. once run lcdClearPass=0;
+void lcdClear(int n, int line)               // needs work. once run lcdClearPass=0;
 {
   lcd[n].setCursor(0, line);  
   if(lcdClearPass == 0)
@@ -75,7 +75,7 @@ void lcdClear(int n, int line) // needs work. once run lcdClearPass=0;
   }
 }
 
-void dashedLine(int n, int len) 
+void dashedLine(int n, int len)              // generate asterix line
 {
   int i;
   for (i = 0; i < len; i++) {
@@ -131,43 +131,6 @@ void warningMessage(int n, String text, float value)  // LCD, any text(1-20ch), 
   lcd[n].clear();
 
 }
-
-
-
-
-
-
-
-
-
-
-// void infoDisplay(float tempCAv, float tempFAv, float psi) {
-//   long display_time = millis();
-//   //DISPLAY 1
-//   //LINE 1
-//   tempDisplay(tempCAv, tempFAv);
-
-//   // while (millis() - display_time < 100) { //freezing up system
-//   //   asm("");
-//   // }
-
-//   //LINE 2
-//   // Time Run Display
-//   // lcd.setCursor(0, 1); // set the cursor to column 0, line 1
-//   // lcd.print("Time Run: ");
-//   // long timeRun = ((millis()/1000));
-//   // lcd.print(timeRun);
-
-  
-
-//   //LINE 3
-
-
-//   //LINE 4
-//   //Pressure Sensor Display
-  
-// }
-
 
 void lowTempCheck(float temp, int value) 
 {
@@ -240,6 +203,7 @@ void pressureDisplay(int n, String input, float psi, int line)
 /* 
   solenoidTest function activates given solenoid, bool isopen designed to show infographic on LCD, rest of LCD parameters inculde LCD#, row#, line# and passed text along with soelnoid 
 */
+
 void solenoidTest(int n, int row, int line, int solenoid, String text, bool isopen)  // LCD, row, line, solenoid, text, isopen
 {
   lcd[n].setCursor(row, line);        // row, line of lcd
