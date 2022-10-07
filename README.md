@@ -55,8 +55,9 @@
   <a href="#how-it-works">How It Works</a> •
   <a href="#build-process">Build Process</a> •
   <a href="#results">Results</a> •
-  <a href="#future-improvements">Future Improvements</a> •
-  <a href="#license">License</a>
+  <a href="#future-improvements">Future Improvements</a> 
+  <!-- •
+  <a href="#license">License</a> -->
 </p>
 
 
@@ -161,7 +162,10 @@ Pneumatic pistons have higher reliability and, with pressure-limiting attachment
 <br>
 </details>
 
-For a full list of items [link](#list-of-items-used-in-this-project) 
+<br>v1<br>
+For a full list of items [link](#list-of-items-used-in-this-project)
+<br>v2<br>
+For a full list of items [:page_facing_up:](#list-of-items-used-in-this-project) 
 
 :page_facing_up:
 
