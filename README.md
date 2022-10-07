@@ -51,7 +51,7 @@
   <a href="#abstract">Abstract</a> •
   <a href="#introduction">Introduction</a> •
   <a href="#idea">Idea</a> •
-  <a href="#build-components">Build Components</a> •
+  <a href="#build-components">Components</a> •
   <a href="#how-it-works">How It Works</a> •
   <a href="#build-process">Build Process</a> •
   <a href="#results">Results</a> •
