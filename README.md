@@ -63,18 +63,18 @@
 ## ABSTRACT 
 This system, with a few easy steps, will help achieve set-it-and-forget-it automation. Using just a few commonly found sensors, relays, and contactors with other easily swappable components that make up dust-fairy, the system will accommodate any size setup, from the smallest home-hobbyist garage setup to a large industrial system without breaking a buck.
 
-The idea is to use Arduino as the brain of the operation to detect the activation signal of particular equipment and keep the corresponding blast gate open while closing non-active blast gates simultaneously activating the dust collection system for better performance. 
-    
-Integrated safety features, especially for large industrial dust collector systems, protect ductwork with gates by defaulting to always open state and never close all blast gates at any time. With dust collection timer delay and blast gate open cycle to clear ductwork, system will keep ductwork free of leftover dust.
-    
-Future expansion may include sensors for statistical analysis of negative pressure generated in the ductwork and preventative system maintenance with logging static pressure difference in the system.
+The idea is to use Arduino as the brain of the operation to detect the activation signal of particular equipment and keep the corresponding blast gate open while closing non-active blast gates, simultaneously activating the dust collection system for better performance.
+
+Integrated safety features, especially for large industrial dust collector systems, protect ductwork with gates by defaulting to always-open-state and never closing all blast gates at any time. With a dust collection timer delay and blast gate open cycle to clear ductwork, the system will keep ductwork free of leftover dust.
+
+Future expansion may include sensors for statistical analysis of negative pressure generated in the ductwork and preventative system maintenance by logging static pressure differences in the system.
 
 ## INTRODUCTION
-Industrial systems of larger sizes are incredibly costly and complicated. Small shop systems are also expensive, very limiting in customization, and are not reliable. Arduino can help in the centralization and infinite customization of the project with readily available inexpensive components. 
+Industrial systems of larger sizes are incredibly costly and complicated. Small shop systems are also expensive, very limiting in customization, and are not reliable. Arduino can help in the centralization and infinite customization of the project with readily available inexpensive components.
 
 This project is for anyone who wishes to have smart and compact dust collection system automation with multiple workstations in the shop without breaking a penny bank and have virtually infinite customization with the code and option of future expansion.
 
-Project aims to completely automate machinery and/or outlets for machinery for the dust collection system to kick in. To operate, turn on your shop equipment, and the system automatically detects which blast gate to open and which to close for better performance. Once the shop equipment is turned off system will automatically keep the dust collector on to clear the ductway of remaining dust with all open blast gates, and it will keep them open for safety reasons by default. The dust collector off delay also prevents rapid on and off of the duct collector to prevent premature motor failure.
+The project aims to completely automate machinery and/or outlets for machinery for the dust collection system to kick in. To operate, turn on your shop equipment, and the system automatically detects which blast gate to open and which to close for better performance. Once the shop equipment is turned off system will automatically keep the dust collector on to clear the ductway of remaining dust with all open blast gates, and it will keep them open for safety reasons by default. The dust collector off delay also prevents rapid on and off of the duct collector to prevent premature motor failure.
 
 ## IDEA
 DIY inexpensive Arduino-based system controlling relays and solenoids to open and close pneumatic blast gates and turn on and off dust collection system via a contactor. The system should be housed neatly in one spot for easy access and troubleshooting. 
@@ -166,21 +166,20 @@ For a full list of items [link](#list-of-items-used-in-this-project)
 :page_facing_up:
 
 ## HOW IT WORKS
-System is composed of the Arduino MEGA that controls gates and main contactor via relays. Arduino collects information from pressure sensors of the main pipeworks and solenoid plate, temperature and humidity from main electronics box temp sensor. High and low from OPTO-ISOLATORS connected to a 12v buttons and 24v solenoid in the Edgebander electronics. 
-Arduino controls set of OPTO-ISOLATED relays which in turn control air solenoids and 120v contactor, LED lights and 12v cooling fan for the electronics housing.
+The system is composed of the Arduino MEGA that controls gates and the main contactor via relays. Arduino collects information from pressure sensors of the main pipeworks and solenoid plate, temperature, and humidity from the primary electronics box temp sensor. High and low from OPTO-ISOLATORS connected to 12v buttons and 24v solenoid in the Edgebander electronics. Arduino controls a set of OPTO-ISOLATED relays, which regulate air solenoids and 120v contactors, LED lights, and a 12v cooling fan for the electronics housing.
 
 Blast gates type auto:
-- air controlled. Relay controls solenoids for open and close gates via pneumatic piston connected to compressed air system
+- Air controlled. Relay controls solenoids for open and close gates via a pneumatic piston connected to a compressed air system
 
 Safety measures programmed:
-- [x] 10 seconds off delay of the dust collection system with all gates open.
-- [x] always open gates once off. 
-- [x] one designated safety gate always trigger open when manual button is activated without other equipment running.
-- [x] System will not open any additional gates if manual button is pressed while other equipments is running. 
-- [x] high air pressure sensor build in to monitor and display warning message with air pressure below programmed value. 
+- [x] Ten seconds off delay of the dust collection system with all gates open.
+- [x] Always open gates once off.
+- [x] One designated safety gate always triggers open when the manual button is activated without other equipment running.
+- [x] The system will not open any additional gates if the manual button is pressed while other pieces of equipment are running.
+- [x] High air pressure sensor built in to monitor and display warning message with air pressure below programmed value.
 
-- [ ] System should have negative air pressure sonsors build it for safety to open all gates once clogged and cycle trhough to clear the clog. 
-- [ ] System should have sensors on blast gate for open close confirmation. (could be sonic or metal detect). 
+- [ ] The system should have negative air pressure sensors built for safety to open all gates once clogged and cycle through to clear the clog.
+- [ ] The system should have sensors on the blast gate for open-close confirmation. (could be sonic or metal detect).
 
 ## BUILD PROCESS
 Pictures here UPLOADING...
