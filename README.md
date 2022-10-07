@@ -24,8 +24,11 @@
       <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/y/aleksey00/dust-fairy?style=plasticr">
     </a>
     <!-- license -->
-    <a href="https://github.com/aleksey00/dust-fairy/blob/main/LICENSE">
+    <!-- <a href="https://github.com/aleksey00/dust-fairy/blob/main/LICENSE">
       <img alt="GitHub" src="https://img.shields.io/github/license/aleksey00/dust-fairy?style=plasticr">
+    </a> -->
+    <a href="https://opensource.org/license/MIT">
+    <img alt="GitHub MIT license" src="https://img.shields.io/badge/license-MIT-green.svg">
     </a>
     <!-- PayPal donate -->
     <a href="https://www.paypal.me/alekseyx">
@@ -34,6 +37,7 @@
   </h4>
 </div>
 
+<!-- [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT) -->
 
 <!-- <p align="center">
   <a href="https://saythanks.io/to/bullredeyes@gmail.com">
