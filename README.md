@@ -25,11 +25,11 @@
     </a>
     <!-- license -->
     <a href="https://github.com/aleksey00/dust-fairy/blob/main/LICENSE">
-      <img alt="license" src="https://img.shields.io/github/license/aleksey00/dust-fairy?style=plasticr">
+      <img alt="GitHub" src="https://img.shields.io/github/license/aleksey00/dust-fairy?label=license">
     </a>
     <!-- PayPal donate -->
     <a href="https://www.paypal.me/alekseyx">
-    <img src="https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&amp;style=plasticr">
+      <img src="https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&amp;style=plasticr">
     </a>
   </h4>
 </div>
