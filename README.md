@@ -13,23 +13,23 @@
   <h4>
   <!-- stars -->
     <a href="https://github.com/aleksey00/dust-fairy">
-      <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/aleksey00/dust-fairy">
+      <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/aleksey00/dust-fairy?style=plasticr">
     </a>
     <!-- last commit -->
     <a href="https://github.com/aleksey00/dust-fairy/commits/master">
-      <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/aleksey00/dust-fairy">
+      <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/aleksey00/dust-fairy?style=plasticr">
     </a>
     <!-- commit activity -->
     <a href="https://github.com/aleksey00/dust-fairy/commits/master">
-      <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/y/aleksey00/dust-fairy">
+      <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/y/aleksey00/dust-fairy?style=plasticr">
     </a>
     <!-- license -->
     <a href="https://github.com/aleksey00/dust-fairy">
-      <img alt="license" src="https://img.shields.io/github/license/aleksey00/dust-fairy">
+      <img alt="license" src="https://img.shields.io/github/license/aleksey00/dust-fairy?style=plasticr">
     </a>
     <!-- PayPal donate -->
     <a href="https://www.paypal.me/user">
-    <img src="https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&amp;style=flat">
+    <img src="https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&amp;style=plasticr">
     </a>
   </h4>
 </div>
@@ -210,7 +210,7 @@ Working video and gifs here UPLOADING...
 [MIT](https://github.com/aleksey00/dust-fairy/blob/feature-cleanup/LICENSE)
 
 <a href="https://github.com/aleksey00/dust-fairy/blob/feature-cleanup/LICENSE">
-  <img alt="GitHub" src="https://img.shields.io/github/license/aleksey00/dust-fairy">
+<img alt="GitHub" src="https://img.shields.io/github/license/aleksey00/dust-fairy?style=plasticr">
 </a>
 
 <br>
