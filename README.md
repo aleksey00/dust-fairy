@@ -27,7 +27,7 @@
     <!-- <a href="https://github.com/aleksey00/dust-fairy/blob/main/LICENSE">
       <img alt="GitHub" src="https://img.shields.io/github/license/aleksey00/dust-fairy?style=plasticr">
     </a> -->
-    <a href="https://opensource.org/license/MIT">
+    <a href="https://github.com/aleksey00/dust-fairy/blob/main/LICENSE">
     <img alt="GitHub MIT license" src="https://img.shields.io/badge/license-MIT-green.svg">
     </a>
     <!-- PayPal donate -->
