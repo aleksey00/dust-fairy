@@ -16,20 +16,20 @@
       <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/aleksey00/dust-fairy?style=plasticr">
     </a>
     <!-- last commit -->
-    <a href="https://github.com/aleksey00/dust-fairy/commits/master">
+    <a href="https://github.com/aleksey00/dust-fairy/pulse/monthly">
       <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/aleksey00/dust-fairy?style=plasticr">
     </a>
     <!-- commit activity -->
-    <a href="https://github.com/aleksey00/dust-fairy/commits/master">
+    <a href="https://github.com/aleksey00/dust-fairy/graphs/commit-activity">
       <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/y/aleksey00/dust-fairy?style=plasticr">
     </a>
     <!-- license -->
     <a href="https://github.com/aleksey00/dust-fairy/blob/main/LICENSE">
-      <img alt="license" src="https://img.shields.io/github/license/aleksey00/dust-fairy?style=plasticr">
+      <img alt="GitHub" src="https://img.shields.io/github/license/aleksey00/dust-fairy?style=plasticr">
     </a>
     <!-- PayPal donate -->
     <a href="https://www.paypal.me/alekseyx">
-    <img src="https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&amp;style=plasticr">
+      <img src="https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&amp;style=plasticr">
     </a>
   </h4>
 </div>
