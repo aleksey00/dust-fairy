@@ -16,7 +16,7 @@
       <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/aleksey00/dust-fairy?style=plasticr">
     </a>
     <!-- last commit -->
-    <a href="https://github.com/aleksey00/dust-fairy/commits/master">
+    <a href="https://github.com/aleksey00/dust-fairy/pulse/monthly">
       <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/aleksey00/dust-fairy?style=plasticr">
     </a>
     <!-- commit activity -->
