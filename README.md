@@ -13,7 +13,7 @@
   <h4>
   <!-- stars -->
     <a href="https://github.com/aleksey00/dust-fairy">
-      <img alt="Stars" src="https://img.shields.io/github/stars/aleksey00/dust-fairy-AssistantConfig.svg"/>
+      <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/aleksey00/dust-fairy">
     </a>
     <!-- last commit -->
     <a href="https://github.com/aleksey00/dust-fairy/commits/master">
