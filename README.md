@@ -179,9 +179,9 @@ Safety measures programmed:
 - [ ] System should have sensors on blast gate for open close confirmation. (could be sonic or metal detect). 
 
 ## BUILD PROCESS
-Pictures here
+Pictures here UPLOADING...
 ## RESULTS
-Working video and gifs here
+Working video and gifs here UPLOADING...
 ## FUTURE IMPROVEMENTS
 
 
