@@ -25,7 +25,7 @@
     </a>
     <!-- license -->
     <a href="https://github.com/aleksey00/dust-fairy/blob/main/LICENSE">
-      <img alt="GitHub" src="https://img.shields.io/github/license/aleksey00/dust-fairy?label=license">
+      <img alt="GitHub" src="https://img.shields.io/github/license/aleksey00/dust-fairy?style=plasticr">
     </a>
     <!-- PayPal donate -->
     <a href="https://www.paypal.me/alekseyx">
