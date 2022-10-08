@@ -192,16 +192,16 @@ Safety measures programmed:
 ## BUILD PROCESS
 Pictures here UPLOADING...
 
-Fine-tune adjustment for smooth operation of 8" blast gate
+Fine-tune adjustment for smooth operation of 8" blast gate<br>
 ![gif](./media/blast_gate_operation.gif)
 
-Power supply wiring in
+Power supply wiring in<br>
 ![gif](./media/psu_wiring.gif)
 
-Box wiring in with 18/10 wire
+Box wiring in with 18/10 wire<br>
 ![gif](./media/box_wiring.gif)
 
-Relays wiring, code test
+Relays wiring, code test<br>
 ![gif]()
 
 Blast gates assembly:
