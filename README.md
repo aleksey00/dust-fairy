@@ -191,6 +191,10 @@ Safety measures programmed:
 
 ## BUILD PROCESS
 Pictures here UPLOADING...
+
+Fine-tune adjustment for smooth operation of 8" blast gate
+![gif](./media/blast_gate_operation.gif)
+
 ## RESULTS
 Working video and gifs here UPLOADING...
 ## FUTURE IMPROVEMENTS
