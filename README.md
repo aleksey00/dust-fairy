@@ -195,6 +195,22 @@ Pictures here UPLOADING...
 Fine-tune adjustment for smooth operation of 8" blast gate
 ![gif](./media/blast_gate_operation.gif)
 
+Power supply wiring in
+![gif](./media/psu_wiring.gif)
+
+Box wiring in with 18/10 wire
+![gif](./media/box_wiring.gif)
+
+Relays wiring, code test
+![gif]()
+
+Blast gates assembly:
+![img]()
+![img]()
+![img]()
+
+
+
 ## RESULTS
 Working video and gifs here UPLOADING...
 ## FUTURE IMPROVEMENTS
