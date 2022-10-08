@@ -215,10 +215,10 @@ Relays wiring, code test<br>
 
 Blast gates assembly:<br>
 <div width="600">
-<img src="./media/IMG_7675.jpg" width="300">
-<img src="./media/box_wirig.gif">
+  <img src="./media/IMG_7675.jpg" width="300">
+  <img src="./media/relay_testrun.gif" width="300">
 </div>
-<!-- ![img](./media/IMG_7675.jpg) -->
+
 ![img]()
 ![img]()
 
