@@ -213,9 +213,13 @@ Box wiring in with 18/10 wire<br>
 Relays wiring, code test<br>
 ![gif](./media/relays_codetest.gif)<br>
 
-Blast gates assembly:
-![img](./media/IMG_7675.jpg)
-![img](./media/IMG_7717.HEIC)
+Blast gates assembly:<br>
+<div width="600">
+<img src="./media/IMG_7675.jpg" width="300">
+<img src="./media/box_wirig.gif">
+</div>
+<!-- ![img](./media/IMG_7675.jpg) -->
+![img]()
 ![img]()
 
 Fine-tune adjustment for smooth operation of 8" blast gate<br>
