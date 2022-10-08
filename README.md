@@ -202,7 +202,8 @@ Box wiring in with 18/10 wire<br>
 ![gif](./media/box_wiring.gif)
 
 Relays wiring, code test<br>
-![gif]()
+![gif]()<br>
+<img alt="Bow wiring in" src="./media/box_wiring.gif">
 
 Blast gates assembly:
 ![img]()
