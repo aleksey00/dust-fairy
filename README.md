@@ -192,8 +192,17 @@ Safety measures programmed:
 ## BUILD PROCESS
 Pictures here UPLOADING...
 
-Fine-tune adjustment for smooth operation of 8" blast gate<br>
-![gif](./media/blast_gate_operation.gif)
+Junction box came with some challenges. Since it is airtight, it arrived with plastic panels concaved. It was impossible to open without first drilling a hole in it. Then it took some time heating the panels and straighten them out.
+
+With DIN rails arranged it was easy to place and organize components. I used 18/10 wire to color code different voltage power supplies. Wire is a solid cooper and easy to shape. However I wish I had bigger size box to separate each layer with plastic cable organizer. My setup worked for me well. 
+
+Power supply color coded as follows:
+|Color|Voltage|Ground|
+|:-|:-:|:-|
+|Orange|24 v|common|
+|Brown|12 v|common|
+|Yellow|12 v|isolated|
+|White| 5 v|common|
 
 Power supply wiring in<br>
 ![gif](./media/psu_wiring.gif)
@@ -205,10 +214,12 @@ Relays wiring, code test<br>
 ![gif](./media/relays_codetest.gif)<br>
 
 Blast gates assembly:
-![img]()
-![img]()
+![img](./media/IMG_7675.jpg)
+![img](./media/IMG_7717.HEIC)
 ![img]()
 
+Fine-tune adjustment for smooth operation of 8" blast gate<br>
+![gif](./media/blast_gate_operation.gif)
 
 
 ## RESULTS
