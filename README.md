@@ -24,8 +24,11 @@
       <img alt="GitHub commit activity" src="https://img.shields.io/github/commit-activity/y/aleksey00/dust-fairy?style=plasticr">
     </a>
     <!-- license -->
-    <a href="https://github.com/aleksey00/dust-fairy/blob/main/LICENSE">
+    <!-- <a href="https://github.com/aleksey00/dust-fairy/blob/main/LICENSE">
       <img alt="GitHub" src="https://img.shields.io/github/license/aleksey00/dust-fairy?style=plasticr">
+    </a> -->
+    <a href="https://github.com/aleksey00/dust-fairy/blob/main/LICENSE">
+    <img alt="GitHub MIT license" src="https://img.shields.io/badge/license-MIT-green.svg">
     </a>
     <!-- PayPal donate -->
     <a href="https://www.paypal.me/alekseyx">
@@ -34,6 +37,7 @@
   </h4>
 </div>
 
+<!-- [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT) -->
 
 <!-- <p align="center">
   <a href="https://saythanks.io/to/bullredeyes@gmail.com">
@@ -162,14 +166,24 @@ Pneumatic pistons have higher reliability and, with pressure-limiting attachment
 <br>
 </details>
 
-<br>v1<br>
+<br>
+
+<!-- <br>v1<br>
 For a full list of items [link](#list-of-items-used-in-this-project)
 <br>v2<br>
 For a full list of items [:page_facing_up:](#list-of-items-used-in-this-project) 
 
-:page_facing_up:
+:page_facing_up: -->
 
 ## HOW IT WORKS
+
+<div>
+
+[![forthebadge](https://forthebadge.com/images/badges/made-with-c-plus-plus.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/powered-by-electricity.svg)](https://forthebadge.com)
+</div>
+
 The system is composed of the Arduino MEGA that controls gates and the main contactor via relays. Arduino collects information from pressure sensors of the main pipeworks and solenoid plate, temperature, and humidity from the primary electronics box temp sensor. High and low from OPTO-ISOLATORS connected to 12v buttons and 24v solenoid in the Edgebander electronics. Arduino controls a set of OPTO-ISOLATED relays, which regulate air solenoids and 120v contactors, LED lights, and a 12v cooling fan for the electronics housing.
 
 Blast gates type auto:
@@ -186,7 +200,45 @@ Safety measures programmed:
 - [ ] The system should have sensors on the blast gate for open-close confirmation. (could be sonic or metal detect).
 
 ## BUILD PROCESS
-Pictures here UPLOADING...
+<!-- Pictures here UPLOADING... -->
+[![forthebadge](https://forthebadge.com/images/badges/reading-6th-grade-level.svg)](https://forthebadge.com)
+
+Junction box came with some challenges. Since it is airtight, it arrived with plastic panels concaved. It was impossible to open without first drilling a hole in it. Then it took some time heating the panels and straighten them out.
+
+With DIN rails arranged it was easy to place and organize components. I used 18/10 wire to color code different voltage power supplies. Wire is a solid cooper and easy to shape. However I wish I had bigger size box to separate each layer with plastic cable organizer. My setup worked for me well. 
+
+Power supply color coded as follows:
+|Color|Voltage|Ground|
+|:-|:-:|:-|
+|Orange|24 v|common|
+|Brown|12 v|common|
+|Yellow|12 v|isolated|
+|White| 5 v|common|
+
+Power supply wiring in<br>
+![gif](./media/psu_wiring.gif)
+
+Box wiring in with 18/10 wire<br>
+![gif](./media/box_wiring.gif)
+
+Relays wiring, code test<br>
+![gif](./media/relays_codetest.gif)<br>
+
+Blast gates assembly:<br>
+<div>
+  <img src="./media/IMG_7675.jpg" width="300">
+  <img src="./media/relay_testrun.gif" width="300">
+</div>
+
+<!-- ![img]()
+![img]() -->
+
+<br>Blast Gate Assembly<br>
+
+Fine-tune adjustment for smooth operation of 8" blast gate<br>
+![gif](./media/blast_gate_operation.gif)
+
+
 ## RESULTS
 Working video and gifs here UPLOADING...
 ## FUTURE IMPROVEMENTS
@@ -211,14 +263,16 @@ Working video and gifs here UPLOADING...
 
 ## LICENSE
 
-[MIT](https://github.com/aleksey00/dust-fairy/blob/feature-cleanup/LICENSE)
-
-<a href="https://github.com/aleksey00/dust-fairy/blob/feature-cleanup/LICENSE">
+<!-- [MIT](https://github.com/aleksey00/dust-fairy/blob/feature-cleanup/LICENSE) -->
+<br>
+<div align="center"><a href="https://github.com/aleksey00/dust-fairy/blob/feature-cleanup/LICENSE">
 <img alt="GitHub" src="https://img.shields.io/github/license/aleksey00/dust-fairy?style=plasticr">
-</a>
+</a></div>
 
-<br><br>
-    
+<br>
+
+<hr>
+
 [![forthebadge](https://forthebadge.com/images/badges/made-with-c-plus-plus.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/powered-by-electricity.svg)](https://forthebadge.com)
@@ -226,11 +280,12 @@ Working video and gifs here UPLOADING...
 [![forthebadge](https://forthebadge.com/images/badges/contains-17-coffee-cups.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/designed-in-ms-paint.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/reading-6th-grade-level.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/works-on-my-machine.svg)](https://forthebadge.com)
+<!-- [![forthebadge](https://forthebadge.com/images/badges/works-on-my-machine.svg)](https://forthebadge.com) -->
+
 <!-- [![forthebadge](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNDEuNDEiIGhlaWdodD0iMzUiIHZpZXdCb3g9IjAgMCAxNDEuNDEgMzUiPjxyZWN0IGNsYXNzPSJzdmdfX3JlY3QiIHg9IjAiIHk9IjAiIHdpZHRoPSI2NS42OCIgaGVpZ2h0PSIzNSIgZmlsbD0iIzMxQzRGMyIvPjxyZWN0IGNsYXNzPSJzdmdfX3JlY3QiIHg9IjYzLjY4IiB5PSIwIiB3aWR0aD0iNzcuNzI5OTk5OTk5OTk5OTkiIGhlaWdodD0iMzUiIGZpbGw9IiMzODlBRDUiLz48cGF0aCBjbGFzcz0ic3ZnX190ZXh0IiBkPSJNMTYuNjcgMjJMMTQuMjIgMjJMMTQuMjIgMTMuNDdMMTYuNzQgMTMuNDdRMTcuODcgMTMuNDcgMTguNzQgMTMuOTdRMTkuNjIgMTQuNDggMjAuMTAgMTUuNDBRMjAuNTggMTYuMzMgMjAuNTggMTcuNTJMMjAuNTggMTcuNTJMMjAuNTggMTcuOTVRMjAuNTggMTkuMTYgMjAuMTAgMjAuMDhRMTkuNjEgMjEuMDAgMTguNzIgMjEuNTBRMTcuODMgMjIgMTYuNjcgMjJMMTYuNjcgMjJaTTE1LjcwIDE0LjY2TDE1LjcwIDIwLjgyTDE2LjY3IDIwLjgyUTE3LjgzIDIwLjgyIDE4LjQ2IDIwLjA5UTE5LjA4IDE5LjM2IDE5LjA5IDE3Ljk5TDE5LjA5IDE3Ljk5TDE5LjA5IDE3LjUyUTE5LjA5IDE2LjEzIDE4LjQ5IDE1LjQwUTE3Ljg5IDE0LjY2IDE2Ljc0IDE0LjY2TDE2Ljc0IDE0LjY2TDE1LjcwIDE0LjY2Wk0yNC45MSAxOS4xNkwyNC45MSAxOS4xNkwyNC45MSAxMy40N0wyNi4zOSAxMy40N0wyNi4zOSAxOS4xOFEyNi4zOSAyMC4wMyAyNi44MiAyMC40OFEyNy4yNSAyMC45MyAyOC4xMCAyMC45M0wyOC4xMCAyMC45M1EyOS44MSAyMC45MyAyOS44MSAxOS4xM0wyOS44MSAxOS4xM0wyOS44MSAxMy40N0wzMS4yOSAxMy40N0wzMS4yOSAxOS4xN1EzMS4yOSAyMC41MyAzMC40MiAyMS4zMlEyOS41NSAyMi4xMiAyOC4xMCAyMi4xMkwyOC4xMCAyMi4xMlEyNi42MyAyMi4xMiAyNS43NyAyMS4zM1EyNC45MSAyMC41NSAyNC45MSAxOS4xNlpNMzUuNDIgMTkuNDJMMzUuNDIgMTkuNDJMMzYuOTAgMTkuNDJRMzYuOTAgMjAuMTUgMzcuMzkgMjAuNTVRMzcuODcgMjAuOTUgMzguNzYgMjAuOTVMMzguNzYgMjAuOTVRMzkuNTQgMjAuOTUgMzkuOTMgMjAuNjNRNDAuMzEgMjAuMzIgNDAuMzEgMTkuODBMNDAuMzEgMTkuODBRNDAuMzEgMTkuMjQgMzkuOTIgMTguOTRRMzkuNTIgMTguNjMgMzguNDkgMTguMzJRMzcuNDYgMTguMDEgMzYuODUgMTcuNjNMMzYuODUgMTcuNjNRMzUuNjkgMTYuOTAgMzUuNjkgMTUuNzJMMzUuNjkgMTUuNzJRMzUuNjkgMTQuNjkgMzYuNTMgMTQuMDJRMzcuMzcgMTMuMzUgMzguNzEgMTMuMzVMMzguNzEgMTMuMzVRMzkuNjAgMTMuMzUgNDAuMzAgMTMuNjhRNDAuOTkgMTQuMDEgNDEuMzkgMTQuNjFRNDEuNzkgMTUuMjIgNDEuNzkgMTUuOTZMNDEuNzkgMTUuOTZMNDAuMzEgMTUuOTZRNDAuMzEgMTUuMjkgMzkuOTAgMTQuOTFRMzkuNDggMTQuNTQgMzguNzAgMTQuNTRMMzguNzAgMTQuNTRRMzcuOTcgMTQuNTQgMzcuNTcgMTQuODVRMzcuMTcgMTUuMTYgMzcuMTcgMTUuNzFMMzcuMTcgMTUuNzFRMzcuMTcgMTYuMTggMzcuNjAgMTYuNTBRMzguMDQgMTYuODEgMzkuMDMgMTcuMTBRNDAuMDMgMTcuNDAgNDAuNjMgMTcuNzhRNDEuMjMgMTguMTYgNDEuNTIgMTguNjVRNDEuODAgMTkuMTMgNDEuODAgMTkuNzlMNDEuODAgMTkuNzlRNDEuODAgMjAuODYgNDAuOTggMjEuNDlRNDAuMTYgMjIuMTIgMzguNzYgMjIuMTJMMzguNzYgMjIuMTJRMzcuODQgMjIuMTIgMzcuMDYgMjEuNzdRMzYuMjggMjEuNDMgMzUuODUgMjAuODNRMzUuNDIgMjAuMjIgMzUuNDIgMTkuNDJaTTQ3Ljc3IDE0LjY2TDQ1LjEzIDE0LjY2TDQ1LjEzIDEzLjQ3TDUxLjkwIDEzLjQ3TDUxLjkwIDE0LjY2TDQ5LjI0IDE0LjY2TDQ5LjI0IDIyTDQ3Ljc3IDIyTDQ3Ljc3IDE0LjY2WiIgZmlsbD0iI0ZGRkZGRiIvPjxwYXRoIGNsYXNzPSJzdmdfX3RleHQiIGQ9Ik04MC4yNSAyMkw3Ny44NyAyMkw3Ny44NyAxMy42MEw4NC40NiAxMy42MEw4NC40NiAxNS40NEw4MC4yNSAxNS40NEw4MC4yNSAxNy4yOEw4My45NiAxNy4yOEw4My45NiAxOS4xMkw4MC4yNSAxOS4xMkw4MC4yNSAyMlpNOTAuNDcgMjJMODguMDUgMjJMOTEuNzUgMTMuNjBMOTQuMTAgMTMuNjBMOTcuODEgMjJMOTUuMzUgMjJMOTQuNjggMjAuMzdMOTEuMTMgMjAuMzdMOTAuNDcgMjJaTTkyLjkxIDE1LjkzTDkxLjgyIDE4LjYxTDkzLjk5IDE4LjYxTDkyLjkxIDE1LjkzWk0xMDQuMzUgMjJMMTAxLjk3IDIyTDEwMS45NyAxMy42MEwxMDQuMzUgMTMuNjBMMTA0LjM1IDIyWk0xMTEuOTAgMjJMMTA5LjUyIDIyTDEwOS41MiAxMy42MEwxMTMuMzYgMTMuNjBRMTE0LjUxIDEzLjYwIDExNS4zNCAxMy45OFExMTYuMTggMTQuMzUgMTE2LjY0IDE1LjA2UTExNy4xMCAxNS43NiAxMTcuMTAgMTYuNzFMMTE3LjEwIDE2LjcxUTExNy4xMCAxNy42MiAxMTYuNjcgMTguMzBRMTE2LjI0IDE4Ljk4IDExNS40NSAxOS4zNkwxMTUuNDUgMTkuMzZMMTE3LjI2IDIyTDExNC43MiAyMkwxMTMuMTkgMTkuNzdMMTExLjkwIDE5Ljc3TDExMS45MCAyMlpNMTExLjkwIDE1LjQ3TDExMS45MCAxNy45M0wxMTMuMjIgMTcuOTNRMTEzLjk1IDE3LjkzIDExNC4zMiAxNy42MVExMTQuNjkgMTcuMjkgMTE0LjY5IDE2LjcxTDExNC42OSAxNi43MVExMTQuNjkgMTYuMTIgMTE0LjMyIDE1Ljc5UTExMy45NSAxNS40NyAxMTMuMjIgMTUuNDdMMTEzLjIyIDE1LjQ3TDExMS45MCAxNS40N1pNMTI0LjAxIDE4Ljk1TDEyMC44MSAxMy42MEwxMjMuMzEgMTMuNjBMMTI1LjMxIDE2Ljk0TDEyNy4zMCAxMy42MEwxMjkuNjAgMTMuNjBMMTI2LjM4IDE4Ljk5TDEyNi4zOCAyMkwxMjQuMDEgMjJMMTI0LjAxIDE4Ljk1WiIgZmlsbD0iI0ZGRkZGRiIgeD0iNzYuNjgiLz48L3N2Zz4=)](https://forthebadge.com) -->
 
 
-JUNK
+<!-- JUNK
 
 ## EDITING
 
@@ -371,4 +426,4 @@ List of things to acquire:
 |   	|   	|   	|   	|[Amazon]()|
 |   	|   	|   	|   	|[Amazon]()|
 |18/8 wire|18/8 Brown Solid CU CL2 Thermostat Wire|10|$0.98|[Home Depot](https://www.homedepot.com/p/Southwire-250-ft-18-8-Brown-Solid-CU-CL2-Thermostat-Wire-65676944/202316421)|
-|16/3 wire|By-the-Foot 16/3 600-Volt CU Black Flexible Portable Power SOOW Cord|13|$1.07|[Home Depot](https://www.homedepot.com/p/Southwire-By-the-Foot-16-3-600-Volt-CU-Black-Flexible-Portable-Power-SOOW-Cord-55810099/204725139)|
+|16/3 wire|By-the-Foot 16/3 600-Volt CU Black Flexible Portable Power SOOW Cord|13|$1.07|[Home Depot](https://www.homedepot.com/p/Southwire-By-the-Foot-16-3-600-Volt-CU-Black-Flexible-Portable-Power-SOOW-Cord-55810099/204725139)| -->
