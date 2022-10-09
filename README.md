@@ -201,6 +201,7 @@ Safety measures programmed:
 
 ## BUILD PROCESS
 <!-- Pictures here UPLOADING... -->
+[![forthebadge](https://forthebadge.com/images/badges/reading-6th-grade-level.svg)](https://forthebadge.com)
 
 Junction box came with some challenges. Since it is airtight, it arrived with plastic panels concaved. It was impossible to open without first drilling a hole in it. Then it took some time heating the panels and straighten them out.
 
