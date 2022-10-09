@@ -182,7 +182,6 @@ For a full list of items [:page_facing_up:](#list-of-items-used-in-this-project)
 [![forthebadge](https://forthebadge.com/images/badges/made-with-c-plus-plus.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/powered-by-electricity.svg)](https://forthebadge.com)
-<hr>
 </div>
 
 The system is composed of the Arduino MEGA that controls gates and the main contactor via relays. Arduino collects information from pressure sensors of the main pipeworks and solenoid plate, temperature, and humidity from the primary electronics box temp sensor. High and low from OPTO-ISOLATORS connected to 12v buttons and 24v solenoid in the Edgebander electronics. Arduino controls a set of OPTO-ISOLATED relays, which regulate air solenoids and 120v contactors, LED lights, and a 12v cooling fan for the electronics housing.
@@ -201,7 +200,7 @@ Safety measures programmed:
 - [ ] The system should have sensors on the blast gate for open-close confirmation. (could be sonic or metal detect).
 
 ## BUILD PROCESS
-Pictures here UPLOADING...
+<!-- Pictures here UPLOADING... -->
 
 Junction box came with some challenges. Since it is airtight, it arrived with plastic panels concaved. It was impossible to open without first drilling a hole in it. Then it took some time heating the panels and straighten them out.
 
@@ -225,7 +224,7 @@ Relays wiring, code test<br>
 ![gif](./media/relays_codetest.gif)<br>
 
 Blast gates assembly:<br>
-<div width="600">
+<div>
   <img src="./media/IMG_7675.jpg" width="300">
   <img src="./media/relay_testrun.gif" width="300">
 </div>
@@ -233,7 +232,7 @@ Blast gates assembly:<br>
 <!-- ![img]()
 ![img]() -->
 
-<br>
+<br>Blast Gate Assembly<br>
 
 Fine-tune adjustment for smooth operation of 8" blast gate<br>
 ![gif](./media/blast_gate_operation.gif)
