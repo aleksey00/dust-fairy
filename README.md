@@ -179,7 +179,7 @@ For a full list of items [:page_facing_up:](#list-of-items-used-in-this-project)
 
 <div>
 
-[![forthebadge](https://forthebadge.com/images/badges/made-with-c-plus-plus.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/made-with-c-plus-plus.svg)](https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif)
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://media.giphy.com/media/3oKIPnAiaMCws8nOsE/giphy.gif)
 [![forthebadge](https://forthebadge.com/images/badges/powered-by-electricity.svg)](https://media.giphy.com/media/CkYl1qlzkxPRbklfXx/giphy.gif)
 </div>
