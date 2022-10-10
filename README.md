@@ -232,6 +232,10 @@ Blast gates assembly:<br>
 LCD and temp sensor wiring in<br>
 ![gif](./media/LCD_wiring.gif)
 
+Measurement<br>
+![gif]()
+
+
 <!-- ![img]()
 ![img]() -->
 
