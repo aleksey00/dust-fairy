@@ -66,7 +66,7 @@
 
 
 ## ABSTRACT 
-This system, with a few easy steps, will help achieve set-it-and-forget-it automation. Using just a few commonly found sensors, relays, and contactors with other easily swappable components that make up dust-fairy, the system will accommodate any size setup, from the smallest home-hobbyist garage setup to a large industrial system without breaking a buck.
+Multifunctional system design to help achieve set-it-and-forget-it automation. Using just a few commonly found sensors, relays, and contactors with other easily swappable components that make up dust-fairy, the system will accommodate any size setup, from the smallest home-hobbyist garage setup to a large industrial system without breaking a buck.
 
 <!-- The idea is to use Arduino as the brain of the operation to detect the activation signal of particular equipment and keep the corresponding blast gate open while closing non-active blast gates, simultaneously activating the dust collection system for better performance.
 
@@ -98,7 +98,6 @@ Pneumatic pistons have higher reliability and, with pressure-limiting attachment
   - OPTO-Isolators
   - Push-in Buttons with LED's
   - LCD Displays
-  
 - Sensors
   - pressure sensors
   - temperature sensor
@@ -121,7 +120,7 @@ Pneumatic pistons have higher reliability and, with pressure-limiting attachment
 </details>
 
 
-<details><summary>Comprehensive list with prices</summary>
+<details><summary>Comprehensive list with items used in this project including prices</summary>
 <br>
 
 |Description|Item|Qty|Price|Link|
@@ -230,6 +229,9 @@ Blast gates assembly:<br>
   <img src="./media/relay_testrun.gif" width="300">
 </div>
 
+LCD and temp sensor wiring in
+![gif](./media/LCD_wiring.gif)
+
 <!-- ![img]()
 ![img]() -->
 
@@ -241,6 +243,8 @@ Fine-tune adjustment for smooth operation of 8" blast gate<br>
 
 ## RESULTS
 Working video and gifs here UPLOADING...
+
+
 ## FUTURE IMPROVEMENTS
 
 
@@ -251,7 +255,7 @@ Working video and gifs here UPLOADING...
 |||
 <br>
 
-*VS*
+<!-- *VS*
 <br>
 <br>
 * System Advantages
@@ -259,7 +263,7 @@ Working video and gifs here UPLOADING...
   * Arduino Mega is very robust and customizeable
 * System Limitations
   * Air supply line extension
-  * No WiFi or Bluetooth connectivity, require additional module
+  * No WiFi or Bluetooth connectivity, require additional module -->
 
 ## LICENSE
 
