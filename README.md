@@ -201,7 +201,7 @@ Safety measures programmed:
 
 ## BUILD PROCESS
 <!-- Pictures here UPLOADING... -->
-[![forthebadge](https://forthebadge.com/images/badges/reading-6th-grade-level.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/reading-6th-grade-level.svg)](https://media.giphy.com/media/I1U9DTjCqOF3i/giphy.gif)
 
 Junction box came with some challenges. Since it is airtight, it arrived with plastic panels concaved. It was impossible to open without first drilling a hole in it. Then it took some time heating the panels and straighten them out.
 
@@ -273,10 +273,10 @@ Working video and gifs here UPLOADING...
 
 <hr />
 
-[![forthebadge](https://forthebadge.com/images/badges/made-with-c-plus-plus.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/made-with-c-plus-plus.svg)](https://media.giphy.com/media/HMWbz9sH2dJ0cIQpHC/giphy.gif)
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://media.giphy.com/media/sgZdwNkOH43wZOEUJ2/giphy.gif)
 [![forthebadge](https://forthebadge.com/images/badges/powered-by-electricity.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/certified-yourboyserge.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/certified-yourboyserge.svg)](https://media.giphy.com/media/nvUQdK0AVjLqmuHgP5/giphy.gif)
 [![forthebadge](https://forthebadge.com/images/badges/contains-17-coffee-cups.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/designed-in-ms-paint.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/reading-6th-grade-level.svg)](https://forthebadge.com)
