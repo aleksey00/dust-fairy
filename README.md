@@ -229,7 +229,7 @@ Blast gates assembly:<br>
   <img src="./media/relay_testrun.gif" width="300">
 </div>
 
-LCD and temp sensor wiring in
+LCD and temp sensor wiring in<br>
 ![gif](./media/LCD_wiring.gif)
 
 <!-- ![img]()
