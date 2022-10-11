@@ -236,8 +236,19 @@ LCD and temp sensor wiring in<br>
 Measurement and marking<br>
 ![gif](./media/box_marking.gif)
 
-Cutting out the holes for LCD. (You may notice one LCD fell on the floor, however it survived.) It took more filing and fitting than cutting out the holes.<br>
+Cutting out the holes for LCD.<br>
 ![gif](./media/LCD_cutting.gif)
+ <br>You may notice one LCD fell on the floor, however it survived. It took more filing and fitting than cutting out the holes.
+<br>
+
+Wiring in box cover<br>
+![]()
+
+Drilling for liquidtight solenoid connectors<br>
+![]()
+
+Box mounted, last step before wiring lines to shop equipment<br>
+![]()
 
 
 
