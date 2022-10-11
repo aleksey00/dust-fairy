@@ -236,6 +236,8 @@ LCD and temp sensor wiring in<br>
 Measurement and marking<br>
 ![gif](./media/box_marking.gif)
 
+Cutting out the holes for LCD. You may see how one of the LCD's fell on the floor during the process. It survived.
+![gif](./media/LCD_cutting.gif)
 
 <!-- ![img]()
 ![img]() -->
