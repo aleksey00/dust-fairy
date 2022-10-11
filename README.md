@@ -215,7 +215,8 @@ Power supply color coded as follows:
 |White| 5 v|common|
 
 Power supply wiring in<br>
-![gif](./media/psu_wiring.gif)
+<!-- ![gif](./media/psu_wiring.gif) -->
+![gif](./media/psu_wiring_df.gif)
 
 Box wiring in with 18/10 wire<br>
 ![gif](./media/box_wiring.gif)
@@ -232,8 +233,8 @@ Blast gates assembly:<br>
 LCD and temp sensor wiring in<br>
 ![gif](./media/LCD_wiring.gif)
 
-Measurement<br>
-![gif]()
+Measurement and marking<br>
+![gif](./media/box_marking.gif)
 
 
 <!-- ![img]()
