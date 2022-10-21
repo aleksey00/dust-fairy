@@ -246,15 +246,15 @@ Cutting out the holes for LCD.<br>
 Wiring in box cover<br>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./schematic/ArduinoBoxDiagram/circuit_dark.png">
-  <source media="(prefers-color-scheme: light)" srcset="./schematic/ArduinoBoxDiagram/circuit_light.png">
-  <img alt="Shows an SVG schematic diagram of Arduino box housing for Dust Fairy" src="./schematic/ArduinoBoxDiagram/circuit_light.png">
+  <source media="(prefers-color-scheme: dark)" srcset="./schematic/ArduinoBoxDiagram/circuit_dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./schematic/ArduinoBoxDiagram/circuit_light.svg">
+  <img alt="Shows an SVG schematic diagram of Arduino box housing for Dust Fairy" src="./schematic/ArduinoBoxDiagram/circuit_light.svg">
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./schematic/VacBoxDiagram/circuit_dark.png">
-  <source media="(prefers-color-scheme: light)" srcset="./schematic/VacBoxDiagram/circuit_light.png">
-  <img alt="Shows an SVG schematic diagram of dust collection housing for Dust Fairy" src="./schematic/VacBoxDiagram/circuit_light.png">
+  <source media="(prefers-color-scheme: dark)" srcset="./schematic/VacBoxDiagram/circuit_dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./schematic/VacBoxDiagram/circuit_light.svg">
+  <img alt="Shows an SVG schematic diagram of dust collection housing for Dust Fairy" src="./schematic/VacBoxDiagram/circuit_light.svg">
 </picture>
 
 <!-- ![svg](./schematic/ArduinoBoxDiagram/circuit.svg) -->
