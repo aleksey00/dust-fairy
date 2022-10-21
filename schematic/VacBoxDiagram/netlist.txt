@@ -1,25 +1,26 @@
 * Netlist created with www.circuit-diagram.org
-* Dust Fairy Vacuum Box Diagram
+* Vacuum Wiring Box Diagram for Dust Fairy
 'Relay 3:0 5:1
 V1 2 0
-D2 2 3
-D3 2 4
-D4 2 5
-D5 2 1
-'toggleswitch a:6 b:7 t=Toggle closed=False
-'toggleswitch a:8 b:1 t=Toggle closed=False
-'switchdpst b2:7 b1:9 a1:9 a2:0 t=DPST
-'Motor a:6 b:10 #0:5 t=ThreePhase
-V6 2 0
-'relayspstno b:8 no:8 a:2 com:11 t=SPST_NO
-'Motor b:6 #0:5 a:12 t=ThreePhase
-'toggleswitch a:5 t=Toggle closed=False
-'toggleswitch a:6 t=Toggle closed=False
-'relayspstno no:10 a:11 b:2 com:13 t=SPST_NO
-'acsource b:13 voltage=120 frequency=50 showvoltage=True t=AC
-'acsource b:5 voltage=240 frequency=50 showvoltage=True t=AC
-'toggleswitch a:5 t=Toggle closed=False
-'toggleswitch a:6 t=Toggle closed=False
-'relayspstno a:5 b:6 no:12 com:13 t=SPST_NO
-'acsource b:6 voltage=120 frequency=50 showvoltage=True t=AC
-V7 2 0
+V2 2 0
+V3 2 0
+D4 2 0
+D5 2 3
+D6 2 4
+D7 2 1
+'toggleswitch b:5 a:3 t=Toggle closed=False
+'toggleswitch b:1 a:3 t=Toggle closed=False
+'switchdpst b2:5 a2:0 b1:2 a1:2 t=DPST
+'Motor b:6 a:3 #0:4 t=ThreePhase
+V8 2 0
+'relayspstno b:3 no:3 com:7 a:2 t=SPST_NO
+'Motor b:8 #0:4 a:3 t=ThreePhase
+'toggleswitch a:4 t=Toggle closed=False
+'toggleswitch a:3 t=Toggle closed=False
+'relayspstno a:7 no:6 b:2 com:9 t=SPST_NO
+'acsource a:9 voltage=120 frequency=50 showvoltage=True t=AC
+'acsource a:4 voltage=240 frequency=50 showvoltage=True t=AC
+'toggleswitch a:4 t=Toggle closed=False
+'toggleswitch a:3 t=Toggle closed=False
+'relayspstno a:4 b:3 no:8 com:9 t=SPST_NO
+'acsource a:3 voltage=120 frequency=50 showvoltage=True t=AC
