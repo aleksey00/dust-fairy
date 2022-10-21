@@ -85,6 +85,8 @@ This project is for anyone who wishes to have smart and compact dust collection 
 DIY inexpensive Arduino-based system controlling relays and solenoids to open and close pneumatic blast gates and turn on and off dust collection system via a contactor. The system should be housed neatly in one spot for easy access and troubleshooting. 
 Pneumatic pistons have higher reliability and, with pressure-limiting attachments, adjust the speed of motion. Pneumatic pistons are very powerful and easier to mount, and virtually any shop has an air compressor. Pneumatic pistons can operate at pressure as low as 14psi. Compared to servo motors, pneumatic pistons have more advantages in this application.
 
+Original design included split core current transformers by YHDC SCT013, however in my case it was not needed, I opted out with direct connection via OPTO-Isolator and contacor. If anyone interested I can provide code for YHDC SCT013 fine tuned.
+
 ## BUILD COMPONENTS
 
 <details><summary>Short List</summary>
