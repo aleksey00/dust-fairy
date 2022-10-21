@@ -259,10 +259,12 @@ Wiring in box cover<br>
 
 ![svg](./schematic/ArduinoBoxDiagram/circuit_light.svg#gh-light-mode-only)
 ![svg](./schematic/ArduinoBoxDiagram/circuit_dark.svg#gh-dark-mode-only)
-<!-- ![png](./schematic/ArduinoBoxDiagram/circuit.png) -->
-<!-- ![svg](./schematic/VacBoxDiagram/circuit.svg) -->
-<!-- ![svg](./schematic/VacBoxDiagram/circuit_dark.svg) -->
-<!-- ![png](./schematic/VacBoxDiagram/circuit.png) -->
+![png](./schematic/ArduinoBoxDiagram/circuit_light.png)
+![png](./schematic/ArduinoBoxDiagram/circuit_dark.png)
+![svg](./schematic/VacBoxDiagram/circuit_light.svg)
+![svg](./schematic/VacBoxDiagram/circuit_dark.svg)
+![png](./schematic/VacBoxDiagram/circuit_light.png)
+![png](./schematic/VacBoxDiagram/circuit_dark.png)
 
 
 
