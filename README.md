@@ -244,12 +244,27 @@ Cutting out the holes for LCD.<br>
 <br>
 
 Wiring in box cover<br>
-![svg](./schematic/ArduinoBoxDiagram/circuit.svg)
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./schematic/ArduinoBoxDiagram/circuit_dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./schematic/ArduinoBoxDiagram/circuit.svg">
+  <img alt="Shows an SVG schematic diagram of Arduino box housing for Dust Fairy" src="./schematic/ArduinoBoxDiagram/circuit.svg">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./schematic/VacBoxDiagram/circuit_dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./schematic/VacBoxDiagram/circuit.svg">
+  <img alt="Shows an SVG schematic diagram of dust collection housing for Dust Fairy" src="./schematic/ArduinoBoxDiagram/circuit.svg">
+</picture>
+
+<!-- ![svg](./schematic/ArduinoBoxDiagram/circuit.svg) -->
 <!-- ![svg](./schematic/ArduinoBoxDiagram/circuit_dark.svg) -->
-![png](./schematic/ArduinoBoxDiagram/circuit.png)
-![svg](./schematic/VacBoxDiagram/circuit.svg)
-![svg](./schematic/VacBoxDiagram/circuit_dark.svg)
-![png](./schematic/VacBoxDiagram/circuit.png)
+<!-- ![png](./schematic/ArduinoBoxDiagram/circuit.png) -->
+<!-- ![svg](./schematic/VacBoxDiagram/circuit.svg) -->
+<!-- ![svg](./schematic/VacBoxDiagram/circuit_dark.svg) -->
+<!-- ![png](./schematic/VacBoxDiagram/circuit.png) -->
+
+
 
 Drilling for liquidtight solenoid connectors<br>
 ![]()
