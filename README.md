@@ -245,8 +245,10 @@ Cutting out the holes for LCD.<br>
 
 Wiring in box cover<br>
 ![svg](./schematic/ArduinoBoxDiagram/circuit.svg)
+<!-- ![svg](./schematic/ArduinoBoxDiagram/circuit_dark.svg) -->
 ![png](./schematic/ArduinoBoxDiagram/circuit.png)
 ![svg](./schematic/VacBoxDiagram/circuit.svg)
+![svg](./schematic/VacBoxDiagram/circuit_dark.svg)
 ![png](./schematic/VacBoxDiagram/circuit.png)
 
 Drilling for liquidtight solenoid connectors<br>
