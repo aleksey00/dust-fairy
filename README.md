@@ -245,7 +245,8 @@ Cutting out the holes for LCD.<br>
 
 Wiring in box cover<br>
 
-<picture>
+<!-- does not work with mobile GitHub app on iPhone -->
+<!-- <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./schematic/ArduinoBoxDiagram/circuit_dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./schematic/ArduinoBoxDiagram/circuit_light.svg">
   <img alt="Shows an SVG schematic diagram of Arduino box housing for Dust Fairy" src="./schematic/ArduinoBoxDiagram/circuit_light.svg">
@@ -255,19 +256,19 @@ Wiring in box cover<br>
   <source media="(prefers-color-scheme: dark)" srcset="./schematic/VacBoxDiagram/circuit_dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./schematic/VacBoxDiagram/circuit_light.svg">
   <img alt="Shows an SVG schematic diagram of dust collection housing for Dust Fairy" src="./schematic/VacBoxDiagram/circuit_light.svg">
-</picture>
+</picture> -->
 
 ![svg](./schematic/ArduinoBoxDiagram/circuit_light.svg#gh-light-mode-only)
 ![svg](./schematic/ArduinoBoxDiagram/circuit_dark.svg#gh-dark-mode-only)
 
-![png](./schematic/ArduinoBoxDiagram/circuit_light.png#gh-light-mode-only)
-![png](./schematic/ArduinoBoxDiagram/circuit_dark.png#gh-dark-mode-only)
+<!-- ![png](./schematic/ArduinoBoxDiagram/circuit_light.png#gh-light-mode-only) -->
+<!-- ![png](./schematic/ArduinoBoxDiagram/circuit_dark.png#gh-dark-mode-only) -->
 
 ![svg](./schematic/VacBoxDiagram/circuit_light.svg#gh-light-mode-only)
 ![svg](./schematic/VacBoxDiagram/circuit_dark.svg#gh-dark-mode-only)
 
-![png](./schematic/VacBoxDiagram/circuit_light.png#gh-light-mode-only)
-![png](./schematic/VacBoxDiagram/circuit_dark.png#gh-dark-mode-only)
+<!-- ![png](./schematic/VacBoxDiagram/circuit_light.png#gh-light-mode-only) -->
+<!-- ![png](./schematic/VacBoxDiagram/circuit_dark.png#gh-dark-mode-only) -->
 
 
 
