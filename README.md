@@ -257,8 +257,8 @@ Wiring in box cover<br>
   <img alt="Shows an SVG schematic diagram of dust collection housing for Dust Fairy" src="./schematic/VacBoxDiagram/circuit_light.svg">
 </picture>
 
-<!-- ![svg](./schematic/ArduinoBoxDiagram/circuit.svg) -->
-<!-- ![svg](./schematic/ArduinoBoxDiagram/circuit_dark.svg) -->
+![svg](./schematic/ArduinoBoxDiagram/circuit_light.svg#gh-light-mode-only)
+![svg](./schematic/ArduinoBoxDiagram/circuit_dark.svg#gh-dark-mode-only)
 <!-- ![png](./schematic/ArduinoBoxDiagram/circuit.png) -->
 <!-- ![svg](./schematic/VacBoxDiagram/circuit.svg) -->
 <!-- ![svg](./schematic/VacBoxDiagram/circuit_dark.svg) -->
