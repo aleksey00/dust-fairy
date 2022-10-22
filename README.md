@@ -319,11 +319,28 @@ Working video and gifs here UPLOADING...
 
 <!-- [MIT](https://github.com/aleksey00/dust-fairy/blob/feature-cleanup/LICENSE) -->
 <br>
-<div align="center"><a href="https://github.com/aleksey00/dust-fairy/blob/feature-cleanup/LICENSE">
-<img alt="GitHub" src="https://img.shields.io/github/license/aleksey00/dust-fairy?style=plasticr">
-</a></div>
+<div align="center">
+    <a href="https://github.com/aleksey00/dust-fairy/blob/main/LICENSE">
+    <img alt="GitHub MIT license" src="https://img.shields.io/badge/license-MIT-green.svg">
+    </a>
+</div>
 
 <br>
+
+<p align="center">
+  <a href="#abstract">Abstract</a> •
+  <a href="#introduction">Introduction</a> •
+  <a href="#idea">Idea</a> •
+  <a href="#build-components">Components</a> •
+  <a href="#schematic-diagrams">Schematic Diagram</a> •
+  <a href="#how-it-works">How It Works</a> •
+  <a href="#build-process">Build Process</a> •
+  <a href="#results">Results</a> •
+  <a href="#future-improvements">Future Improvements</a> •
+  <a href="#license">License</a>
+</p>
+
+<!-- <br> -->
 
 <hr />
 
