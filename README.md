@@ -216,11 +216,11 @@ Power supply color coded as follows:
 |Yellow|12 v|isolated|
 |White| 5 v|common|
 
-Power supply wiring in<br>
+Power supplies wiring in<br>
 <!-- ![gif](./media/psu_wiring.gif) -->
 ![gif](./media/psu_wiring_df.gif)
 
-Box wiring in with 18/10 wire<br>
+Box wiring in with 18/10 wire (wire is easy to mold with colors organizaiton)<br>
 ![gif](./media/box_wiring.gif)
 
 Relays wiring, code test<br>
@@ -232,10 +232,10 @@ Relays before and testing after:<br>
   <img src="./media/relay_testrun.gif" width="300">
 </div>
 
-LCD and temp sensor wiring in<br>
+LCD and temp sensor testing and wiring in<br>
 ![gif](./media/LCD_wiring.gif)
 
-Measurement and marking<br>
+Measurement and marking for LCD's and latching buttons placement on the front door panel<br>
 ![gif](./media/box_marking.gif)
 
 Cutting out the holes for LCD.<br>
@@ -244,7 +244,25 @@ Cutting out the holes for LCD.<br>
 <br>
 
 Wiring in box cover<br>
+<!-- ![]() -->
 
+Drilling for liquidtight solenoid connectors<br>
+<!-- ![]() -->
+
+Box mounted, last step before wiring lines to shop equipment<br>
+<!-- ![]() -->
+
+
+
+<!-- ![img]()
+![img]() -->
+
+<br>Blast Gate Assembly<br>
+
+Fine-tune adjustment for smooth operation of 8" blast gate<br>
+![gif](./media/blast_gate_operation.gif)
+
+### Schematic diagrams
 <!-- does not work with mobile GitHub app on iPhone -->
 <!-- <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./schematic/ArduinoBoxDiagram/circuit_dark.svg">
@@ -269,24 +287,6 @@ Schematic diagram of dust collection junction box(relay#51 is located in Arduino
 
 <!-- ![png](./schematic/VacBoxDiagram/circuit_light.png#gh-light-mode-only) -->
 <!-- ![png](./schematic/VacBoxDiagram/circuit_dark.png#gh-dark-mode-only) -->
-
-
-
-Drilling for liquidtight solenoid connectors<br>
-![]()
-
-Box mounted, last step before wiring lines to shop equipment<br>
-![]()
-
-
-
-<!-- ![img]()
-![img]() -->
-
-<br>Blast Gate Assembly<br>
-
-Fine-tune adjustment for smooth operation of 8" blast gate<br>
-![gif](./media/blast_gate_operation.gif)
 
 
 ## RESULTS
