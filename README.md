@@ -89,7 +89,7 @@ Original design included split core current transformers by YHDC SCT013, however
 
 ## BUILD COMPONENTS
 
-<details><summary>Short General List</summary>
+<details><summary>Short General List (click to open)</summary>
 <p>
   
 - Electronics
@@ -122,7 +122,7 @@ Original design included split core current transformers by YHDC SCT013, however
 </details>
 
 
-<details><summary>Comprehensive list with items used in this project including prices and links</summary>
+<details><summary>Comprehensive list with items used in this project including prices and links (click to open)</summary>
 <br>
 
 |Description|Item|Qty|Price|Link|
