@@ -257,13 +257,13 @@ Wiring in box cover<br>
   <source media="(prefers-color-scheme: light)" srcset="./schematic/VacBoxDiagram/circuit_light.svg">
   <img alt="Shows an SVG schematic diagram of dust collection housing for Dust Fairy" src="./schematic/VacBoxDiagram/circuit_light.svg">
 </picture> -->
-
+Schematic diagram of Arduino junction box:<br>
 ![svg](./schematic/ArduinoBoxDiagram/circuit_light.svg#gh-light-mode-only)
 ![svg](./schematic/ArduinoBoxDiagram/circuit_dark.svg#gh-dark-mode-only)
 
 <!-- ![png](./schematic/ArduinoBoxDiagram/circuit_light.png#gh-light-mode-only) -->
 <!-- ![png](./schematic/ArduinoBoxDiagram/circuit_dark.png#gh-dark-mode-only) -->
-
+Schematic diagram of dust collection junction box(relay#51 is located in Arduino junction box):<br>
 ![svg](./schematic/VacBoxDiagram/circuit_light.svg#gh-light-mode-only)
 ![svg](./schematic/VacBoxDiagram/circuit_dark.svg#gh-dark-mode-only)
 
