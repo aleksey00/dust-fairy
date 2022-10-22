@@ -345,7 +345,7 @@ Working video and gifs here UPLOADING...
 -  <a href="#license">License</a>
 </p>
 
-<br>
+<!-- <br> -->
 
 <hr />
 
