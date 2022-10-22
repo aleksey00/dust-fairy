@@ -204,7 +204,7 @@ Safety measures programmed:
 <!-- Pictures here UPLOADING... -->
 [![forthebadge](https://forthebadge.com/images/badges/reading-6th-grade-level.svg)](https://media.giphy.com/media/I1U9DTjCqOF3i/giphy.gif)
 
-Junction box came with some challenges. Since it is airtight, it arrived with plastic panels concaved. It was impossible to open without first drilling a hole in it. Then it took some time heating the panels and straighten them out.
+Junction box arrived with plastic panels concaved. Great to know that it is airtight, however it was impossible to open without first drilling a hole in it. Then it took some time heating the panels and straighten them out.
 
 With DIN rails arranged it was easy to place and organize components. I used 18/10 wire to color code different voltage power supplies. Wire is a solid cooper and easy to shape. However I wish I had bigger size box to separate each layer with plastic cable organizer. My setup worked for me well. 
 
@@ -226,7 +226,7 @@ Box wiring in with 18/10 wire<br>
 Relays wiring, code test<br>
 ![gif](./media/relays_codetest.gif)<br>
 
-Blast gates assembly:<br>
+Relays before and testing after:<br>
 <div>
   <img src="./media/IMG_7675.jpg" width="300">
   <img src="./media/relay_testrun.gif" width="300">
