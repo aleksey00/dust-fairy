@@ -167,7 +167,7 @@ Original design included split core current transformers by YHDC SCT013, however
 <br>
 </details>
 
-<br>
+<!-- <br> -->
 
 <!-- <br>v1<br>
 For a full list of items [link](#list-of-items-used-in-this-project)
@@ -175,6 +175,32 @@ For a full list of items [link](#list-of-items-used-in-this-project)
 For a full list of items [:page_facing_up:](#list-of-items-used-in-this-project) 
 
 :page_facing_up: -->
+
+### Schematic diagrams:
+<!-- does not work with mobile GitHub app on iPhone -->
+<!-- <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./schematic/ArduinoBoxDiagram/circuit_dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./schematic/ArduinoBoxDiagram/circuit_light.svg">
+  <img alt="Shows an SVG schematic diagram of Arduino box housing for Dust Fairy" src="./schematic/ArduinoBoxDiagram/circuit_light.svg">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./schematic/VacBoxDiagram/circuit_dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./schematic/VacBoxDiagram/circuit_light.svg">
+  <img alt="Shows an SVG schematic diagram of dust collection housing for Dust Fairy" src="./schematic/VacBoxDiagram/circuit_light.svg">
+</picture> -->
+Schematic diagram of Arduino junction box:<br>
+![svg](./schematic/ArduinoBoxDiagram/circuit_light.svg#gh-light-mode-only)
+![svg](./schematic/ArduinoBoxDiagram/circuit_dark.svg#gh-dark-mode-only)
+
+<!-- ![png](./schematic/ArduinoBoxDiagram/circuit_light.png#gh-light-mode-only) -->
+<!-- ![png](./schematic/ArduinoBoxDiagram/circuit_dark.png#gh-dark-mode-only) -->
+Schematic diagram of dust collection junction box(relay#51 is located in Arduino junction box):<br>
+![svg](./schematic/VacBoxDiagram/circuit_light.svg#gh-light-mode-only)
+![svg](./schematic/VacBoxDiagram/circuit_dark.svg#gh-dark-mode-only)
+
+<!-- ![png](./schematic/VacBoxDiagram/circuit_light.png#gh-light-mode-only) -->
+<!-- ![png](./schematic/VacBoxDiagram/circuit_dark.png#gh-dark-mode-only) -->
 
 ## HOW IT WORKS
 
@@ -262,31 +288,7 @@ Box mounted, last step before wiring lines to shop equipment<br>
 Fine-tune adjustment for smooth operation of 8" blast gate<br>
 ![gif](./media/blast_gate_operation.gif)
 
-### Schematic diagrams
-<!-- does not work with mobile GitHub app on iPhone -->
-<!-- <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./schematic/ArduinoBoxDiagram/circuit_dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./schematic/ArduinoBoxDiagram/circuit_light.svg">
-  <img alt="Shows an SVG schematic diagram of Arduino box housing for Dust Fairy" src="./schematic/ArduinoBoxDiagram/circuit_light.svg">
-</picture>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./schematic/VacBoxDiagram/circuit_dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./schematic/VacBoxDiagram/circuit_light.svg">
-  <img alt="Shows an SVG schematic diagram of dust collection housing for Dust Fairy" src="./schematic/VacBoxDiagram/circuit_light.svg">
-</picture> -->
-Schematic diagram of Arduino junction box:<br>
-![svg](./schematic/ArduinoBoxDiagram/circuit_light.svg#gh-light-mode-only)
-![svg](./schematic/ArduinoBoxDiagram/circuit_dark.svg#gh-dark-mode-only)
-
-<!-- ![png](./schematic/ArduinoBoxDiagram/circuit_light.png#gh-light-mode-only) -->
-<!-- ![png](./schematic/ArduinoBoxDiagram/circuit_dark.png#gh-dark-mode-only) -->
-Schematic diagram of dust collection junction box(relay#51 is located in Arduino junction box):<br>
-![svg](./schematic/VacBoxDiagram/circuit_light.svg#gh-light-mode-only)
-![svg](./schematic/VacBoxDiagram/circuit_dark.svg#gh-dark-mode-only)
-
-<!-- ![png](./schematic/VacBoxDiagram/circuit_light.png#gh-light-mode-only) -->
-<!-- ![png](./schematic/VacBoxDiagram/circuit_dark.png#gh-dark-mode-only) -->
 
 
 ## RESULTS
