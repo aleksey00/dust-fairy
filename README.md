@@ -193,11 +193,15 @@ Schematic diagram of Arduino junction box:<br>
 ![svg](./schematic/ArduinoBoxDiagram/circuit_light.svg#gh-light-mode-only)
 ![svg](./schematic/ArduinoBoxDiagram/circuit_dark.svg#gh-dark-mode-only)
 
+> 💡 Relay #51 bottom-right has wires heading to dust collection junction box. 
+
 <!-- ![png](./schematic/ArduinoBoxDiagram/circuit_light.png#gh-light-mode-only) -->
 <!-- ![png](./schematic/ArduinoBoxDiagram/circuit_dark.png#gh-dark-mode-only) -->
 Schematic diagram of dust collection junction box(relay#51 is located in Arduino junction box):<br>
 ![svg](./schematic/VacBoxDiagram/circuit_light.svg#gh-light-mode-only)
 ![svg](./schematic/VacBoxDiagram/circuit_dark.svg#gh-dark-mode-only)
+
+> 💡 Relay #51 top-left is located in Arduino junction box. 
 
 <!-- ![png](./schematic/VacBoxDiagram/circuit_light.png#gh-light-mode-only) -->
 <!-- ![png](./schematic/VacBoxDiagram/circuit_dark.png#gh-dark-mode-only) -->
