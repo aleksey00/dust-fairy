@@ -331,8 +331,9 @@ Working video and gifs here UPLOADING...
 
 <br>
 
-<p align="left"> Table of content: <br>
+<p align="left"> Table of content:
 
+-  <a href="#">Logo</a>
 -  <a href="#abstract">Abstract</a> 
 -  <a href="#introduction">Introduction</a> 
 -  <a href="#idea">Idea</a> 
@@ -344,8 +345,6 @@ Working video and gifs here UPLOADING...
 -  <a href="#future-improvements">Future Improvements</a> 
 -  <a href="#license">License</a>
 </p>
-
-<!-- <br> -->
 
 <hr />
 
