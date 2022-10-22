@@ -331,20 +331,21 @@ Working video and gifs here UPLOADING...
 
 <br>
 
-<p align="center">
-  <a href="#abstract">Abstract</a> •
-  <a href="#introduction">Introduction</a> •
-  <a href="#idea">Idea</a> •
-  <a href="#build-components">Components</a> •
-  <a href="#schematic-diagrams">Schematic Diagram</a> •
-  <a href="#how-it-works">How It Works</a> •
-  <a href="#build-process">Build Process</a> •
-  <a href="#results">Results</a> •
-  <a href="#future-improvements">Future Improvements</a> •
-  <a href="#license">License</a>
+<p align="left"> Table of content: <br>
+
+-  <a href="#abstract">Abstract</a> 
+-  <a href="#introduction">Introduction</a> 
+-  <a href="#idea">Idea</a> 
+-  <a href="#build-components">Components</a> 
+-  <a href="#schematic-diagrams">Schematic Diagrams</a> 
+-  <a href="#how-it-works">How It Works</a> 
+-  <a href="#build-process">Build Process</a> 
+-  <a href="#results">Results</a> 
+-  <a href="#future-improvements">Future Improvements</a> 
+-  <a href="#license">License</a>
 </p>
 
-<!-- <br> -->
+<br>
 
 <hr />
 
