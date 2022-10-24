@@ -282,6 +282,8 @@ Drilling for liquidtight solenoid connectors<br>
 Box mounted, last step before wiring lines to shop equipment<br>
 <!-- ![]() -->
 
+Of course, labeling of every single wire and relay<br>
+<!-- ![gif](./media) -->
 
 
 <!-- ![img]()
@@ -308,6 +310,8 @@ Working video and gifs here UPLOADING...
 |Arduino MEGA|No Wifi or bluetooth module|
 |||
 <br>
+
+Do you like the project, have new ideas or suggestions? Please 
 
 <!-- *VS*
 <br>
