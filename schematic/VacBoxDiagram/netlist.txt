@@ -1,0 +1,26 @@
+* Netlist created with www.circuit-diagram.org
+* Vacuum Wiring Box Diagram for Dust Fairy
+'Relay 3:0 5:1
+V1 2 0
+V2 2 0
+V3 2 0
+D4 2 0
+D5 2 3
+D6 2 4
+D7 2 1
+'toggleswitch b:5 a:3 t=Toggle closed=False
+'toggleswitch b:1 a:3 t=Toggle closed=False
+'switchdpst b2:5 a2:0 b1:2 a1:2 t=DPST
+'Motor b:6 a:3 #0:4 t=ThreePhase
+V8 2 0
+'relayspstno b:3 no:3 com:7 a:2 t=SPST_NO
+'Motor b:8 #0:4 a:3 t=ThreePhase
+'toggleswitch a:4 t=Toggle closed=False
+'toggleswitch a:3 t=Toggle closed=False
+'relayspstno a:7 no:6 b:2 com:9 t=SPST_NO
+'acsource a:9 voltage=120 frequency=50 showvoltage=True t=AC
+'acsource a:4 voltage=240 frequency=50 showvoltage=True t=AC
+'toggleswitch a:4 t=Toggle closed=False
+'toggleswitch a:3 t=Toggle closed=False
+'relayspstno a:4 b:3 no:8 com:9 t=SPST_NO
+'acsource a:3 voltage=120 frequency=50 showvoltage=True t=AC

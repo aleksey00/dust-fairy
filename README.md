@@ -66,28 +66,30 @@
 
 
 ## ABSTRACT 
-This system, with a few easy steps, will help achieve set-it-and-forget-it automation. Using just a few commonly found sensors, relays, and contactors with other easily swappable components that make up dust-fairy, the system will accommodate any size setup, from the smallest home-hobbyist garage setup to a large industrial system without breaking a buck.
+Multifunctional system design to help achieve set-it-and-forget-it automation. Using just a few commonly found sensors, relays, and contactors with other easily swappable components that make up dust-fairy, the system will accommodate any size setup, from the smallest home-hobbyist garage setup to a large industrial system without breaking a buck.
 
-The idea is to use Arduino as the brain of the operation to detect the activation signal of particular equipment and keep the corresponding blast gate open while closing non-active blast gates, simultaneously activating the dust collection system for better performance.
+<!-- The idea is to use Arduino as the brain of the operation to detect the activation signal of particular equipment and keep the corresponding blast gate open while closing non-active blast gates, simultaneously activating the dust collection system for better performance.
 
 Integrated safety features, especially for large industrial dust collector systems, protect ductwork with gates by defaulting to always-open-state and never closing all blast gates at any time. With a dust collection timer delay and blast gate open cycle to clear ductwork, the system will keep ductwork free of leftover dust.
 
-Future expansion may include sensors for statistical analysis of negative pressure generated in the ductwork and preventative system maintenance by logging static pressure differences in the system.
+Future expansion may include sensors for statistical analysis of negative pressure generated in the ductwork and preventative system maintenance by logging static pressure differences in the system. -->
 
 ## INTRODUCTION
-Industrial systems of larger sizes are incredibly costly and complicated. Small shop systems are also expensive, very limiting in customization, and are not reliable. Arduino can help in the centralization and infinite customization of the project with readily available inexpensive components.
+Industrial systems of larger sizes are incredibly costly and complicated. Small shop systems are also expensive, very limiting in customization, and are not reliable in the long term. Arduino can help in the centralization and infinite customization of the project with readily available inexpensive components.
 
 This project is for anyone who wishes to have smart and compact dust collection system automation with multiple workstations in the shop without breaking a penny bank and have virtually infinite customization with the code and option of future expansion.
 
-The project aims to completely automate machinery and/or outlets for machinery for the dust collection system to kick in. To operate, turn on your shop equipment, and the system automatically detects which blast gate to open and which to close for better performance. Once the shop equipment is turned off system will automatically keep the dust collector on to clear the ductway of remaining dust with all open blast gates, and it will keep them open for safety reasons by default. The dust collector off delay also prevents rapid on and off of the duct collector to prevent premature motor failure.
+<!-- The project aims to completely automate machinery and/or outlets for machinery for the dust collection system to kick in. To operate, turn on your shop equipment, and the system automatically detects which blast gate to open and which to close for better performance. Once the shop equipment is turned off system will automatically keep the dust collector on to clear the ductway of remaining dust with all open blast gates, and it will keep them open for safety reasons by default. The dust collector off delay also prevents rapid on and off of the duct collector to prevent premature motor failure. -->
 
 ## IDEA
 DIY inexpensive Arduino-based system controlling relays and solenoids to open and close pneumatic blast gates and turn on and off dust collection system via a contactor. The system should be housed neatly in one spot for easy access and troubleshooting. 
 Pneumatic pistons have higher reliability and, with pressure-limiting attachments, adjust the speed of motion. Pneumatic pistons are very powerful and easier to mount, and virtually any shop has an air compressor. Pneumatic pistons can operate at pressure as low as 14psi. Compared to servo motors, pneumatic pistons have more advantages in this application.
 
+Original design included split core current transformers by YHDC SCT013, however in my case it was not needed, I opted out with direct connection via OPTO-Isolator and contacor. If anyone interested I can provide code for YHDC SCT013 fine tuned.
+
 ## BUILD COMPONENTS
 
-<details><summary>Short List</summary>
+<details><summary>Short General List (click to open)</summary>
 <p>
   
 - Electronics
@@ -98,7 +100,6 @@ Pneumatic pistons have higher reliability and, with pressure-limiting attachment
   - OPTO-Isolators
   - Push-in Buttons with LED's
   - LCD Displays
-  
 - Sensors
   - pressure sensors
   - temperature sensor
@@ -121,7 +122,7 @@ Pneumatic pistons have higher reliability and, with pressure-limiting attachment
 </details>
 
 
-<details><summary>Comprehensive list with prices</summary>
+<details><summary>Comprehensive list with items used in this project including prices and links (click to open)</summary>
 <br>
 
 |Description|Item|Qty|Price|Link|
@@ -166,7 +167,7 @@ Pneumatic pistons have higher reliability and, with pressure-limiting attachment
 <br>
 </details>
 
-<br>
+<!-- <br> -->
 
 <!-- <br>v1<br>
 For a full list of items [link](#list-of-items-used-in-this-project)
@@ -175,13 +176,43 @@ For a full list of items [:page_facing_up:](#list-of-items-used-in-this-project)
 
 :page_facing_up: -->
 
+### Schematic diagrams:
+<!-- does not work with mobile GitHub app on iPhone -->
+<!-- <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./schematic/ArduinoBoxDiagram/circuit_dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./schematic/ArduinoBoxDiagram/circuit_light.svg">
+  <img alt="Shows an SVG schematic diagram of Arduino box housing for Dust Fairy" src="./schematic/ArduinoBoxDiagram/circuit_light.svg">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./schematic/VacBoxDiagram/circuit_dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./schematic/VacBoxDiagram/circuit_light.svg">
+  <img alt="Shows an SVG schematic diagram of dust collection housing for Dust Fairy" src="./schematic/VacBoxDiagram/circuit_light.svg">
+</picture> -->
+Schematic diagram of Arduino junction box:<br>
+![svg](./schematic/ArduinoBoxDiagram/circuit_light.svg#gh-light-mode-only)
+![svg](./schematic/ArduinoBoxDiagram/circuit_dark.svg#gh-dark-mode-only)
+
+> 💡 Relay #51 bottom-right has wires heading to dust collection junction box. 
+
+<!-- ![png](./schematic/ArduinoBoxDiagram/circuit_light.png#gh-light-mode-only) -->
+<!-- ![png](./schematic/ArduinoBoxDiagram/circuit_dark.png#gh-dark-mode-only) -->
+Schematic diagram of dust collection junction box(relay#51 is located in Arduino junction box):<br>
+![svg](./schematic/VacBoxDiagram/circuit_light.svg#gh-light-mode-only)
+![svg](./schematic/VacBoxDiagram/circuit_dark.svg#gh-dark-mode-only)
+
+> 💡 Relay #51 top-left is located in Arduino junction box. 
+
+<!-- ![png](./schematic/VacBoxDiagram/circuit_light.png#gh-light-mode-only) -->
+<!-- ![png](./schematic/VacBoxDiagram/circuit_dark.png#gh-dark-mode-only) -->
+
 ## HOW IT WORKS
 
 <div>
 
-[![forthebadge](https://forthebadge.com/images/badges/made-with-c-plus-plus.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/powered-by-electricity.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/made-with-c-plus-plus.svg)](https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif)
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://media.giphy.com/media/3oKIPnAiaMCws8nOsE/giphy.gif)
+[![forthebadge](https://forthebadge.com/images/badges/powered-by-electricity.svg)](https://media.giphy.com/media/CkYl1qlzkxPRbklfXx/giphy.gif)
 </div>
 
 The system is composed of the Arduino MEGA that controls gates and the main contactor via relays. Arduino collects information from pressure sensors of the main pipeworks and solenoid plate, temperature, and humidity from the primary electronics box temp sensor. High and low from OPTO-ISOLATORS connected to 12v buttons and 24v solenoid in the Edgebander electronics. Arduino controls a set of OPTO-ISOLATED relays, which regulate air solenoids and 120v contactors, LED lights, and a 12v cooling fan for the electronics housing.
@@ -201,9 +232,9 @@ Safety measures programmed:
 
 ## BUILD PROCESS
 <!-- Pictures here UPLOADING... -->
-[![forthebadge](https://forthebadge.com/images/badges/reading-6th-grade-level.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/reading-6th-grade-level.svg)](https://media.giphy.com/media/I1U9DTjCqOF3i/giphy.gif)
 
-Junction box came with some challenges. Since it is airtight, it arrived with plastic panels concaved. It was impossible to open without first drilling a hole in it. Then it took some time heating the panels and straighten them out.
+Junction box arrived with plastic panels concaved. Great to know that it is airtight, however it was impossible to open without first drilling a hole in it. Then it took some time heating the panels and straighten them out.
 
 With DIN rails arranged it was easy to place and organize components. I used 18/10 wire to color code different voltage power supplies. Wire is a solid cooper and easy to shape. However I wish I had bigger size box to separate each layer with plastic cable organizer. My setup worked for me well. 
 
@@ -215,20 +246,43 @@ Power supply color coded as follows:
 |Yellow|12 v|isolated|
 |White| 5 v|common|
 
-Power supply wiring in<br>
-![gif](./media/psu_wiring.gif)
+Power supplies wiring in<br>
+<!-- ![gif](./media/psu_wiring.gif) -->
+![gif](./media/psu_wiring_df.gif)
 
-Box wiring in with 18/10 wire<br>
+Box wiring in with 18/10 wire (wire is easy to mold with colors organizaiton)<br>
 ![gif](./media/box_wiring.gif)
 
 Relays wiring, code test<br>
 ![gif](./media/relays_codetest.gif)<br>
 
-Blast gates assembly:<br>
+Relays before and testing after:<br>
 <div>
   <img src="./media/IMG_7675.jpg" width="300">
   <img src="./media/relay_testrun.gif" width="300">
 </div>
+
+LCD and temp sensor testing and wiring in<br>
+![gif](./media/LCD_wiring.gif)
+
+Measurement and marking for LCD's and latching buttons placement on the front door panel<br>
+![gif](./media/box_marking.gif)
+
+Cutting out the holes for LCD.<br>
+![gif](./media/LCD_cutting.gif)
+ <br>You may notice one LCD fell on the floor, however it survived. It took more filing and fitting than cutting out the holes.
+<br>
+
+Wiring in box cover<br>
+<!-- ![]() -->
+
+Drilling for liquidtight solenoid connectors<br>
+<!-- ![]() -->
+
+Box mounted, last step before wiring lines to shop equipment<br>
+<!-- ![]() -->
+
+
 
 <!-- ![img]()
 ![img]() -->
@@ -239,8 +293,12 @@ Fine-tune adjustment for smooth operation of 8" blast gate<br>
 ![gif](./media/blast_gate_operation.gif)
 
 
+
+
 ## RESULTS
 Working video and gifs here UPLOADING...
+
+
 ## FUTURE IMPROVEMENTS
 
 
@@ -251,7 +309,7 @@ Working video and gifs here UPLOADING...
 |||
 <br>
 
-*VS*
+<!-- *VS*
 <br>
 <br>
 * System Advantages
@@ -259,27 +317,44 @@ Working video and gifs here UPLOADING...
   * Arduino Mega is very robust and customizeable
 * System Limitations
   * Air supply line extension
-  * No WiFi or Bluetooth connectivity, require additional module
+  * No WiFi or Bluetooth connectivity, require additional module -->
 
 ## LICENSE
 
 <!-- [MIT](https://github.com/aleksey00/dust-fairy/blob/feature-cleanup/LICENSE) -->
 <br>
-<div align="center"><a href="https://github.com/aleksey00/dust-fairy/blob/feature-cleanup/LICENSE">
-<img alt="GitHub" src="https://img.shields.io/github/license/aleksey00/dust-fairy?style=plasticr">
-</a></div>
+<div align="center">
+    <a href="https://github.com/aleksey00/dust-fairy/blob/main/LICENSE">
+    <img alt="GitHub MIT license" src="https://img.shields.io/badge/license-MIT-green.svg">
+    </a>
+</div>
 
 <br>
 
-<hr>
+<p align="left"> Table of content:
 
-[![forthebadge](https://forthebadge.com/images/badges/made-with-c-plus-plus.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+-  <a href="#">Logo</a>
+-  <a href="#abstract">Abstract</a> 
+-  <a href="#introduction">Introduction</a> 
+-  <a href="#idea">Idea</a> 
+-  <a href="#build-components">Components</a> 
+-  <a href="#schematic-diagrams">Schematic Diagrams</a> 
+-  <a href="#how-it-works">How It Works</a> 
+-  <a href="#build-process">Build Process</a> 
+-  <a href="#results">Results</a> 
+-  <a href="#future-improvements">Future Improvements</a> 
+-  <a href="#license">License</a>
+</p>
+
+<hr />
+
+[![forthebadge](https://forthebadge.com/images/badges/made-with-c-plus-plus.svg)](https://media.giphy.com/media/HMWbz9sH2dJ0cIQpHC/giphy.gif)
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://media.giphy.com/media/sgZdwNkOH43wZOEUJ2/giphy.gif)
 [![forthebadge](https://forthebadge.com/images/badges/powered-by-electricity.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/certified-yourboyserge.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/contains-17-coffee-cups.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/certified-yourboyserge.svg)](https://media.giphy.com/media/nvUQdK0AVjLqmuHgP5/giphy.gif)
 [![forthebadge](https://forthebadge.com/images/badges/designed-in-ms-paint.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/reading-6th-grade-level.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/contains-17-coffee-cups.svg)](https://forthebadge.com)
+<!-- [![forthebadge](https://forthebadge.com/images/badges/reading-6th-grade-level.svg)](https://forthebadge.com) -->
 <!-- [![forthebadge](https://forthebadge.com/images/badges/works-on-my-machine.svg)](https://forthebadge.com) -->
 
 <!-- [![forthebadge](data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNDEuNDEiIGhlaWdodD0iMzUiIHZpZXdCb3g9IjAgMCAxNDEuNDEgMzUiPjxyZWN0IGNsYXNzPSJzdmdfX3JlY3QiIHg9IjAiIHk9IjAiIHdpZHRoPSI2NS42OCIgaGVpZ2h0PSIzNSIgZmlsbD0iIzMxQzRGMyIvPjxyZWN0IGNsYXNzPSJzdmdfX3JlY3QiIHg9IjYzLjY4IiB5PSIwIiB3aWR0aD0iNzcuNzI5OTk5OTk5OTk5OTkiIGhlaWdodD0iMzUiIGZpbGw9IiMzODlBRDUiLz48cGF0aCBjbGFzcz0ic3ZnX190ZXh0IiBkPSJNMTYuNjcgMjJMMTQuMjIgMjJMMTQuMjIgMTMuNDdMMTYuNzQgMTMuNDdRMTcuODcgMTMuNDcgMTguNzQgMTMuOTdRMTkuNjIgMTQuNDggMjAuMTAgMTUuNDBRMjAuNTggMTYuMzMgMjAuNTggMTcuNTJMMjAuNTggMTcuNTJMMjAuNTggMTcuOTVRMjAuNTggMTkuMTYgMjAuMTAgMjAuMDhRMTkuNjEgMjEuMDAgMTguNzIgMjEuNTBRMTcuODMgMjIgMTYuNjcgMjJMMTYuNjcgMjJaTTE1LjcwIDE0LjY2TDE1LjcwIDIwLjgyTDE2LjY3IDIwLjgyUTE3LjgzIDIwLjgyIDE4LjQ2IDIwLjA5UTE5LjA4IDE5LjM2IDE5LjA5IDE3Ljk5TDE5LjA5IDE3Ljk5TDE5LjA5IDE3LjUyUTE5LjA5IDE2LjEzIDE4LjQ5IDE1LjQwUTE3Ljg5IDE0LjY2IDE2Ljc0IDE0LjY2TDE2Ljc0IDE0LjY2TDE1LjcwIDE0LjY2Wk0yNC45MSAxOS4xNkwyNC45MSAxOS4xNkwyNC45MSAxMy40N0wyNi4zOSAxMy40N0wyNi4zOSAxOS4xOFEyNi4zOSAyMC4wMyAyNi44MiAyMC40OFEyNy4yNSAyMC45MyAyOC4xMCAyMC45M0wyOC4xMCAyMC45M1EyOS44MSAyMC45MyAyOS44MSAxOS4xM0wyOS44MSAxOS4xM0wyOS44MSAxMy40N0wzMS4yOSAxMy40N0wzMS4yOSAxOS4xN1EzMS4yOSAyMC41MyAzMC40MiAyMS4zMlEyOS41NSAyMi4xMiAyOC4xMCAyMi4xMkwyOC4xMCAyMi4xMlEyNi42MyAyMi4xMiAyNS43NyAyMS4zM1EyNC45MSAyMC41NSAyNC45MSAxOS4xNlpNMzUuNDIgMTkuNDJMMzUuNDIgMTkuNDJMMzYuOTAgMTkuNDJRMzYuOTAgMjAuMTUgMzcuMzkgMjAuNTVRMzcuODcgMjAuOTUgMzguNzYgMjAuOTVMMzguNzYgMjAuOTVRMzkuNTQgMjAuOTUgMzkuOTMgMjAuNjNRNDAuMzEgMjAuMzIgNDAuMzEgMTkuODBMNDAuMzEgMTkuODBRNDAuMzEgMTkuMjQgMzkuOTIgMTguOTRRMzkuNTIgMTguNjMgMzguNDkgMTguMzJRMzcuNDYgMTguMDEgMzYuODUgMTcuNjNMMzYuODUgMTcuNjNRMzUuNjkgMTYuOTAgMzUuNjkgMTUuNzJMMzUuNjkgMTUuNzJRMzUuNjkgMTQuNjkgMzYuNTMgMTQuMDJRMzcuMzcgMTMuMzUgMzguNzEgMTMuMzVMMzguNzEgMTMuMzVRMzkuNjAgMTMuMzUgNDAuMzAgMTMuNjhRNDAuOTkgMTQuMDEgNDEuMzkgMTQuNjFRNDEuNzkgMTUuMjIgNDEuNzkgMTUuOTZMNDEuNzkgMTUuOTZMNDAuMzEgMTUuOTZRNDAuMzEgMTUuMjkgMzkuOTAgMTQuOTFRMzkuNDggMTQuNTQgMzguNzAgMTQuNTRMMzguNzAgMTQuNTRRMzcuOTcgMTQuNTQgMzcuNTcgMTQuODVRMzcuMTcgMTUuMTYgMzcuMTcgMTUuNzFMMzcuMTcgMTUuNzFRMzcuMTcgMTYuMTggMzcuNjAgMTYuNTBRMzguMDQgMTYuODEgMzkuMDMgMTcuMTBRNDAuMDMgMTcuNDAgNDAuNjMgMTcuNzhRNDEuMjMgMTguMTYgNDEuNTIgMTguNjVRNDEuODAgMTkuMTMgNDEuODAgMTkuNzlMNDEuODAgMTkuNzlRNDEuODAgMjAuODYgNDAuOTggMjEuNDlRNDAuMTYgMjIuMTIgMzguNzYgMjIuMTJMMzguNzYgMjIuMTJRMzcuODQgMjIuMTIgMzcuMDYgMjEuNzdRMzYuMjggMjEuNDMgMzUuODUgMjAuODNRMzUuNDIgMjAuMjIgMzUuNDIgMTkuNDJaTTQ3Ljc3IDE0LjY2TDQ1LjEzIDE0LjY2TDQ1LjEzIDEzLjQ3TDUxLjkwIDEzLjQ3TDUxLjkwIDE0LjY2TDQ5LjI0IDE0LjY2TDQ5LjI0IDIyTDQ3Ljc3IDIyTDQ3Ljc3IDE0LjY2WiIgZmlsbD0iI0ZGRkZGRiIvPjxwYXRoIGNsYXNzPSJzdmdfX3RleHQiIGQ9Ik04MC4yNSAyMkw3Ny44NyAyMkw3Ny44NyAxMy42MEw4NC40NiAxMy42MEw4NC40NiAxNS40NEw4MC4yNSAxNS40NEw4MC4yNSAxNy4yOEw4My45NiAxNy4yOEw4My45NiAxOS4xMkw4MC4yNSAxOS4xMkw4MC4yNSAyMlpNOTAuNDcgMjJMODguMDUgMjJMOTEuNzUgMTMuNjBMOTQuMTAgMTMuNjBMOTcuODEgMjJMOTUuMzUgMjJMOTQuNjggMjAuMzdMOTEuMTMgMjAuMzdMOTAuNDcgMjJaTTkyLjkxIDE1LjkzTDkxLjgyIDE4LjYxTDkzLjk5IDE4LjYxTDkyLjkxIDE1LjkzWk0xMDQuMzUgMjJMMTAxLjk3IDIyTDEwMS45NyAxMy42MEwxMDQuMzUgMTMuNjBMMTA0LjM1IDIyWk0xMTEuOTAgMjJMMTA5LjUyIDIyTDEwOS41MiAxMy42MEwxMTMuMzYgMTMuNjBRMTE0LjUxIDEzLjYwIDExNS4zNCAxMy45OFExMTYuMTggMTQuMzUgMTE2LjY0IDE1LjA2UTExNy4xMCAxNS43NiAxMTcuMTAgMTYuNzFMMTE3LjEwIDE2LjcxUTExNy4xMCAxNy42MiAxMTYuNjcgMTguMzBRMTE2LjI0IDE4Ljk4IDExNS40NSAxOS4zNkwxMTUuNDUgMTkuMzZMMTE3LjI2IDIyTDExNC43MiAyMkwxMTMuMTkgMTkuNzdMMTExLjkwIDE5Ljc3TDExMS45MCAyMlpNMTExLjkwIDE1LjQ3TDExMS45MCAxNy45M0wxMTMuMjIgMTcuOTNRMTEzLjk1IDE3LjkzIDExNC4zMiAxNy42MVExMTQuNjkgMTcuMjkgMTE0LjY5IDE2LjcxTDExNC42OSAxNi43MVExMTQuNjkgMTYuMTIgMTE0LjMyIDE1Ljc5UTExMy45NSAxNS40NyAxMTMuMjIgMTUuNDdMMTEzLjIyIDE1LjQ3TDExMS45MCAxNS40N1pNMTI0LjAxIDE4Ljk1TDEyMC44MSAxMy42MEwxMjMuMzEgMTMuNjBMMTI1LjMxIDE2Ljk0TDEyNy4zMCAxMy42MEwxMjkuNjAgMTMuNjBMMTI2LjM4IDE4Ljk5TDEyNi4zOCAyMkwxMjQuMDEgMjJMMTI0LjAxIDE4Ljk1WiIgZmlsbD0iI0ZGRkZGRiIgeD0iNzYuNjgiLz48L3N2Zz4=)](https://forthebadge.com) -->
