@@ -300,25 +300,25 @@ Voila! Box is wired in and connected to the equipment. Of course, labeling is im
 
 Commonly found blast gates are used with some finesse and aluminum 1" angle from Home Depot they can compete on national blast gate beauty show.
 
-8493 Fitting the cylinder before cutting aluminum angles.
+Fitting the cylinder with woodedn support before cutting aluminum angles.
 ![img](./media/IMG_8493.jpg)
-blast gate assemblygif
+
+Blast gate while attaching aluminum anlges for pneumatic cylinder support.
 ![gif](./media/gate_assembly_process.gif)
 
-Fine-tune adjustment for smooth operation of 8" blast gate before installing into a ductwork<br>
+Fine-tune adjustment of assembled 8" blast gate for smooth operation before installing into a ductwork<br>
 ![gif](./media/blast_gate_operation.gif)
 
-8523 8" blast gate pictured on the left and 4" blast gate on the right, fitted in the ductwork.
+8" blast gate pictured on the left and 4" blast gate on the right, assembled and fitted into the ductwork.
 ![img](./media/IMG_8523.jpg)
 
-8521 5" blast gate assembled and fitted in ductwork
+5" blast gate assembled and fitted into the ductwork
 ![img](./media/IMG_8521.jpg)
 
-
-8524 another 5" blast gate fitted, air not connected
+Another 5" blast gate fitted.
 ![img](./media/IMG_8524.jpg)
 
-Main air has airpressure directly connected to the air compressor, fluctuates between 90 psi and 160 psi, however solenoid base air pressure is regulated to approximately 60 psi.
+Main air has air pressure directly connected to the air compressor, it fluctuates between 90 psi and 160 psi, however solenoid base air pressure is regulated to approximately 60 psi. These cylinders can operate at as low as 20 psi.
 
 
 ## RESULTS
