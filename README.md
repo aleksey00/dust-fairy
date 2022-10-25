@@ -246,8 +246,8 @@ Power supply color coded as follows:
 |Yellow|12 v|isolated|
 |White| 5 v|common|
 
-Power supplies wiring in<br>
-<!-- ![gif](./media/psu_wiring.gif) -->
+### Power supplies wiring in
+
 ![gif](./media/psu_wiring_df.gif)
 
 Box wiring in with 18/10 wire (wire is easy to mold with colors organizaiton)<br>
@@ -292,10 +292,7 @@ Attaching wires through liquidtight connection with flyback diodes to connect so
 Voila! Box is wired in and connected to the equipment. Of course, labeling is important, kids.<br>
 ![gif](/media/wire_labeling.gif)
 
-<br>
-Blast Gate Assembly
-
-<br>
+### Blast Gate Assembly
 
 Commonly found blast gates are used with some finesse and aluminum 1" angle from Home Depot worthy to compete in national blast gate beauty show.
 
@@ -317,9 +314,9 @@ Fine-tune adjustment of assembled 8" blast gate for smooth operation before inst
 Another 5" blast gate fitted<br>
 <img src="./media/IMG_8524.jpg" width="600">
 
-
 Main air has air pressure directly connected to the air compressor, it fluctuates between 90 psi and 160 psi, however solenoid base air pressure is regulated to approximately 60 psi. These cylinders can operate at as low as 20 psi.
 
+### LCD info display
 
 ## RESULTS
 
@@ -371,6 +368,9 @@ Do you like the project, have new ideas or suggestions? Please
 -  <a href="#schematic-diagrams">Schematic Diagrams</a> 
 -  <a href="#how-it-works">How It Works</a> 
 -  <a href="#build-process">Build Process</a> 
+   - <a href="#power-supplies-wiring-in">Power supplies wiring in</a>
+   - <a hfef="#blast-gate-assembly">Blast Gate assembly</a>
+   - <a href="#LCD-info-display">LCD info</a>
 -  <a href="#results">Results</a> 
 -  <a href="#future-improvements">Future Improvements</a> 
 -  <a href="#license">License</a>
