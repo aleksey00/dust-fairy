@@ -270,10 +270,11 @@ Measurement and marking for LCD's and latching buttons placement on the front do
 
 Cutting out the holes for LCD.<br>
 ![gif](./media/LCD_cutting.gif)
- <br>You may notice one LCD fell on the floor, however it survived. It took more filing and fitting than cutting out the holes.
-<br>
 
-Wiring in box cover<br>
+> 💡 In the video above pay attention to the LCD in the bottom left corner of the frame, it fell on the floor, however it survived. It took me more filing and fitting than cutting out the holes.
+
+
+<!-- Wiring in box cover<br> -->
 <!-- ![gif](/media/box_) -->
 
 Drilling for liquidtight solenoid connectors<br>
@@ -317,6 +318,8 @@ Another 5" blast gate fitted<br>
 Main air has air pressure directly connected to the air compressor, it fluctuates between 90 psi and 160 psi, however solenoid base air pressure is regulated to approximately 60 psi. These cylinders can operate at as low as 20 psi.
 
 ### LCD info display
+
+<img src="./media/" width="600">
 
 ## RESULTS
 
