@@ -298,7 +298,7 @@ Voila! Box is wired in and connected to the equipment. Of course, labeling is im
 
 <br>Blast Gate Assembly<br>
 
-Commonly found blast gates are used with some finesse and aluminum 1" angle from Home Depot they can compete on national 
+Commonly found blast gates are used with some finesse and aluminum 1" angle from Home Depot they can compete on national blast gate beauty show.
 
 Fine-tune adjustment for smooth operation of 8" blast gate<br>
 ![gif](./media/blast_gate_operation.gif)
