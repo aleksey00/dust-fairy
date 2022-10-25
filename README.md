@@ -274,22 +274,31 @@ Cutting out the holes for LCD.<br>
 <br>
 
 Wiring in box cover<br>
-<!-- ![]() -->
+<!-- ![gif](/media/box_) -->
 
 Drilling for liquidtight solenoid connectors<br>
-<!-- ![]() -->
+![gif](./media/drill_holes.gif)
 
 Box mounted, last step before wiring lines to shop equipment<br>
-<!-- ![]() -->
+![gif](./media/box_to_wall.gif)
 
 Of course, labeling of every single wire and relay<br>
-<!-- ![gif](./media) -->
+<!-- ![gif](./media/wire_labeling.gif) -->
+![gif](./media/equip_connect.gif)
 
+Attaching wires through liquidtight connection with flyback diodes to connect solenoids with relays. This part has separate isolated PSU, in case flyback diodes are not enought. In my previous tests engaging more than 3 solenoids at once with flayback diodes still casued arduino to restart. Hence separate PSU with extra precautions and ground connection.
+<!-- ![gif](./media/wire_pull_wide.gif) -->
+![gif](./media/wire_pull_wider.gif)
+
+Voila! Box is wired in and connected to the equipment. Of course, labeling is important, kids.
+![gif](/media/wire_labeling.gif)
 
 <!-- ![img]()
 ![img]() -->
 
 <br>Blast Gate Assembly<br>
+
+Commonly found blast gates are used with some finesse and aluminum 1" angle from Home Depot they can compete on national 
 
 Fine-tune adjustment for smooth operation of 8" blast gate<br>
 ![gif](./media/blast_gate_operation.gif)
