@@ -246,8 +246,8 @@ Power supply color coded as follows:
 |Yellow|12 v|isolated|
 |White| 5 v|common|
 
-Power supplies wiring in<br>
-<!-- ![gif](./media/psu_wiring.gif) -->
+### Power supplies wiring in
+
 ![gif](./media/psu_wiring_df.gif)
 
 Box wiring in with 18/10 wire (wire is easy to mold with colors organizaiton)<br>
@@ -274,29 +274,54 @@ Cutting out the holes for LCD.<br>
 <br>
 
 Wiring in box cover<br>
-<!-- ![]() -->
+<!-- ![gif](/media/box_) -->
 
 Drilling for liquidtight solenoid connectors<br>
-<!-- ![]() -->
+![gif](./media/drill_holes.gif)
 
 Box mounted, last step before wiring lines to shop equipment<br>
-<!-- ![]() -->
+![gif](./media/box_to_wall.gif)
 
+Of course, labeling of every single wire and relay<br>
+<!-- ![gif](./media/wire_labeling.gif) -->
+![gif](./media/equip_connect.gif)
 
+Attaching wires through liquidtight connection with flyback diodes to connect solenoids with relays. This part has separate isolated PSU, in case flyback diodes are not enought. In my previous tests engaging more than 3 solenoids at once with flayback diodes still casued arduino to restart. Hence separate PSU with extra precautions and ground connection.<br>
+![gif](./media/wire_pull_wider.gif)
 
-<!-- ![img]()
-![img]() -->
+Voila! Box is wired in and connected to the equipment. Of course, labeling is important, kids.<br>
+![gif](/media/wire_labeling.gif)
 
-<br>Blast Gate Assembly<br>
+### Blast Gate Assembly
 
-Fine-tune adjustment for smooth operation of 8" blast gate<br>
+Commonly found blast gates are used with some finesse and aluminum 1" angle from Home Depot worthy to compete in national blast gate beauty show.
+
+Fitting the cylinder with woodedn support before cutting aluminum angles.<br>
+<img src="./media/IMG_8493.jpg" width="600">
+
+Blast gate while attaching aluminum anlges for pneumatic cylinder support.<br>
+![gif](./media/gate_assembly_process.gif)
+
+Fine-tune adjustment of assembled 8" blast gate for smooth operation before installing into a ductwork<br>
 ![gif](./media/blast_gate_operation.gif)
 
+8" blast gate pictured on the left and 4" blast gate on the right, assembled and fitted into the ductwork.<br>
+<img src="./media/IMG_8523.jpg" width="600">
 
+5" blast gate assembled and fitted into the ductwork<br>
+<img src="./media/IMG_8521.jpg" width="600">
 
+Another 5" blast gate fitted<br>
+<img src="./media/IMG_8524.jpg" width="600">
+
+Main air has air pressure directly connected to the air compressor, it fluctuates between 90 psi and 160 psi, however solenoid base air pressure is regulated to approximately 60 psi. These cylinders can operate at as low as 20 psi.
+
+### LCD info display
 
 ## RESULTS
-Working video and gifs here UPLOADING...
+
+Quick pan of the edgebander side of the system completed, 8", 4" and 5" blast gates shown. All blast gates connected and labeled.<br>
+![gif](./media/final_one_part.gif)
 
 
 ## FUTURE IMPROVEMENTS
@@ -308,6 +333,8 @@ Working video and gifs here UPLOADING...
 |Arduino MEGA|No Wifi or bluetooth module|
 |||
 <br>
+
+Do you like the project, have new ideas or suggestions? Please 
 
 <!-- *VS*
 <br>
@@ -341,6 +368,9 @@ Working video and gifs here UPLOADING...
 -  <a href="#schematic-diagrams">Schematic Diagrams</a> 
 -  <a href="#how-it-works">How It Works</a> 
 -  <a href="#build-process">Build Process</a> 
+   - <a href="#power-supplies-wiring-in">Power supplies wiring in</a>
+   - <a href="#blast-gate-assembly">Blast Gate assembly</a>
+   - <a href="#LCD-info-display">LCD info</a>
 -  <a href="#results">Results</a> 
 -  <a href="#future-improvements">Future Improvements</a> 
 -  <a href="#license">License</a>
