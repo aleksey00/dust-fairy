@@ -369,7 +369,7 @@ Do you like the project, have new ideas or suggestions? Please
 -  <a href="#how-it-works">How It Works</a> 
 -  <a href="#build-process">Build Process</a> 
    - <a href="#power-supplies-wiring-in">Power supplies wiring in</a>
-   - <a hfef="#Blast-Gate-Assembly">Blast Gate assembly</a>
+   - <a href="#blast-gate-assembly">Blast Gate assembly</a>
    - <a href="#LCD-info-display">LCD info</a>
 -  <a href="#results">Results</a> 
 -  <a href="#future-improvements">Future Improvements</a> 
