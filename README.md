@@ -273,7 +273,6 @@ Cutting out the holes for LCD.<br>
 
 > 💡 In the video above pay attention to the LCD in the bottom left corner of the frame, it fell on the floor, however it survived. It took me more filing and fitting than cutting out the holes.
 
-
 <!-- Wiring in box cover<br> -->
 <!-- ![gif](/media/box_) -->
 
@@ -319,7 +318,7 @@ Main air has air pressure directly connected to the air compressor, it fluctuate
 
 ### LCD info display
 
-<img src="./media/" width="600">
+<!-- <img src="./media/" width="600"> -->
 
 ## RESULTS
 
@@ -535,3 +534,8 @@ List of things to acquire:
 |   	|   	|   	|   	|[Amazon]()|
 |18/8 wire|18/8 Brown Solid CU CL2 Thermostat Wire|10|$0.98|[Home Depot](https://www.homedepot.com/p/Southwire-250-ft-18-8-Brown-Solid-CU-CL2-Thermostat-Wire-65676944/202316421)|
 |16/3 wire|By-the-Foot 16/3 600-Volt CU Black Flexible Portable Power SOOW Cord|13|$1.07|[Home Depot](https://www.homedepot.com/p/Southwire-By-the-Foot-16-3-600-Volt-CU-Black-Flexible-Portable-Power-SOOW-Cord-55810099/204725139)| -->
+
+
+<!-- Description: -->
+
+<!-- Dust Fairy is an Arduino based dust collection system for complete automation and coordination of blast gates and dust collection system of any size with shop equipment. For full detailed description with code, please visit GitHub repository. -->
