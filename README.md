@@ -270,10 +270,10 @@ Measurement and marking for LCD's and latching buttons placement on the front do
 
 Cutting out the holes for LCD.<br>
 ![gif](./media/LCD_cutting.gif)
- <br>You may notice one LCD fell on the floor, however it survived. It took more filing and fitting than cutting out the holes.
-<br>
 
-Wiring in box cover<br>
+> 💡 In the video above pay attention to the LCD in the bottom left corner of the frame, it fell on the floor, however it survived. It took me more filing and fitting than cutting out the holes.
+
+<!-- Wiring in box cover<br> -->
 <!-- ![gif](/media/box_) -->
 
 Drilling for liquidtight solenoid connectors<br>
@@ -317,6 +317,8 @@ Another 5" blast gate fitted<br>
 Main air has air pressure directly connected to the air compressor, it fluctuates between 90 psi and 160 psi, however solenoid base air pressure is regulated to approximately 60 psi. These cylinders can operate at as low as 20 psi.
 
 ### LCD info display
+
+<!-- <img src="./media/" width="600"> -->
 
 ## RESULTS
 
@@ -532,3 +534,8 @@ List of things to acquire:
 |   	|   	|   	|   	|[Amazon]()|
 |18/8 wire|18/8 Brown Solid CU CL2 Thermostat Wire|10|$0.98|[Home Depot](https://www.homedepot.com/p/Southwire-250-ft-18-8-Brown-Solid-CU-CL2-Thermostat-Wire-65676944/202316421)|
 |16/3 wire|By-the-Foot 16/3 600-Volt CU Black Flexible Portable Power SOOW Cord|13|$1.07|[Home Depot](https://www.homedepot.com/p/Southwire-By-the-Foot-16-3-600-Volt-CU-Black-Flexible-Portable-Power-SOOW-Cord-55810099/204725139)| -->
+
+
+<!-- Description: -->
+
+<!-- Dust Fairy is an Arduino based dust collection system for complete automation and coordination of blast gates and dust collection system of any size with shop equipment. For full detailed description with code, please visit GitHub repository. -->
