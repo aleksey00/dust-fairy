@@ -1,3 +1,5 @@
+/* This file contains functions no longer used and other references no longer used */
+
 // loop_DustFairy_clean.ino
 
 /* gates and manualOverride disblaed for testing */
