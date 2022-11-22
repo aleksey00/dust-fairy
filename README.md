@@ -314,7 +314,7 @@ Fine-tune adjustment of assembled 8" blast gate for smooth operation before inst
 Another 5" blast gate fitted<br>
 <img src="./media/IMG_8524.jpg" width="600">
 
-Main air has air pressure directly connected to the air compressor, it fluctuates between 90 psi and 160 psi, however solenoid base air pressure is regulated to approximately 60 psi. These cylinders can operate at as low as 20 psi.
+Main air has air pressure directly connected to the air compressor, it fluctuates between 125 psi and 160 psi, however solenoid base air pressure is regulated to approximately 60 psi. These cylinders can operate at as low as 20 psi.
 
 ### LCD info display
 
