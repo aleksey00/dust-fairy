@@ -1,7 +1,77 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Circuit Diagram, cdlibrary.dll 4.0.0.0 -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" width="1680" height="1340" xmlns="http://www.w3.org/2000/svg">
+<svg version="1.1" width="1680" height="1360" xmlns="http://www.w3.org/2000/svg">
+	<line x1="1400" y1="1050" x2="1400" y2="1090" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<line x1="1530" y1="1050" x2="1400" y2="1050" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<path d="M 1458,1050 M 1458,1042 L 1458,1058 M 1458,1050 L 1473,1058 L 1473,1042 L 1458,1050" style="fill-opacity:0;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<line x1="1458" y1="1059" x2="1463" y2="1059" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<line x1="1463" y1="1059" x2="1463" y2="1057" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<line x1="1458" y1="1041" x2="1453" y2="1041" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<line x1="1453" y1="1041" x2="1453" y2="1043" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<line x1="1400" y1="960" x2="1400" y2="1000" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<line x1="1530" y1="960" x2="1400" y2="960" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<path d="M 1458,960 M 1458,952 L 1458,968 M 1458,960 L 1473,968 L 1473,952 L 1458,960" style="fill-opacity:0;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<line x1="1458" y1="969" x2="1463" y2="969" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<line x1="1463" y1="969" x2="1463" y2="967" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<line x1="1458" y1="951" x2="1453" y2="951" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<line x1="1453" y1="951" x2="1453" y2="953" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<line x1="1400" y1="870" x2="1400" y2="910" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<line x1="1530" y1="870" x2="1400" y2="870" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<path d="M 1458,870 M 1458,862 L 1458,878 M 1458,870 L 1473,878 L 1473,862 L 1458,870" style="fill-opacity:0;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<line x1="1458" y1="879" x2="1463" y2="879" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<line x1="1463" y1="879" x2="1463" y2="877" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<line x1="1458" y1="861" x2="1453" y2="861" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<line x1="1453" y1="861" x2="1453" y2="863" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<line x1="1400" y1="780" x2="1400" y2="820" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<line x1="1530" y1="780" x2="1400" y2="780" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<path d="M 1458,780 M 1458,772 L 1458,788 M 1458,780 L 1473,788 L 1473,772 L 1458,780" style="fill-opacity:0;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<line x1="1458" y1="789" x2="1463" y2="789" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<line x1="1463" y1="789" x2="1463" y2="787" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<line x1="1458" y1="771" x2="1453" y2="771" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<line x1="1453" y1="771" x2="1453" y2="773" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<line x1="1400" y1="690" x2="1400" y2="730" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<line x1="1530" y1="690" x2="1400" y2="690" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<path d="M 1458,690 M 1458,682 L 1458,698 M 1458,690 L 1473,698 L 1473,682 L 1458,690" style="fill-opacity:0;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<line x1="1458" y1="699" x2="1463" y2="699" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<line x1="1463" y1="699" x2="1463" y2="697" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<line x1="1458" y1="681" x2="1453" y2="681" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<line x1="1453" y1="681" x2="1453" y2="683" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<line x1="1400" y1="600" x2="1400" y2="640" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<line x1="1530" y1="600" x2="1400" y2="600" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<path d="M 1458,600 M 1458,592 L 1458,608 M 1458,600 L 1473,608 L 1473,592 L 1458,600" style="fill-opacity:0;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<line x1="1458" y1="609" x2="1463" y2="609" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<line x1="1463" y1="609" x2="1463" y2="607" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<line x1="1458" y1="591" x2="1453" y2="591" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<line x1="1453" y1="591" x2="1453" y2="593" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<line x1="1400" y1="510" x2="1400" y2="550" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<line x1="1530" y1="510" x2="1400" y2="510" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<path d="M 1458,510 M 1458,502 L 1458,518 M 1458,510 L 1473,518 L 1473,502 L 1458,510" style="fill-opacity:0;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<line x1="1458" y1="519" x2="1463" y2="519" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<line x1="1463" y1="519" x2="1463" y2="517" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<line x1="1458" y1="501" x2="1453" y2="501" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<line x1="1453" y1="501" x2="1453" y2="503" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<line x1="1400" y1="420" x2="1400" y2="460" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<line x1="1530" y1="420" x2="1400" y2="420" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<path d="M 1458,420 M 1458,412 L 1458,428 M 1458,420 L 1473,428 L 1473,412 L 1458,420" style="fill-opacity:0;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<line x1="1458" y1="429" x2="1463" y2="429" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<line x1="1463" y1="429" x2="1463" y2="427" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<line x1="1458" y1="411" x2="1453" y2="411" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<line x1="1453" y1="411" x2="1453" y2="413" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<line x1="1400" y1="320" x2="1400" y2="360" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<line x1="1530" y1="320" x2="1400" y2="320" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<path d="M 1458,320 M 1458,312 L 1458,328 M 1458,320 L 1473,328 L 1473,312 L 1458,320" style="fill-opacity:0;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<line x1="1458" y1="329" x2="1463" y2="329" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<line x1="1463" y1="329" x2="1463" y2="327" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<line x1="1458" y1="311" x2="1453" y2="311" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<line x1="1453" y1="311" x2="1453" y2="313" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<line x1="1400" y1="230" x2="1400" y2="270" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<line x1="1530" y1="230" x2="1400" y2="230" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<path d="M 1458,230 M 1458,222 L 1458,238 M 1458,230 L 1473,238 L 1473,222 L 1458,230" style="fill-opacity:0;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<line x1="1458" y1="239" x2="1463" y2="239" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<line x1="1463" y1="239" x2="1463" y2="237" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<line x1="1458" y1="221" x2="1453" y2="221" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<line x1="1453" y1="221" x2="1453" y2="223" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
 	<text x="1600" y="1200" style="font-family:Arial;font-size:11px;text-anchor:middle" dominant-baseline="middle" transform="rotate(0, 1600, 1200)">To Vac Box</text>
 	<rect x="1550" y="1210" width="100" height="60" style="fill-opacity:0;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-width:2" />
 	<line x1="1540" y1="1220" x2="1550" y2="1220" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
@@ -19,9 +89,9 @@
 	<line x1="1410" y1="1220" x2="1540" y2="1220" style="stroke:rgba(100, 149, 237, 255);stroke-linecap:square;stroke-width:2" />
 	<line x1="1260" y1="1190" x2="1260" y2="1230" style="stroke:rgba(100, 149, 237, 255);stroke-linecap:square;stroke-width:2" />
 	<line x1="1260" y1="1190" x2="1410" y2="1190" style="stroke:rgba(100, 149, 237, 255);stroke-linecap:square;stroke-width:2" />
-	<line x1="290" y1="1310" x2="1520" y2="1310" style="stroke:rgba(34, 139, 34, 255);stroke-linecap:square;stroke-width:2" />
-	<text x="1520" y="45" style="fill: rgba(34, 139, 34, 255);font-family:Arial;font-size:12px;text-anchor:middle" dominant-baseline="baseline" transform="rotate(0, 1520, 45)">0V</text>
-	<line x1="1520" y1="50" x2="1520" y2="1310" style="stroke:rgba(34, 139, 34, 255);stroke-linecap:square;stroke-width:2" />
+	<line x1="290" y1="1330" x2="1530" y2="1330" style="stroke:rgba(34, 139, 34, 255);stroke-linecap:square;stroke-width:2" />
+	<text x="1530" y="45" style="fill: rgba(34, 139, 34, 255);font-family:Arial;font-size:12px;text-anchor:middle" dominant-baseline="baseline" transform="rotate(0, 1530, 45)">0V</text>
+	<line x1="1530" y1="50" x2="1530" y2="1330" style="stroke:rgba(34, 139, 34, 255);stroke-linecap:square;stroke-width:2" />
 	<text x="65" y="1160" style="fill: rgba(255, 0, 0, 255);font-family:Arial;font-size:12px;text-anchor:end" dominant-baseline="middle" transform="rotate(0, 65, 1160)">+24V</text>
 	<line x1="70" y1="1160" x2="1200" y2="1160" style="stroke:rgba(255, 0, 0, 255);stroke-linecap:square;stroke-width:2" />
 	<line x1="1200" y1="70" x2="1200" y2="1160" style="stroke:rgba(255, 0, 0, 255);stroke-linecap:square;stroke-width:2" />
@@ -189,7 +259,7 @@
 	<text x="136" y="650" style="font-family:Arial;font-size:11px;text-anchor:end" dominant-baseline="middle" transform="rotate(0, 136, 650)">+</text>
 	<line x1="140" y1="670" x2="150" y2="670" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
 	<text x="136" y="670" style="font-family:Arial;font-size:11px;text-anchor:end" dominant-baseline="middle" transform="rotate(0, 136, 670)">-</text>
-	<line x1="290" y1="1280" x2="290" y2="1310" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<line x1="290" y1="1280" x2="290" y2="1330" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
 	<line x1="1050" y1="1270" x2="1080" y2="1270" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
 	<line x1="1080" y1="1220" x2="1080" y2="1270" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
 	<path d="M 1080,1252 M 1072,1252 L 1088,1252 M 1080,1252 L 1088,1237 L 1072,1237 L 1080,1252" style="fill-opacity:0;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
@@ -212,66 +282,66 @@
 	<ellipse cx="290" cy="1230" rx="16" ry="16" style="fill-opacity:0;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-width:2" />
 	<line x1="290" y1="1246" x2="290" y2="1280" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
 	<path d="M 290,1230 M 290,1220 L 290,1228 M 286,1224 L 294,1224 M 286,1238 L 294,1238" style="fill-opacity:0;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<text x="1455" y="1070" style="font-family:Arial;font-size:11px;text-anchor:middle" dominant-baseline="middle" transform="rotate(0, 1455, 1070)">Solenoid</text>
-	<rect x="1405" y="1080" width="100" height="30" style="fill-opacity:0;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-width:2" />
-	<line x1="1390" y1="1090" x2="1405" y2="1090" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<text x="1409" y="1090" style="font-family:Arial;font-size:11px;text-anchor:start" dominant-baseline="middle" transform="rotate(0, 1409, 1090)">1</text>
-	<line x1="1505" y1="1090" x2="1520" y2="1090" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<text x="1501" y="1090" style="font-family:Arial;font-size:11px;text-anchor:end" dominant-baseline="middle" transform="rotate(0, 1501, 1090)">0</text>
-	<text x="1455" y="980" style="font-family:Arial;font-size:11px;text-anchor:middle" dominant-baseline="middle" transform="rotate(0, 1455, 980)">Solenoid</text>
-	<rect x="1405" y="990" width="100" height="30" style="fill-opacity:0;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-width:2" />
-	<line x1="1390" y1="1000" x2="1405" y2="1000" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<text x="1409" y="1000" style="font-family:Arial;font-size:11px;text-anchor:start" dominant-baseline="middle" transform="rotate(0, 1409, 1000)">1</text>
-	<line x1="1505" y1="1000" x2="1520" y2="1000" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<text x="1501" y="1000" style="font-family:Arial;font-size:11px;text-anchor:end" dominant-baseline="middle" transform="rotate(0, 1501, 1000)">0</text>
-	<text x="1455" y="890" style="font-family:Arial;font-size:11px;text-anchor:middle" dominant-baseline="middle" transform="rotate(0, 1455, 890)">Solenoid</text>
-	<rect x="1405" y="900" width="100" height="30" style="fill-opacity:0;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-width:2" />
-	<line x1="1390" y1="910" x2="1405" y2="910" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<text x="1409" y="910" style="font-family:Arial;font-size:11px;text-anchor:start" dominant-baseline="middle" transform="rotate(0, 1409, 910)">1</text>
-	<line x1="1505" y1="910" x2="1520" y2="910" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<text x="1501" y="910" style="font-family:Arial;font-size:11px;text-anchor:end" dominant-baseline="middle" transform="rotate(0, 1501, 910)">0</text>
-	<text x="1455" y="440" style="font-family:Arial;font-size:11px;text-anchor:middle" dominant-baseline="middle" transform="rotate(0, 1455, 440)">Solenoid</text>
-	<rect x="1405" y="450" width="100" height="30" style="fill-opacity:0;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-width:2" />
-	<line x1="1390" y1="460" x2="1405" y2="460" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<text x="1409" y="460" style="font-family:Arial;font-size:11px;text-anchor:start" dominant-baseline="middle" transform="rotate(0, 1409, 460)">1</text>
-	<line x1="1505" y1="460" x2="1520" y2="460" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<text x="1501" y="460" style="font-family:Arial;font-size:11px;text-anchor:end" dominant-baseline="middle" transform="rotate(0, 1501, 460)">0</text>
-	<text x="1455" y="530" style="font-family:Arial;font-size:11px;text-anchor:middle" dominant-baseline="middle" transform="rotate(0, 1455, 530)">Solenoid</text>
-	<rect x="1405" y="540" width="100" height="30" style="fill-opacity:0;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-width:2" />
-	<line x1="1390" y1="550" x2="1405" y2="550" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<text x="1409" y="550" style="font-family:Arial;font-size:11px;text-anchor:start" dominant-baseline="middle" transform="rotate(0, 1409, 550)">1</text>
-	<line x1="1505" y1="550" x2="1520" y2="550" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<text x="1501" y="550" style="font-family:Arial;font-size:11px;text-anchor:end" dominant-baseline="middle" transform="rotate(0, 1501, 550)">0</text>
-	<text x="1455" y="620" style="font-family:Arial;font-size:11px;text-anchor:middle" dominant-baseline="middle" transform="rotate(0, 1455, 620)">Solenoid</text>
-	<rect x="1405" y="630" width="100" height="30" style="fill-opacity:0;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-width:2" />
-	<line x1="1390" y1="640" x2="1405" y2="640" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<text x="1409" y="640" style="font-family:Arial;font-size:11px;text-anchor:start" dominant-baseline="middle" transform="rotate(0, 1409, 640)">1</text>
-	<line x1="1505" y1="640" x2="1520" y2="640" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<text x="1501" y="640" style="font-family:Arial;font-size:11px;text-anchor:end" dominant-baseline="middle" transform="rotate(0, 1501, 640)">0</text>
-	<text x="1455" y="710" style="font-family:Arial;font-size:11px;text-anchor:middle" dominant-baseline="middle" transform="rotate(0, 1455, 710)">Solenoid</text>
-	<rect x="1405" y="720" width="100" height="30" style="fill-opacity:0;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-width:2" />
-	<line x1="1390" y1="730" x2="1405" y2="730" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<text x="1409" y="730" style="font-family:Arial;font-size:11px;text-anchor:start" dominant-baseline="middle" transform="rotate(0, 1409, 730)">1</text>
-	<line x1="1505" y1="730" x2="1520" y2="730" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<text x="1501" y="730" style="font-family:Arial;font-size:11px;text-anchor:end" dominant-baseline="middle" transform="rotate(0, 1501, 730)">0</text>
-	<text x="1455" y="800" style="font-family:Arial;font-size:11px;text-anchor:middle" dominant-baseline="middle" transform="rotate(0, 1455, 800)">Solenoid</text>
-	<rect x="1405" y="810" width="100" height="30" style="fill-opacity:0;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-width:2" />
-	<line x1="1390" y1="820" x2="1405" y2="820" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<text x="1409" y="820" style="font-family:Arial;font-size:11px;text-anchor:start" dominant-baseline="middle" transform="rotate(0, 1409, 820)">1</text>
-	<line x1="1505" y1="820" x2="1520" y2="820" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<text x="1501" y="820" style="font-family:Arial;font-size:11px;text-anchor:end" dominant-baseline="middle" transform="rotate(0, 1501, 820)">0</text>
-	<text x="1455" y="340" style="font-family:Arial;font-size:11px;text-anchor:middle" dominant-baseline="middle" transform="rotate(0, 1455, 340)">Solenoid</text>
-	<rect x="1405" y="350" width="100" height="30" style="fill-opacity:0;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-width:2" />
-	<line x1="1390" y1="360" x2="1405" y2="360" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<text x="1409" y="360" style="font-family:Arial;font-size:11px;text-anchor:start" dominant-baseline="middle" transform="rotate(0, 1409, 360)">1</text>
-	<line x1="1505" y1="360" x2="1520" y2="360" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<text x="1501" y="360" style="font-family:Arial;font-size:11px;text-anchor:end" dominant-baseline="middle" transform="rotate(0, 1501, 360)">0</text>
-	<text x="1455" y="250" style="font-family:Arial;font-size:11px;text-anchor:middle" dominant-baseline="middle" transform="rotate(0, 1455, 250)">Solenoid</text>
-	<rect x="1405" y="260" width="100" height="30" style="fill-opacity:0;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-width:2" />
-	<line x1="1390" y1="270" x2="1405" y2="270" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<text x="1409" y="270" style="font-family:Arial;font-size:11px;text-anchor:start" dominant-baseline="middle" transform="rotate(0, 1409, 270)">1</text>
-	<line x1="1505" y1="270" x2="1520" y2="270" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<text x="1501" y="270" style="font-family:Arial;font-size:11px;text-anchor:end" dominant-baseline="middle" transform="rotate(0, 1501, 270)">0</text>
+	<text x="1465" y="1070" style="font-family:Arial;font-size:11px;text-anchor:middle" dominant-baseline="middle" transform="rotate(0, 1465, 1070)">Solenoid</text>
+	<rect x="1415" y="1080" width="100" height="30" style="fill-opacity:0;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-width:2" />
+	<line x1="1400" y1="1090" x2="1415" y2="1090" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<text x="1419" y="1090" style="font-family:Arial;font-size:11px;text-anchor:start" dominant-baseline="middle" transform="rotate(0, 1419, 1090)">1</text>
+	<line x1="1515" y1="1090" x2="1530" y2="1090" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<text x="1511" y="1090" style="font-family:Arial;font-size:11px;text-anchor:end" dominant-baseline="middle" transform="rotate(0, 1511, 1090)">0</text>
+	<text x="1465" y="980" style="font-family:Arial;font-size:11px;text-anchor:middle" dominant-baseline="middle" transform="rotate(0, 1465, 980)">Solenoid</text>
+	<rect x="1415" y="990" width="100" height="30" style="fill-opacity:0;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-width:2" />
+	<line x1="1400" y1="1000" x2="1415" y2="1000" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<text x="1419" y="1000" style="font-family:Arial;font-size:11px;text-anchor:start" dominant-baseline="middle" transform="rotate(0, 1419, 1000)">1</text>
+	<line x1="1515" y1="1000" x2="1530" y2="1000" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<text x="1511" y="1000" style="font-family:Arial;font-size:11px;text-anchor:end" dominant-baseline="middle" transform="rotate(0, 1511, 1000)">0</text>
+	<text x="1465" y="890" style="font-family:Arial;font-size:11px;text-anchor:middle" dominant-baseline="middle" transform="rotate(0, 1465, 890)">Solenoid</text>
+	<rect x="1415" y="900" width="100" height="30" style="fill-opacity:0;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-width:2" />
+	<line x1="1400" y1="910" x2="1415" y2="910" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<text x="1419" y="910" style="font-family:Arial;font-size:11px;text-anchor:start" dominant-baseline="middle" transform="rotate(0, 1419, 910)">1</text>
+	<line x1="1515" y1="910" x2="1530" y2="910" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<text x="1511" y="910" style="font-family:Arial;font-size:11px;text-anchor:end" dominant-baseline="middle" transform="rotate(0, 1511, 910)">0</text>
+	<text x="1465" y="440" style="font-family:Arial;font-size:11px;text-anchor:middle" dominant-baseline="middle" transform="rotate(0, 1465, 440)">Solenoid</text>
+	<rect x="1415" y="450" width="100" height="30" style="fill-opacity:0;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-width:2" />
+	<line x1="1400" y1="460" x2="1415" y2="460" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<text x="1419" y="460" style="font-family:Arial;font-size:11px;text-anchor:start" dominant-baseline="middle" transform="rotate(0, 1419, 460)">1</text>
+	<line x1="1515" y1="460" x2="1530" y2="460" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<text x="1511" y="460" style="font-family:Arial;font-size:11px;text-anchor:end" dominant-baseline="middle" transform="rotate(0, 1511, 460)">0</text>
+	<text x="1465" y="530" style="font-family:Arial;font-size:11px;text-anchor:middle" dominant-baseline="middle" transform="rotate(0, 1465, 530)">Solenoid</text>
+	<rect x="1415" y="540" width="100" height="30" style="fill-opacity:0;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-width:2" />
+	<line x1="1400" y1="550" x2="1415" y2="550" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<text x="1419" y="550" style="font-family:Arial;font-size:11px;text-anchor:start" dominant-baseline="middle" transform="rotate(0, 1419, 550)">1</text>
+	<line x1="1515" y1="550" x2="1530" y2="550" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<text x="1511" y="550" style="font-family:Arial;font-size:11px;text-anchor:end" dominant-baseline="middle" transform="rotate(0, 1511, 550)">0</text>
+	<text x="1465" y="620" style="font-family:Arial;font-size:11px;text-anchor:middle" dominant-baseline="middle" transform="rotate(0, 1465, 620)">Solenoid</text>
+	<rect x="1415" y="630" width="100" height="30" style="fill-opacity:0;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-width:2" />
+	<line x1="1400" y1="640" x2="1415" y2="640" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<text x="1419" y="640" style="font-family:Arial;font-size:11px;text-anchor:start" dominant-baseline="middle" transform="rotate(0, 1419, 640)">1</text>
+	<line x1="1515" y1="640" x2="1530" y2="640" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<text x="1511" y="640" style="font-family:Arial;font-size:11px;text-anchor:end" dominant-baseline="middle" transform="rotate(0, 1511, 640)">0</text>
+	<text x="1465" y="710" style="font-family:Arial;font-size:11px;text-anchor:middle" dominant-baseline="middle" transform="rotate(0, 1465, 710)">Solenoid</text>
+	<rect x="1415" y="720" width="100" height="30" style="fill-opacity:0;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-width:2" />
+	<line x1="1400" y1="730" x2="1415" y2="730" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<text x="1419" y="730" style="font-family:Arial;font-size:11px;text-anchor:start" dominant-baseline="middle" transform="rotate(0, 1419, 730)">1</text>
+	<line x1="1515" y1="730" x2="1530" y2="730" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<text x="1511" y="730" style="font-family:Arial;font-size:11px;text-anchor:end" dominant-baseline="middle" transform="rotate(0, 1511, 730)">0</text>
+	<text x="1465" y="800" style="font-family:Arial;font-size:11px;text-anchor:middle" dominant-baseline="middle" transform="rotate(0, 1465, 800)">Solenoid</text>
+	<rect x="1415" y="810" width="100" height="30" style="fill-opacity:0;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-width:2" />
+	<line x1="1400" y1="820" x2="1415" y2="820" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<text x="1419" y="820" style="font-family:Arial;font-size:11px;text-anchor:start" dominant-baseline="middle" transform="rotate(0, 1419, 820)">1</text>
+	<line x1="1515" y1="820" x2="1530" y2="820" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<text x="1511" y="820" style="font-family:Arial;font-size:11px;text-anchor:end" dominant-baseline="middle" transform="rotate(0, 1511, 820)">0</text>
+	<text x="1465" y="340" style="font-family:Arial;font-size:11px;text-anchor:middle" dominant-baseline="middle" transform="rotate(0, 1465, 340)">Solenoid</text>
+	<rect x="1415" y="350" width="100" height="30" style="fill-opacity:0;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-width:2" />
+	<line x1="1400" y1="360" x2="1415" y2="360" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<text x="1419" y="360" style="font-family:Arial;font-size:11px;text-anchor:start" dominant-baseline="middle" transform="rotate(0, 1419, 360)">1</text>
+	<line x1="1515" y1="360" x2="1530" y2="360" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<text x="1511" y="360" style="font-family:Arial;font-size:11px;text-anchor:end" dominant-baseline="middle" transform="rotate(0, 1511, 360)">0</text>
+	<text x="1465" y="250" style="font-family:Arial;font-size:11px;text-anchor:middle" dominant-baseline="middle" transform="rotate(0, 1465, 250)">Solenoid</text>
+	<rect x="1415" y="260" width="100" height="30" style="fill-opacity:0;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-width:2" />
+	<line x1="1400" y1="270" x2="1415" y2="270" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<text x="1419" y="270" style="font-family:Arial;font-size:11px;text-anchor:start" dominant-baseline="middle" transform="rotate(0, 1419, 270)">1</text>
+	<line x1="1515" y1="270" x2="1530" y2="270" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<text x="1511" y="270" style="font-family:Arial;font-size:11px;text-anchor:end" dominant-baseline="middle" transform="rotate(0, 1511, 270)">0</text>
 	<line x1="1050" y1="490" x2="1080" y2="490" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
 	<line x1="1050" y1="760" x2="1080" y2="760" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
 	<line x1="1050" y1="670" x2="1080" y2="670" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
@@ -334,10 +404,10 @@
 	<path d="M 1080,102 M 1072,102 L 1088,102 M 1080,102 L 1088,87 L 1072,87 L 1080,102" style="fill-opacity:0;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
 	<path d="M 1080,100 M 1091,98 L 1099,106 M 1100,107 L 1098,103 L 1096,105 L 1100,107 L 1098,103" style="fill-opacity:0;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
 	<path d="M 1080,100 M 1084,104 L 1092,112 M 1093,113 L 1091,109 L 1089,111 L 1093,113 L 1091,109" style="fill-opacity:0;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<line x1="1400" y1="180" x2="1447" y2="180" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<line x1="1473" y1="180" x2="1520" y2="180" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<ellipse cx="1460" cy="180" rx="12" ry="12" style="fill-opacity:0;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-width:2" />
-	<text x="1460" y="180" style="font-family:Arial;font-size:12px;text-anchor:middle" dominant-baseline="middle" transform="rotate(0, 1460, 180)">M</text>
+	<line x1="1400" y1="180" x2="1452" y2="180" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<line x1="1478" y1="180" x2="1530" y2="180" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<ellipse cx="1465" cy="180" rx="12" ry="12" style="fill-opacity:0;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-width:2" />
+	<text x="1465" y="180" style="font-family:Arial;font-size:12px;text-anchor:middle" dominant-baseline="middle" transform="rotate(0, 1465, 180)">M</text>
 	<line x1="210" y1="870" x2="210" y2="890" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
 	<line x1="210" y1="890" x2="470" y2="890" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
 	<line x1="120" y1="790" x2="470" y2="790" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
@@ -438,28 +508,28 @@
 	<line x1="140" y1="270" x2="150" y2="270" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
 	<text x="136" y="270" style="font-family:Arial;font-size:11px;text-anchor:end" dominant-baseline="middle" transform="rotate(0, 136, 270)">SDA</text>
 	<line x1="1360" y1="1240" x2="1540" y2="1240" style="stroke:rgba(255, 0, 0, 255);stroke-linecap:square;stroke-width:2" />
-	<line x1="1360" y1="1090" x2="1390" y2="1090" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<line x1="1360" y1="1000" x2="1390" y2="1000" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<line x1="1360" y1="910" x2="1390" y2="910" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<line x1="1360" y1="820" x2="1390" y2="820" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<line x1="1360" y1="730" x2="1390" y2="730" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<line x1="1360" y1="640" x2="1390" y2="640" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<line x1="1360" y1="550" x2="1390" y2="550" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<line x1="1360" y1="460" x2="1390" y2="460" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<line x1="1360" y1="360" x2="1390" y2="360" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<line x1="1360" y1="270" x2="1390" y2="270" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<line x1="1360" y1="1090" x2="1400" y2="1090" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<line x1="1360" y1="1000" x2="1400" y2="1000" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<line x1="1360" y1="910" x2="1400" y2="910" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<line x1="1360" y1="820" x2="1400" y2="820" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<line x1="1360" y1="730" x2="1400" y2="730" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<line x1="1360" y1="640" x2="1400" y2="640" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<line x1="1360" y1="550" x2="1400" y2="550" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<line x1="1360" y1="460" x2="1400" y2="460" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<line x1="1360" y1="360" x2="1400" y2="360" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<line x1="1360" y1="270" x2="1400" y2="270" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
 	<line x1="1360" y1="180" x2="1400" y2="180" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<line x1="1400" y1="50" x2="1400" y2="70" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<line x1="1360" y1="70" x2="1400" y2="70" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<line x1="1360" y1="90" x2="1400" y2="90" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<line x1="1400" y1="90" x2="1520" y2="90" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<path d="M 1467,90 M 1467,82 L 1467,98 M 1467,90 L 1452,98 L 1452,82 L 1467,90" style="fill-opacity:0;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<path d="M 1465,90 M 1463,79 L 1471,71 M 1472,70 L 1468,72 L 1470,74 L 1472,70 L 1468,72" style="fill-opacity:0;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<path d="M 1465,90 M 1469,86 L 1477,78 M 1478,77 L 1474,79 L 1476,81 L 1478,77 L 1474,79" style="fill-opacity:0;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<line x1="1400" y1="50" x2="1520" y2="50" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<path d="M 1467,50 M 1467,42 L 1467,58 M 1467,50 L 1452,58 L 1452,42 L 1467,50" style="fill-opacity:0;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<path d="M 1465,50 M 1463,39 L 1471,31 M 1472,30 L 1468,32 L 1470,34 L 1472,30 L 1468,32" style="fill-opacity:0;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
-	<path d="M 1465,50 M 1469,46 L 1477,38 M 1478,37 L 1474,39 L 1476,41 L 1478,37 L 1474,39" style="fill-opacity:0;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<line x1="1410" y1="50" x2="1410" y2="70" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<line x1="1360" y1="70" x2="1410" y2="70" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<line x1="1360" y1="90" x2="1410" y2="90" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<line x1="1410" y1="90" x2="1530" y2="90" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<path d="M 1477,90 M 1477,82 L 1477,98 M 1477,90 L 1462,98 L 1462,82 L 1477,90" style="fill-opacity:0;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<path d="M 1475,90 M 1473,79 L 1481,71 M 1482,70 L 1478,72 L 1480,74 L 1482,70 L 1478,72" style="fill-opacity:0;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<path d="M 1475,90 M 1479,86 L 1487,78 M 1488,77 L 1484,79 L 1486,81 L 1488,77 L 1484,79" style="fill-opacity:0;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<line x1="1410" y1="50" x2="1530" y2="50" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<path d="M 1477,50 M 1477,42 L 1477,58 M 1477,50 L 1462,58 L 1462,42 L 1477,50" style="fill-opacity:0;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<path d="M 1475,50 M 1473,39 L 1481,31 M 1482,30 L 1478,32 L 1480,34 L 1482,30 L 1478,32" style="fill-opacity:0;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
+	<path d="M 1475,50 M 1479,46 L 1487,38 M 1488,37 L 1484,39 L 1486,41 L 1488,37 L 1484,39" style="fill-opacity:0;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
 	<line x1="1140" y1="710" x2="1180" y2="710" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
 	<line x1="1140" y1="1270" x2="1260" y2="1270" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
 	<line x1="1140" y1="1220" x2="1140" y2="1237" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
@@ -1057,18 +1127,38 @@
 	<text x="610" y="244" style="font-family:Arial;font-size:11px;text-anchor:end" dominant-baseline="middle" transform="rotate(270, 610, 244)">SCL</text>
 	<line x1="600" y1="240" x2="600" y2="230" style="stroke:rgb(0, 0, 0);stroke-linecap:square;stroke-width:2" />
 	<text x="600" y="244" style="font-family:Arial;font-size:11px;text-anchor:end" dominant-baseline="middle" transform="rotate(270, 600, 244)">SDA</text>
-	<ellipse cx="1520" cy="90" rx="2" ry="2" style="fill-opacity:1;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-width:2" />
-	<ellipse cx="1520" cy="180" rx="2" ry="2" style="fill-opacity:1;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-width:2" />
-	<ellipse cx="1520" cy="270" rx="2" ry="2" style="fill-opacity:1;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-width:2" />
-	<ellipse cx="1520" cy="360" rx="2" ry="2" style="fill-opacity:1;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-width:2" />
-	<ellipse cx="1520" cy="460" rx="2" ry="2" style="fill-opacity:1;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-width:2" />
-	<ellipse cx="1520" cy="550" rx="2" ry="2" style="fill-opacity:1;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-width:2" />
-	<ellipse cx="1520" cy="640" rx="2" ry="2" style="fill-opacity:1;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-width:2" />
-	<ellipse cx="1520" cy="730" rx="2" ry="2" style="fill-opacity:1;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-width:2" />
-	<ellipse cx="1520" cy="820" rx="2" ry="2" style="fill-opacity:1;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-width:2" />
-	<ellipse cx="1520" cy="910" rx="2" ry="2" style="fill-opacity:1;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-width:2" />
-	<ellipse cx="1520" cy="1000" rx="2" ry="2" style="fill-opacity:1;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-width:2" />
-	<ellipse cx="1520" cy="1090" rx="2" ry="2" style="fill-opacity:1;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-width:2" />
+	<ellipse cx="1400" cy="1090" rx="2" ry="2" style="fill-opacity:1;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-width:2" />
+	<ellipse cx="1530" cy="1050" rx="2" ry="2" style="fill-opacity:1;fill:rgba(34, 139, 34, 255);stroke:rgba(34, 139, 34, 255);stroke-width:2" />
+	<ellipse cx="1400" cy="1000" rx="2" ry="2" style="fill-opacity:1;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-width:2" />
+	<ellipse cx="1530" cy="960" rx="2" ry="2" style="fill-opacity:1;fill:rgba(34, 139, 34, 255);stroke:rgba(34, 139, 34, 255);stroke-width:2" />
+	<ellipse cx="1400" cy="910" rx="2" ry="2" style="fill-opacity:1;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-width:2" />
+	<ellipse cx="1530" cy="870" rx="2" ry="2" style="fill-opacity:1;fill:rgba(34, 139, 34, 255);stroke:rgba(34, 139, 34, 255);stroke-width:2" />
+	<ellipse cx="1400" cy="820" rx="2" ry="2" style="fill-opacity:1;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-width:2" />
+	<ellipse cx="1530" cy="780" rx="2" ry="2" style="fill-opacity:1;fill:rgba(34, 139, 34, 255);stroke:rgba(34, 139, 34, 255);stroke-width:2" />
+	<ellipse cx="1400" cy="730" rx="2" ry="2" style="fill-opacity:1;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-width:2" />
+	<ellipse cx="1530" cy="690" rx="2" ry="2" style="fill-opacity:1;fill:rgba(34, 139, 34, 255);stroke:rgba(34, 139, 34, 255);stroke-width:2" />
+	<ellipse cx="1400" cy="640" rx="2" ry="2" style="fill-opacity:1;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-width:2" />
+	<ellipse cx="1530" cy="600" rx="2" ry="2" style="fill-opacity:1;fill:rgba(34, 139, 34, 255);stroke:rgba(34, 139, 34, 255);stroke-width:2" />
+	<ellipse cx="1400" cy="550" rx="2" ry="2" style="fill-opacity:1;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-width:2" />
+	<ellipse cx="1530" cy="510" rx="2" ry="2" style="fill-opacity:1;fill:rgba(34, 139, 34, 255);stroke:rgba(34, 139, 34, 255);stroke-width:2" />
+	<ellipse cx="1400" cy="460" rx="2" ry="2" style="fill-opacity:1;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-width:2" />
+	<ellipse cx="1530" cy="420" rx="2" ry="2" style="fill-opacity:1;fill:rgba(34, 139, 34, 255);stroke:rgba(34, 139, 34, 255);stroke-width:2" />
+	<ellipse cx="1400" cy="360" rx="2" ry="2" style="fill-opacity:1;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-width:2" />
+	<ellipse cx="1530" cy="320" rx="2" ry="2" style="fill-opacity:1;fill:rgba(34, 139, 34, 255);stroke:rgba(34, 139, 34, 255);stroke-width:2" />
+	<ellipse cx="1400" cy="270" rx="2" ry="2" style="fill-opacity:1;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-width:2" />
+	<ellipse cx="1530" cy="230" rx="2" ry="2" style="fill-opacity:1;fill:rgba(34, 139, 34, 255);stroke:rgba(34, 139, 34, 255);stroke-width:2" />
+	<ellipse cx="1530" cy="90" rx="2" ry="2" style="fill-opacity:1;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-width:2" />
+	<ellipse cx="1530" cy="180" rx="2" ry="2" style="fill-opacity:1;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-width:2" />
+	<ellipse cx="1530" cy="270" rx="2" ry="2" style="fill-opacity:1;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-width:2" />
+	<ellipse cx="1530" cy="360" rx="2" ry="2" style="fill-opacity:1;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-width:2" />
+	<ellipse cx="1530" cy="460" rx="2" ry="2" style="fill-opacity:1;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-width:2" />
+	<ellipse cx="1530" cy="550" rx="2" ry="2" style="fill-opacity:1;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-width:2" />
+	<ellipse cx="1530" cy="640" rx="2" ry="2" style="fill-opacity:1;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-width:2" />
+	<ellipse cx="1530" cy="730" rx="2" ry="2" style="fill-opacity:1;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-width:2" />
+	<ellipse cx="1530" cy="820" rx="2" ry="2" style="fill-opacity:1;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-width:2" />
+	<ellipse cx="1530" cy="910" rx="2" ry="2" style="fill-opacity:1;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-width:2" />
+	<ellipse cx="1530" cy="1000" rx="2" ry="2" style="fill-opacity:1;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-width:2" />
+	<ellipse cx="1530" cy="1090" rx="2" ry="2" style="fill-opacity:1;fill:rgb(0, 0, 0);stroke:rgb(0, 0, 0);stroke-width:2" />
 	<ellipse cx="450" cy="1170" rx="2" ry="2" style="fill-opacity:1;fill:rgba(255, 0, 0, 255);stroke:rgba(255, 0, 0, 255);stroke-width:2" />
 	<ellipse cx="190" cy="1170" rx="2" ry="2" style="fill-opacity:1;fill:rgba(255, 0, 0, 255);stroke:rgba(255, 0, 0, 255);stroke-width:2" />
 	<ellipse cx="1180" cy="1170" rx="2" ry="2" style="fill-opacity:1;fill:rgba(255, 0, 0, 255);stroke:rgba(255, 0, 0, 255);stroke-width:2" />
