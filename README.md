@@ -75,9 +75,13 @@ Integrated safety features, especially for large industrial dust collector syste
 Future expansion may include sensors for statistical analysis of negative pressure generated in the ductwork and preventative system maintenance by logging static pressure differences in the system. -->
 
 ## INTRODUCTION
+Industrial systems of larger sizes are incredibly costly and complicated, while small shop systems are expensive, very limiting in customization, and not reliable in the long term. The use of an Arduino-based system can help in centralizing and infinitely customizing the project with inexpensive readily available components, such as commonly found sensors, relays, and contactors. 
+
+This project aims to provide a solution for anyone who wishes to have smart and compact dust collection system automation with multiple workstations in a shop without breaking the bank and with virtually infinite customization with the code and the option of future expansion.
+<!-- 
 Industrial systems of larger sizes are incredibly costly and complicated. Small shop systems are also expensive, very limiting in customization, and are not reliable in the long term. Arduino can help in the centralization and infinite customization of the project with readily available inexpensive components.
 
-This project is for anyone who wishes to have smart and compact dust collection system automation with multiple workstations in the shop without breaking a penny bank and have virtually infinite customization with the code and option of future expansion.
+This project is for anyone who wishes to have smart and compact dust collection system automation with multiple workstations in the shop without breaking a penny bank and have virtually infinite customization with the code and option of future expansion. -->
 
 <!-- The project aims to completely automate machinery and/or outlets for machinery for the dust collection system to kick in. To operate, turn on your shop equipment, and the system automatically detects which blast gate to open and which to close for better performance. Once the shop equipment is turned off system will automatically keep the dust collector on to clear the ductway of remaining dust with all open blast gates, and it will keep them open for safety reasons by default. The dust collector off delay also prevents rapid on and off of the duct collector to prevent premature motor failure. -->
 
